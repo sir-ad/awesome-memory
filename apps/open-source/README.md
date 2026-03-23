@@ -1,131 +1,216 @@
-# Open Source Memory Apps
+# Memory Apps & Tools
 
-A curated list of open source memory applications and projects.
+A comprehensive list of memory-related applications and tools.
 
-## 🤖 AI Memory Systems
+## 🤖 AI Memory Apps
 
 ### Production-Ready
 
-| Project | Language | Stars | Description |
-|---------|----------|-------|-------------|
-| [mem0](https://github.com/mem0ai/mem0) | Python | ⭐ | Production-ready memory for LLMs |
-| [Zep](https://github.com/getzep/zep) | Go | ⭐ | Long-term memory for AI |
-| [Honcho](https://github.com/plastic-labs/honcho) | Python | ⭐ | Memory for AI agents |
-| [Cognee](https://github.com/topoteretes/cognee) | Python | ⭐ | Knowledge engine |
+| App | Description | Platform | GitHub |
+|-----|-------------|----------|--------|
+| [mem0](https://mem0.ai) | Production-ready memory for LLMs | Cloud, Self-hosted | [mem0ai/mem0](https://github.com/mem0ai/mem0) |
+| [Supermemory](https://supermemory.ai) | Context infrastructure | Cloud, Self-hosted | [supermemoryai](https://github.com/supermemoryai) |
+| [Zep](https://getzep.com) | Long-term memory for AI | Cloud, Self-hosted | [getzep/zep](https://github.com/getzep/zep) |
+| [Honcho](https://plastics.io) | Memory for agents | Cloud | [plastic-labs/honcho](https://github.com/plastic-labs/honcho) |
+| [Cognee](https://cognee.io) | Knowledge engine | Open Source | [topoteretes/cognee](https://github.com/topoteretes/cognee) |
 
-### Frameworks
+### Developer Tools
 
-| Project | Language | Description |
-|---------|----------|-------------|
-| [LangChain Memory](https://python.langchain.com/docs/modules/memory/) | Python | Built-in memory |
-| [LangGraph Memory](https://python.langchain.com/docs/langgraph) | Python | Stateful agents |
-| [CrewAI Memory](https://docs.crewai.com) | Python | Multi-agent memory |
-| [Agno Memory](https://agno.com) | Python | Agent memory |
+| App | Description | GitHub |
+|-----|-------------|--------|
+| [LangChain Memory](https://python.langchain.com/docs/modules/memory/) | Built-in memory | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) |
+| [LangGraph](https://python.langchain.com/docs/langgraph) | Stateful agents | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) |
+| [CrewAI Memory](https://docs.crewai.com) | Multi-agent | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) |
+| [AutoGen](https://microsoft.github.io/autogen/) | Microsoft agents | [microsoft/autogen](https://github.com/microsoft/autogen) |
+| [Agno](https://agno.com) | Agent memory | [agno-ai/agno](https://github.com/agno-ai/agno) |
 
-### Vector Stores (Memory Backend)
+---
 
-| Project | Language | Description |
-|---------|----------|-------------|
-| [Chroma](https://github.com/chroma-core/chroma) | Python | AI-native vector DB |
-| [Qdrant](https://github.com/qdrant/qdrant) | Rust | Vector search engine |
-| [Weaviate](https://github.com/weaviate/weaviate) | Go | Neural search |
-| [Milvus](https://github.com/milvus-io/milvus) | Go | Scale vector DB |
+## 📝 Personal Knowledge Management (PKM)
 
-### Graph (Memory Backend)
+### Note-Taking Apps
 
-| Project | Language | Description |
-|---------|----------|-------------|
-| [Neo4j](https://github.com/neo4j/neo4j) | Java | Graph database |
-| [ArangoDB](https://github.com/arangodb/arangodb) | C++ | Multi-model DB |
-| [TigerGraph](https://github.com/tigergraph/graph-ml-notebooks) | - | Analytics graph |
-
-## 🧠 Personal Memory Apps
-
-### Note-Taking with Memory
-
-| Project | Description | Platform |
-|---------|-------------|----------|
-| [Obsidian](https://obsidian.md) | Markdown-based, local-first | Desktop, Mobile |
-| [Logseq](https://logseq.com) | Outliner, bidirectional linking | Desktop, Mobile |
-| [Roam Research](https://roamresearch.com) | Networked thought | Web |
-| [Mem](https://mem.ai) | AI-powered notes | Web, Mobile |
-
-### Spaced Repetition
-
-| Project | Description | Platform |
-|---------|-------------|----------|
-| [Anki](https://ankiweb.net) | Flashcards, SM-2 | Desktop, Mobile |
-| [fsrs](https://github.com/open-spaced-repetition) | Free Scheduler | - |
-| [SuperMemo](https://supermemo.com) | Original spaced repetition | Web |
-
-## 🌐 Knowledge Management
-
-### PKM (Personal Knowledge Management)
-
-| Project | Description |
-|---------|-------------|
-| [TiddlyWiki](https://tiddlywiki.com) | Non-linear notebook |
-| [The Archive](https://zettelkasten.de) | Zettelkasten method |
-| [Foam](https://foambubble.github.io/foam/) | VS Code based |
+| App | Description | Platform | GitHub |
+|-----|-------------|----------|--------|
+| [Obsidian](https://obsidian.md) | Markdown-based, local-first | Desktop, Mobile | - |
+| [Logseq](https://logseq.com) | Outliner, bidirectional linking | Desktop, Mobile | [logseq/logseq](https://github.com/logseq/logseq) |
+| [Roam Research](https://roamresearch.com) | Networked thought | Web | - |
+| [Mem](https://mem.ai) | AI-powered notes | Web, Mobile | - |
+| [TiddlyWiki](https://tiddlywiki.com) | Non-linear notebook | Web | [TiddlyWiki/TiddlyWiki](https://github.com/TiddlyWiki/TiddlyWiki) |
+| [Foam](https://foambubble.github.io/foam/) | VS Code based | Desktop | [foambubble/foam](https://github.com/foambubble/foam) |
+| [The Archive](https://zettelkasten.de) | Zettelkasten method | Desktop | - |
+| [Craft](https://craft.do) | Beautiful documents | Mac, iOS | - |
+| [Notion](https://notion.so) | All-in-one workspace | Web | - |
+| [RemNote](https://remnote.com) | Notes + flashcards | Web | - |
 
 ### Second Brain
 
-| Project | Description |
-|---------|-------------|
-| [Para](https://fortelabs.com/blog/para/) | Progressive summarization |
+| App | Description | Platform |
+|-----|-------------|----------|
+| [ PARA Method](https://fortelabs.com/blog/para/) | Organization system |
 | [CODE Method](https://fortelabs.com/blog/the-code-method/) | Capture, Organize, Distill, Express |
+| [Building a Second Brain](https://www.buildingasecondbrain.com/) | Course by Tiago Forte |
+
+---
+
+## 🧠 Spaced Repetition
+
+### Flashcard Apps
+
+| App | Description | Platform | GitHub |
+|-----|-------------|----------|--------|
+| [Anki](https://ankiweb.net) | Flashcards, SM-2 algorithm | Desktop, Mobile | [ankitects/anki](https://github.com/ankitects/anki) |
+| [fsrs](https://github.com/open-spaced-repetition) | Free Scheduler | - | [open-spaced-repetition](https://github.com/open-spaced-repetition) |
+| [SuperMemo](https://supermemo.com) | Original spaced repetition | Web | - |
+| [Quizlet](https://quizlet.com) | Flashcards | Web, Mobile | - |
+| [Brainscape](https://brainscape.com) | Confidence-based repetition | Web, Mobile | - |
+| [RemNote](https://remnote.com) | Notes + spaced repetition | Web | - |
+
+### Algorithms
+
+| Algorithm | Description |
+|-----------|-------------|
+| SM-2 | SuperMemo 2 - most popular |
+| FSRS | Free Spaced Repetition Scheduler |
+| Leitner System | Box-based |
+| Antibrad | Adaptive |
+
+---
+
+## 🗄️ Knowledge Management
+
+### Zettelkasten
+
+| App | Description | GitHub |
+|-----|-------------|--------|
+| [The Archive](https://zettelkasten.de) | Zettelkasten method | - |
+| [Obsidian](https://obsidian.md) | Markdown-based ZK | - |
+| [Zettlr](https://zettlr.com) | Markdown editor | [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) |
+| [nvALT](https://brettterpstra.com/projects/nvalt/) | Simple notes | - |
+
+### Tools
+
+| Tool | Description | GitHub |
+|------|-------------|--------|
+| [Mycroft](https://mycroft.ai) | Open source assistant | [MycroftAI](https://github.com/MycroftAI) |
+| [Graph Commons](https://graphcommons.com) | Knowledge graph | - |
+
+---
 
 ## 🧪 Experimental & Research
 
 ### Memory Research Tools
 
-| Project | Description |
-|---------|-------------|
-| [Memula](https://github.com/memula) | Memory augmentation |
-| [Numenta](https://numenta.com) | Biological memory |
+| Tool | Description | GitHub |
+|------|-------------|--------|
+| [Numenta](https://numenta.com) | Biological memory | [numenta](https://github.com/numenta) |
+| [Memula](https://github.com/memula) | Memory augmentation | [memula](https://github.com/memula) |
+| [Hopfield Networks](https://nature.com) | Associative memory | - |
 
 ### Neural Network Memory
 
-| Project | Description |
-|---------|-------------|
-| [Hopfield Networks](https://nature.com) | Associative memory |
-| [LSTM](https://arxiv.org/abs/1503.04069) | Long Short-Term Memory |
+| Architecture | Description | Paper |
+|--------------|-------------|-------|
+| LSTM | Long Short-Term Memory | [Hochreiter & Schmidhuber, 1997](https://arxiv.org/abs/1503.04069) |
+| Memory Networks | External memory | [Weston et al., 2014](https://arxiv.org/abs/1410.3916) |
+| Differentiable Neural Computers | Neural Turing Machine | [Graves et al., 2016](https://arxiv.org/abs/1606.04138) |
 
-## 📱 Browser Extensions
+---
 
-| Extension | Description |
-|-----------|-------------|
-| [Supermemory](https://supermemory.ai) | Save to memory from browser |
-| [Memex](https://memex.garden) | Personal search |
+## 🌐 Browser Extensions
 
-## 🔧 Tools
+| Extension | Description | Store |
+|-----------|-------------|-------|
+| [Supermemory](https://supermemory.ai) | Save to memory | Chrome |
+| [Memex](https://memex.garden) | Personal search | Chrome |
+| [Omnivore](https://omnivore.app) | Read-it-later | Chrome, Firefox |
+| [Raindrop.io](https://raindrop.io) | Bookmark manager | Chrome |
 
-### CLI Tools
+---
 
-| Tool | Description |
-|------|-------------|
-| [Obsidian CLI](https://github.com/obsidianmd/obsidian-shellcommands) | Obsidian command line |
-| [Zettelkasten CLI](https://github.com/nschloe/zettel) | CLI for notes |
+## 📱 Mobile Apps
 
-### APIs
+### Memory Training
 
-| Tool | Description |
-|------|-------------|
-| [Mem0 API](https://mem0.ai) | Memory API |
-| [Supermemory API](https://supermemory.ai) | Context API |
+| App | Description | Platform |
+|-----|-------------|----------|
+| [Peak](https://peak.net) | Brain training | iOS, Android |
+| [Lumosity](https://lumosity.com) | Cognitive training | iOS, Android |
+| [Elevate](https://elevateapp.com) | Brain training | iOS, Android |
+| [BrainHQ](https://brainhq.com) | Brain exercises | Web |
+
+### Note-Taking
+
+| App | Description | Platform |
+|-----|-------------|----------|
+| [Apple Notes](https://apple.com/notes) | Built-in | iOS, Mac |
+| [Google Keep](https://keep.google.com) | Quick notes | iOS, Android |
+| [Evernote](https://evernote.com) | Full-featured | iOS, Android |
+| [Microsoft OneNote](https://onenote.com) | Organization | iOS, Android |
+
+---
+
+## 💾 Data Storage
+
+### Vector Databases
+
+| Database | Description | GitHub |
+|----------|-------------|--------|
+| [Chroma](https://trychroma.com) | AI-native | [chroma-core/chroma](https://github.com/chroma-core/chroma) |
+| [Qdrant](https://qdrant.tech) | Performance | [qdrant/qdrant](https://github.com/qdrant/qdrant) |
+| [Weaviate](https://weaviate.io) | Neural search | [weaviate/weaviate](https://github.com/weaviate/weaviate) |
+| [Milvus](https://milvus.io) | Scale | [milvus-io/milvus](https://github.com/milvus-io/milvus) |
+| [Pinecone](https://pinecone.io) | Cloud | - |
+
+### Graph Databases
+
+| Database | Description | GitHub |
+|----------|-------------|--------|
+| [Neo4j](https://neo4j.com) | Graph | [neo4j/neo4j](https://github.com/neo4j/neo4j) |
+| [ArangoDB](https://arangodb.com) | Multi-model | [arangodb/arangodb](https://github.com/arangodb/arangodb) |
+| [TigerGraph](https://tigergraph.com) | Analytics | [tigergraph](https://github.com/tigergraph) |
+
+---
+
+## 🔧 CLI Tools
+
+| Tool | Description | GitHub |
+|------|-------------|--------|
+| [Obsidian CLI](https://github.com/obsidianmd/obsidian-shellcommands) | Obsidian commands | [obsidianmd](https://github.com/obsidianmd) |
+| [Zettel](https://github.com/nschloe/zettel) | CLI for notes | [nschloe](https://github.com/nschloe) |
+| [tldr](https://tldr.sh) | Simplified man pages | [tldr-pages](https://github.com/tldr-pages/tldr) |
+
+---
 
 ## 📊 Comparison Matrix
 
-| Feature | mem0 | Zep | Honcho | Cognee |
-|---------|------|-----|--------|--------|
-| Vector Storage | ✅ | ✅ | ✅ | ✅ |
-| Graph Storage | ✅ | ✅ | ✅ | ✅ |
-| PII Detection | ❌ | ❌ | ❌ | ✅ |
-| Domain Adapters | ❌ | ❌ | ❌ | ✅ |
-| Pattern Learning | ❌ | ❌ | ❌ | ❌ |
-| Privacy | Basic | Basic | Basic | Basic |
+### AI Memory Systems
+
+| Feature | mem0 | Supermemory | Zep | Honcho | Cognee |
+|---------|------|-------------|-----|--------|--------|
+| Vector Storage | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Graph Storage | ✅ | ✅ | ✅ | ✅ | ✅ |
+| PII Detection | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Domain Adapters | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Pattern Learning | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Self-hosted | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+### PKM Apps
+
+| Feature | Obsidian | Logseq | Roam | Notion |
+|---------|----------|--------|------|--------|
+| Local-first | ✅ | ✅ | ❌ | ❌ |
+| Markdown | ✅ | ✅ | ✅ | ❌ |
+| Bidirectional Links | ✅ | ✅ | ✅ | ❌ |
+| Graph View | ✅ | ✅ | ✅ | Partial |
+| Free | ✅ | ✅ | ❌ | ✅ |
+| Open Source | ✅ | ✅ | ❌ | ❌ |
+
+---
 
 ## 🚀 Getting Started
+
+### AI Memory
 
 ```python
 # mem0
@@ -138,15 +223,24 @@ docker run -p 8000:8000 getzep/zep
 docker run -p 6333:6333 qdrant/qdrant
 ```
 
+### Personal Knowledge
+
+```bash
+# Obsidian
+# Download from https://obsidian.md
+
+# Logseq
+# Download from https://logseq.com
+```
+
+---
+
 ## 📦 Related Lists
 
 - [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents)
 - [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM)
 - [Awesome Vector Search](https://github.com/currents-api/awesome-vector-search)
-
-## 🤝 Contributing
-
-See [CONTRIBUTING.md](../../CONTRIBUTING.md) to add new projects.
+- [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 ---
 
