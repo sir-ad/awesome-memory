@@ -6,98 +6,103 @@
 
 | Paper | Author | Year | Description |
 |-------|--------|------|-------------|
-| Activity-dependent development of the brain | Shank | 1973 | Early synaptic development |
-| Long-term potentiation in the hippocampus | Bliss & Lømo | 1973 | First LTP description |
+| Long-term potentiation in the hippocampus | Bliss & Lømo | 1973 | First empirical demonstration of LTP |
 | Hebbian theory | Donald Hebb | 1949 | "Cells that fire together, wire together" |
-| NMDA receptor and LTP | Collingridge et al. | 1983 | LTP mechanism |
-| Synaptic plasticity and memory | Malenka & Bear | 2004 | Review of LTP |
+| NMDA receptor and LTP | Collingridge et al. | 1983 | Identified the molecular mechanism of LTP |
+| Activity-dependent development of the brain | Shank | 1973 | Early work on synaptic development via activity |
+| Synaptic plasticity and memory | Malenka & Bear | 2004 | Authoritative review of LTP and LTD |
 
 ### Hippocampus & Memory Formation
 
 | Paper | Author | Year | Description |
 |-------|--------|------|-------------|
-| The hippocampus and memory | Milner | 1970s | Hippocampal role |
-| Place cells and spatial memory | O'Keefe & Dostrovsky | 1971 | Spatial memory |
-| Grid cells and navigation | Moser et al. | 2005 | Navigation memory |
-| Hippocampal replay and consolidation | Buzsáki & Moser | 2013 | Memory replay during sleep |
+| The hippocampus and memory (patient HM study) | Milner | 1957–1970s | Established hippocampus as essential for episodic memory formation |
+| Place cells and spatial memory | O'Keefe & Dostrovsky | 1971 | Discovery of place cells encoding spatial location |
+| Grid cells and navigation | Moser et al. | 2005 | Grid cell discovery in entorhinal cortex; Nobel Prize 2014 |
+| Hippocampal replay and consolidation | Buzsáki & Moser | 2013 | Memory replay during sleep consolidates traces to cortex |
+| Sharp-wave ripples and memory | Buzsáki | 2015 | Role of hippocampal ripples in memory transfer |
 
 ### Engram Research
 
 | Paper | Author | Year | Description |
 |-------|--------|------|-------------|
-| Memory engrams | Tonegawa et al. | 2016 | Physical memory traces |
-| Fear memory engrams | Tonegawa | 2012 | Fear memory formation |
-| Engram cells and memory | Josselyn & Tonegawa | 2020 | Comprehensive review |
+| Memory engrams: Recalling the past and imagining the future | Josselyn & Tonegawa | 2020 | Comprehensive review of engram cell biology |
+| Engram cells retain memory under retrograde amnesia | Tonegawa et al. | 2016 | Optical stimulation restores "lost" memories |
+| Fear memory engrams | Tonegawa | 2012 | Fear conditioning creates identifiable engram cells |
+| False memory implantation via engram reactivation | Ramirez, Liu, Tonegawa et al. | 2013 | False fear memories implanted with optogenetics |
 
 ### Memory Consolidation
 
 | Paper | Author | Year | Description |
 |-------|--------|------|-------------|
-| Systems consolidation | Frankland & Bontempi | 2005 | Hippocampus to cortex |
-| Reconsolidation | Hupbach et al. | 2007 | Memory instability |
-| Sleep and memory | Diekelmann & Born | 2010 | Sleep-dependent consolidation |
+| Systems consolidation | Frankland & Bontempi | 2005 | Hippocampus-to-cortex transfer during offline consolidation |
+| Sleep and memory consolidation | Diekelmann & Born | 2010 | Sleep-dependent consolidation mechanisms |
+| Memory reconsolidation | Hupbach et al. | 2007 | Retrieved memories re-enter a labile state |
+| Standard model of systems consolidation | Squire & Alvarez | 1995 | Foundational model of how memories migrate to cortex |
 
 ### Molecular Biology
 
 | Paper | Author | Year | Description |
 |-------|--------|------|-------------|
-| The molecular biology of memory | Kandel | 2004 | Nobel Prize work |
-| Gene regulation and memory | Abel & Kandel | 1998 | Genetic basis |
-| Epigenetics and memory | Day & Sweatt | 2011 | Epigenetic mechanisms |
+| The molecular biology of memory storage: a dialogue between genes and synapses | Kandel | 2001 | Nobel Prize lecture; CREB, PKA, and long-term memory |
+| Gene regulation and memory | Abel & Kandel | 1998 | Genetic basis of long-term potentiation |
+| Epigenetics and memory | Day & Sweatt | 2011 | How epigenetic marks persist memory traces |
 
 ### Neuroimaging
 
 | Paper | Author | Year | Description |
 |-------|--------|------|-------------|
-| Functional MRI of memory | Cabeza & Nyberg | 2000 | fMRI studies |
-| Prefrontal cortex and memory | Petrides | 2000 | PFC role |
-| Amygdala and emotional memory | LeDoux | 2000 | Emotional memory |
+| Functional MRI of memory encoding and retrieval | Cabeza & Nyberg | 2000 | Comprehensive fMRI mapping of memory systems |
+| Prefrontal cortex and working memory | Petrides | 2000 | PFC role in active maintenance and monitoring |
+| Amygdala and emotional memory | LeDoux | 2000 | Fear conditioning and emotional memory circuits |
+| Hippocampal-cortical networks | Eichenbaum | 2004 | Circuit-level view of episodic memory formation |
 
 ---
 
 ## 🧠 Key Discoveries
 
-### Memory Processes
+### Memory Formation Flow
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    MEMORY FORMATION                          │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  ENCODING → CONSOLIDATION → RETRIEVAL                     │
-│      ↓              ↓              ↓                         │
+│  ENCODING → CONSOLIDATION → RETRIEVAL                      │
+│      ↓              ↓              ↓                        │
 │  Attention    Synaptic        Cue-based                     │
-│  Perception   Changes         Reconstruction                 │
-│               (LTP)                                        │
+│  Perception   Changes         Reconstruction                │
+│               (LTP/LTD)                                     │
 │                                                             │
-│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐│
-│  │  Sensory    │ →  │  Short-term  │ →  │ Long-term   ││
-│  │  (seconds)  │    │  (minutes)  │    │ (lifetime)  ││
-│  └─────────────┘    └─────────────┘    └─────────────┘│
+│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    │
+│  │  Sensory    │ →  │  Short-term  │ →  │  Long-term  │    │
+│  │  (seconds)  │    │  (minutes)  │    │  (lifetime) │    │
+│  └─────────────┘    └─────────────┘    └─────────────┘    │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 ### Brain Regions
 
-| Region | Memory Function |
-|--------|----------------|
-| **Hippocampus** | Formation, spatial navigation |
-| **Prefrontal Cortex** | Working memory, decision making |
-| **Amygdala** | Emotional memory |
-| **Cerebellum** | Procedural memory |
-| **Temporal Cortex** | Semantic memory |
-| **Cingulate Cortex** | Emotional regulation |
+| Region | Memory Function | Key Discoveries |
+|--------|----------------|-----------------|
+| **Amygdala** | Emotional memory enhancement | LeDoux's fear conditioning work |
+| **Cerebellum / Striatum** | Procedural and motor memory | Thompson's eyeblink conditioning |
+| **Cingulate Cortex** | Memory for pain and affect | Emotional memory modulation |
+| **Hippocampus** | Episodic formation, spatial navigation | HM case; place cells; grid cells |
+| **Prefrontal Cortex** | Working memory, strategic retrieval | Petrides' lesion studies |
+| **Temporal Cortex** | Semantic and visual object memory | Category-selective regions |
 
 ### Memory Types & Brain Regions
 
 | Memory Type | Primary Region | Supporting Regions |
 |-------------|----------------|-------------------|
 | Episodic | Hippocampus | PFC, Amygdala |
-| Semantic | Temporal Cortex | Hippocampus |
-| Procedural | Cerebellum | Basal Ganglia |
-| Working | Prefrontal Cortex | Parietal Cortex |
 | Emotional | Amygdala | Hippocampus |
+| Procedural | Cerebellum, Striatum | Basal Ganglia |
+| Semantic | Temporal Cortex | Hippocampus |
+| Spatial | Hippocampus (place cells) | Entorhinal (grid cells) |
+| Working | Prefrontal Cortex | Parietal Cortex |
 
 ---
 
@@ -107,62 +112,88 @@
 
 | Lab | Institution | Researcher | Focus |
 |-----|------------|------------|-------|
-| Kandel Lab | Columbia | Eric Kandel | Molecular basis |
-| Tonegawa Lab | MIT | Susumu Tonegawa | Engrams |
-| Milner Lab | McGill | Brenda Milner | Hippocampus |
-| Gazzaniga Lab | UCSB | Michael Gazzaniga | Split brain |
-| Buzsáki Lab | NYU | György Buzsáki | Hippocampal replay |
-| Moser Lab | NTNU | May-Britt Moser | Grid cells |
+| Buzsáki Lab | NYU | György Buzsáki | Hippocampal oscillations and replay |
+| Eichenbaum Lab | BU | Howard Eichenbaum | Hippocampal-cortical circuits |
+| Kandel Lab | Columbia | Eric Kandel | Molecular basis of memory storage |
+| LeDoux Lab | NYU | Joseph LeDoux | Emotional and fear memory circuits |
+| Milner Lab | McGill | Brenda Milner | Hippocampus and human memory (HM case) |
+| Moser Lab | NTNU | May-Britt & Edvard Moser | Grid cells, entorhinal cortex; Nobel 2014 |
+| Tonegawa Lab | MIT | Susumu Tonegawa | Engram cells and memory traces |
 
 ---
 
 ## 🧪 Techniques
 
-| Technique | Description |
-|-----------|-------------|
-| fMRI | Functional brain imaging |
-| PET | Metabolic imaging |
-| EEG | Electrical activity |
-| MEG | Magnetic brain activity |
-| Optogenetics | Light-based neural control |
-| Calcium Imaging | Neural activity tracking |
-| Patch Clamp | Single ion channels |
-| Two-Photon Imaging | Live neural imaging |
+| Technique | Description | What It Reveals |
+|-----------|-------------|-----------------|
+| Calcium Imaging | Fluorescent indicators of neural firing | Population-level activity in living animals |
+| CRISPR / Gene Knockout | Targeted gene manipulation | Molecular players in memory formation |
+| EEG | Electroencephalography | Temporal dynamics; theta/gamma oscillations |
+| fMRI | Blood-oxygenation level-dependent imaging | Brain region activation during memory tasks |
+| MEG | Magnetoencephalography | High temporal + spatial resolution brain activity |
+| Optogenetics | Light-activated ion channels in neurons | Causal manipulation of specific engram cells |
+| Patch Clamp | Direct recording from single neurons | Ion channel conductance; LTP mechanisms |
+| PET | Positron emission tomography | Metabolic activity; used for memory encoding studies |
+| Two-Photon Imaging | Live high-resolution neural imaging | Synaptic structural changes over days/weeks |
+
+---
+
+## 🎧 Podcasts & Lectures
+
+- [Huberman Lab — Using Science to Optimize Sleep, Learning & Metabolism](https://www.hubermanlab.com/episode/using-science-to-optimize-sleep-learning-metabolism) — Deep coverage of sleep-memory consolidation
+- [Huberman Lab — Science-Based Tools for Increasing Happiness](https://www.hubermanlab.com/episode/science-based-tools-for-increasing-happiness) — Memory consolidation, stress, and neuroplasticity
+- [MIT 9.13 — The Human Brain (Full Lecture Series)](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/) — Nancy Kanwisher's comprehensive course on brain regions and memory
+- [The Brain Science Podcast](https://brainsciencepodcast.com/) — Ginger Campbell interviews leading neuroscientists; excellent memory episodes
+- [HHMI — Making Memories: Molecules and Synapses](https://www.hhmi.org/biointeractive/making-memories-neurons-synapses) — Free video lectures on memory biology
+- [Nobel Prize Lectures — O'Keefe, Mosers (2014)](https://www.nobelprize.org/prizes/medicine/2014/summary/) — Place and grid cell Nobel lectures
+
+---
+
+## 🔭 Open Datasets
+
+| Dataset | Description | Access |
+|---------|-------------|--------|
+| [ADNI](https://adni.loni.usc.edu/) | Longitudinal brain imaging + biomarkers for Alzheimer's research | [adni.loni.usc.edu](https://adni.loni.usc.edu/) |
+| [Allen Brain Atlas](https://portal.brain-map.org/) | Gene expression maps in human and mouse brain | [brain-map.org](https://portal.brain-map.org/) |
+| [Human Connectome Project (HCP)](https://www.humanconnectome.org/) | High-resolution structural and functional MRI from 1,200+ healthy adults | [humanconnectome.org](https://www.humanconnectome.org/data) |
+| [OpenNeuro](https://openneuro.org/) | Open repository for neuroimaging data (fMRI, EEG, MEG) | [openneuro.org](https://openneuro.org/) |
+| [UK Biobank](https://www.ukbiobank.ac.uk/) | 100k+ brain imaging + cognitive + genetic data | [ukbiobank.ac.uk](https://www.ukbiobank.ac.uk/) |
 
 ---
 
 ## 📚 Key Books
 
-| Book | Author | Year | Description |
+| Book | Author | Year | Why Read It |
 |------|--------|------|-------------|
-| Principles of Neural Science | Kandel et al. | 2021 | Definitive textbook |
-| The Neurobiology of Learning and Memory | Kandel | 2020 | Comprehensive |
-| Synaptic Self | Joseph LeDoux | 2002 | Synaptic basis |
-| In Search of Memory | Eric Kandel | 2006 | Nobel autobiography |
-| The Brain That Changes Itself | Norman Doidge | 2007 | Neuroplasticity |
-| Moonwalking with Einstein | Joshua Foer | 2011 | Memory training |
+| Principles of Neural Science (6th ed.) | Kandel, Koester, Mack, Siegelbaum | 2021 | Definitive textbook; chapters 51–54 cover memory |
+| In Search of Memory | Eric Kandel | 2006 | Nobel autobiography; readable account of memory research |
+| Moonwalking with Einstein | Joshua Foer | 2011 | Memory techniques and the science behind them |
+| The Brain That Changes Itself | Norman Doidge | 2007 | Neuroplasticity and memory rehabilitation |
+| The Neurobiology of Learning and Memory | Rudy | 2014 | Graduate-level cellular and molecular mechanisms |
+| The Synaptic Self | Joseph LeDoux | 2002 | Synaptic basis of personality and emotional memory |
 
 ---
 
 ## 🌐 Resources
 
-### Academic
+### Academic Databases
 
-- [PubMed - Memory Research](https://pubmed.ncbi.nlm.nih.gov/)
-- [Neuroscience on Nature](https://www.nature.com/subjects/neuroscience)
-- [Science - Memory](https://www.science.org/topic/memory)
+- [eLife Neuroscience](https://elifesciences.org/subjects/neuroscience) — Open-access high-quality neuroscience
+- [Neuroscience on Nature](https://www.nature.com/subjects/neuroscience) — High-impact neuroscience papers
+- [PubMed — Memory Research](https://pubmed.ncbi.nlm.nih.gov/?term=memory+neuroscience) — Peer-reviewed literature
 
 ### Educational
 
-- [MIT OpenCourseWare - Brain and Cognitive Sciences](https://ocw.mit.edu/courses/9-01/)
-- [Coursera - Neuroscience](https://www.coursera.org/browse/health-science/neuroscience)
-- [Khan Academy - Brain Basics](https://www.khanacademy.org/science/health-and-medicine)
+- [BrainFacts.org](https://www.brainfacts.org/) — Kavli Foundation public neuroscience resource
+- [Khan Academy — Brain Basics](https://www.khanacademy.org/science/health-and-medicine/nervous-system-and-sensory-infor)
+- [MIT OpenCourseWare — Brain and Cognitive Sciences](https://ocw.mit.edu/courses/9-01-introduction-to-neuroscience-fall-2007/)
 
 ### Organizations
 
-- [Society for Neuroscience](https://www.sfn.org/)
-- [Howard Hughes Medical Institute](https://www.hhmi.org/)
-- [MIT McGovern Institute](https://mcgovern.mit.edu/)
+- [Howard Hughes Medical Institute (HHMI)](https://www.hhmi.org/)
+- [Kavli Foundation — Neuroscience](https://www.kavlifoundation.org/science/neuroscience)
+- [MIT McGovern Institute for Brain Research](https://mcgovern.mit.edu/)
+- [Society for Neuroscience (SfN)](https://www.sfn.org/)
 
 ---
 
@@ -170,48 +201,57 @@
 
 | Experiment | Researcher | Year | Finding |
 |------------|------------|------|---------|
-| HM Bilateral Lobectomy | Scoville & Milner | 1957 | Hippocampus crucial for memory |
-| Brown-Peterson | Brown | 1958 | Short-term decays in ~18 sec |
-| Ebbinghaus Forgetting | Ebbinghaus | 1885 | Forgetting curve |
-| Loftus & Palmer | Loftus | 1974 | Memory malleability |
-| Grid Cells | Moser et al. | 2005 | Navigation neurons |
-| Place Cells | O'Keefe | 1971 | Spatial memory neurons |
+| Brown-Peterson Paradigm | Brown / Peterson & Peterson | 1958–1959 | Short-term memory decays in ~18 seconds without rehearsal |
+| Ebbinghaus Forgetting Curve | Ebbinghaus | 1885 | Memory retention follows an exponential decay function |
+| Fear Engram Reactivation | Ramirez, Liu, Tonegawa et al. | 2013 | False fear memories implanted via optogenetic engram labeling |
+| Grid Cell Discovery | Moser et al. | 2005 | Entorhinal cortex neurons fire in hexagonal grid patterns |
+| HM Bilateral Hippocampectomy | Scoville & Milner | 1957 | Hippocampus essential for new episodic memory; spares procedural memory |
+| Loftus & Palmer Eyewitness Study | Loftus & Palmer | 1974 | Leading questions alter memory reconstruction |
+| Long-term Potentiation | Bliss & Lømo | 1973 | High-frequency stimulation causes lasting synaptic strengthening |
+| Place Cell Discovery | O'Keefe & Dostrovsky | 1971 | Hippocampal neurons encode specific spatial locations |
 
 ---
 
 ## 🧬 Key Concepts
 
-### Synaptic Plasticity
+### Synaptic Plasticity Mechanism (LTP)
 
 ```
-Long-term Potentiation (LTP):
-┌────────────────────────────────────┐
-│  Stimulus → NMDA Receptor Open →  │
-│  Ca²⁺ Influx → Kinase Activation → │
-│  More AMPA Receptors → Stronger    │
-│  Synapse → LEARNED                │
-└────────────────────────────────────┘
+Pre-synaptic glutamate release
+         ↓
+NMDA receptors unblocked (post-synaptic depolarized)
+         ↓
+Ca²⁺ influx into post-synaptic neuron
+         ↓
+Kinase activation (CaMKII, PKC, PKA)
+         ↓
+AMPA receptor insertion → stronger synapse
+         ↓
+CREB activation → gene expression → structural changes
+         ↓
+LEARNED (long-term memory)
 ```
 
-### Memory Consolidation
+### Memory Consolidation Timeline
 
 ```
-Timeline:
-Seconds     → Synaptic consolidation (protein synthesis)
-Minutes     → Early LTP
-Hours       → Late LTP, gene transcription
-Days-Weeks  → Systems consolidation (hippocampus → cortex)
+Seconds     → Synaptic consolidation (protein synthesis at synapse)
+Minutes     → Early LTP (AMPA receptor trafficking)
+Hours       → Late LTP (gene transcription, new protein synthesis)
+Days–Weeks  → Systems consolidation (hippocampus → cortex transfer)
+Years       → Remote memory (cortex-dependent, hippocampus-independent)
 ```
 
 ---
 
 ## 📖 External Links
 
-- [Memory on Wikipedia](https://en.wikipedia.org/wiki/Memory)
-- [Neuroscience on Wikipedia](https://en.wikipedia.org/wiki/Neuroscience)
-- [Psychology Today - Memory](https://www.psychologytoday.com/topics/memory)
-- [Brain Facts - Memory](https://www.brainfacts.org/)
+- [BrainFacts — Memory](https://www.brainfacts.org/thinking-sensing-and-behaving/learning-and-memory)
+- [Engram — Wikipedia](https://en.wikipedia.org/wiki/Engram_(neuropsychology))
+- [Long-term Potentiation — Wikipedia](https://en.wikipedia.org/wiki/Long-term_potentiation)
+- [Memory — Wikipedia](https://en.wikipedia.org/wiki/Memory)
+- [Psychology Today — Memory](https://www.psychologytoday.com/topics/memory)
 
 ---
 
-*Last updated: March 2026*
+*Last updated: April 2026*
