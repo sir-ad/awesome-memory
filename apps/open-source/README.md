@@ -8,14 +8,22 @@ A comprehensive list of memory-related applications and tools — from productio
 
 ### Production-Ready
 
-| App | Description | Platform | Repo |
-|-----|-------------|----------|------|
-| [Cognee](https://cognee.ai) | Knowledge engine building semantic memory graphs from unstructured data | Open Source | [topoteretes/cognee](https://github.com/topoteretes/cognee) |
-| [Honcho](https://honcho.dev) | User-centric memory and identity layer for AI agents | Cloud | [plastic-labs/honcho](https://github.com/plastic-labs/honcho) |
-| [Letta](https://letta.com) | Stateful agents with tiered virtual memory (MemGPT successor) | Cloud, Self-hosted | [letta-ai/letta](https://github.com/letta-ai/letta) |
-| [mem0](https://mem0.ai) | Production-ready memory layer; hybrid vector + graph + key-value | Cloud, Self-hosted | [mem0ai/mem0](https://github.com/mem0ai/mem0) |
-| [Supermemory](https://supermemory.ai) | Context infrastructure for personal memory across apps | Cloud, Self-hosted | [supermemoryai](https://github.com/supermemoryai) |
-| [Zep](https://getzep.com) | Fast, scalable temporal memory with fact and entity extraction | Cloud, Self-hosted | [getzep/zep](https://github.com/getzep/zep) |
+> Ordered roughly by adoption. Star counts shown for quick reference.
+
+| App | Description | Stars | Repo |
+|-----|-------------|-------|------|
+| [Mem0](https://mem0.ai) [[paper]](https://arxiv.org/abs/2504.19413) | Hybrid vector + graph + KV memory layer; most widely adopted | ![](https://img.shields.io/github/stars/mem0ai/mem0.svg?style=social) | [mem0ai/mem0](https://github.com/mem0ai/mem0) |
+| [Letta](https://letta.com) [[paper]](https://arxiv.org/abs/2310.08560) | Stateful agents with tiered virtual memory (MemGPT successor) | ![](https://img.shields.io/github/stars/letta-ai/letta.svg?style=social) | [letta-ai/letta](https://github.com/letta-ai/letta) |
+| [Cognee](https://cognee.ai) [[paper]](https://arxiv.org/abs/2505.24478) | Knowledge engine building semantic memory graphs from unstructured data | ![](https://img.shields.io/github/stars/topoteretes/cognee.svg?style=social) | [topoteretes/cognee](https://github.com/topoteretes/cognee) |
+| [Honcho](https://honcho.dev) | User-centric memory and identity layer for AI agents | ![](https://img.shields.io/github/stars/plastic-labs/honcho.svg?style=social) | [plastic-labs/honcho](https://github.com/plastic-labs/honcho) |
+| [Second Me](https://home.second.me) [[paper]](https://arxiv.org/abs/2503.08102) | Personal AI with long-term memory of your life, preferences, and goals | ![](https://img.shields.io/github/stars/mindverse/Second-Me.svg?style=social) | [mindverse/Second-Me](https://github.com/mindverse/Second-Me) |
+| [MemOS](https://memos.openmem.net) [[paper]](https://arxiv.org/abs/2507.03724) | Memory operating system for AI; persistent unified memory for agents | ![](https://img.shields.io/github/stars/MemTensor/MemOS.svg?style=social) | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) |
+| [Memobase](https://memobase.io) | User-profile-centric memory store for personalized AI interactions | ![](https://img.shields.io/github/stars/memodb-io/memobase.svg?style=social) | [memodb-io/memobase](https://github.com/memodb-io/memobase) |
+| [Hindsight](https://hindsight.vectorize.io) [[paper]](https://arxiv.org/abs/2512.12818) | Auto-learns from past agent interactions to improve future responses | ![](https://img.shields.io/github/stars/vectorize-io/hindsight.svg?style=social) | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) |
+| [Zep / Graphiti](https://getzep.com) [[paper]](https://arxiv.org/abs/2501.13956) | Temporal knowledge graph engine; bi-temporal fact and entity extraction | ![](https://img.shields.io/github/stars/getzep/graphiti.svg?style=social) | [getzep/graphiti](https://github.com/getzep/graphiti) |
+| [Supermemory](https://supermemory.ai) | Context infrastructure for personal memory across apps | ![](https://img.shields.io/github/stars/supermemoryai/supermemory.svg?style=social) | [supermemoryai](https://github.com/supermemoryai) |
+| [OMEGA](https://omegamax.co) | MCP server with 25 memory tools; #1 on LongMemEval (95.4%) | ![](https://img.shields.io/github/stars/omega-memory/core.svg?style=social) | [omega-memory/core](https://github.com/omega-memory/core) |
+| [widemem-ai](https://widemem.ai) | Lightweight memory with importance scoring, temporal decay, 3-tier hierarchy | ![](https://img.shields.io/github/stars/remete618/widemem-ai.svg?style=social) | [remete618/widemem-ai](https://github.com/remete618/widemem-ai) |
 
 ### Developer Frameworks & Libraries
 
@@ -189,15 +197,16 @@ A comprehensive list of memory-related applications and tools — from productio
 
 ### AI Memory Systems
 
-| Feature | mem0 | Letta | Zep | Honcho | Cognee |
-|---------|------|-------|-----|--------|--------|
-| Vector Storage | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Graph Storage | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Key-Value Storage | ✅ | ✅ | ✅ | ❌ | ❌ |
-| Fact Extraction | ✅ | ❌ | ✅ | ✅ | ✅ |
-| User Identity Layer | ✅ | ✅ | ❌ | ✅ | ❌ |
-| Self-hosted | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Production SDK | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Feature | Mem0 | Letta | Zep/Graphiti | Honcho | Cognee | Second Me |
+|---------|------|-------|-------------|--------|--------|-----------|
+| Vector Storage | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Graph Storage | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Key-Value Storage | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Fact Extraction | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| User Identity Layer | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ |
+| Long-term Personal Memory | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
+| Self-hosted | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Production SDK | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### PKM Apps
 
