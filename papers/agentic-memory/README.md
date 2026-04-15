@@ -8,12 +8,20 @@ Research papers, frameworks, and resources for AI agent memory systems.
 
 | Paper | Authors | arXiv | Key Contribution |
 |-------|---------|-------|-----------------|
+| [MAGMA: A Multi-Graph Based Agentic Memory Architecture](https://arxiv.org/abs/2601.03236) | Jiang et al. | 2601.03236 | Multi-graph topology for structured agent memory with concurrent read/write |
+| [MemRL: Self-Evolving Agents via Runtime RL on Episodic Memory](https://arxiv.org/abs/2601.03192) | MemTensor | 2601.03192 | RL-driven episodic memory that improves with each agent interaction |
+| [SimpleMem: Efficient Lifelong Memory for LLM Agents](https://arxiv.org/abs/2601.02553) | — | 2601.02553 | Lightweight approach to lifelong agent memory without retraining |
+| [TraceMem: Weaving Narrative Memory Schemata from Conversational Traces](https://arxiv.org/abs/2602.09712) | Shu et al. | 2602.09712 | Builds narrative schemas from conversation history |
+| [PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents](https://arxiv.org/abs/2603.03296) | TIMAN Group | 2603.03296 | Plug-and-play memory module that works across task domains |
+| [MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents](https://arxiv.org/abs/2602.02474) | — | 2602.02474 | Skill-based memory that agents learn and refine over time |
+| [ProcMEM: Reusable Procedural Memory via Non-Parametric PPO](https://arxiv.org/abs/2602.01869) | — | 2602.01869 | Learns reusable procedural memory from experience via RL |
+| [Memento-Skills: Let Agents Design Agents](https://arxiv.org/abs/2603.18743) | Zhou et al. | 2603.18743 | Skill-based memory enabling agents to compose and reuse capabilities |
+| [Agentic Memory: Unified Long-Term and Short-Term Memory Management](https://arxiv.org/abs/2601.01885) | — | 2601.01885 | Unified framework managing both memory horizons simultaneously |
 | [Memori: Persistent Memory Layer for Efficient, Context-Aware LLM Agents](https://arxiv.org/) | Borro et al. | preprint | Persistent memory layer separating hot/cold context for efficient retrieval |
 | [All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution](https://arxiv.org/) | Lv et al. | preprint | Lifelong memory via topology-aware graph evolution |
 | [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning](https://arxiv.org/) | Lin et al. | preprint | Coordinated memory write/read/forget cycle across multi-agent systems |
 | [D-Mem: A Dual-Process Memory System for LLM Agents](https://arxiv.org/) | — | preprint | System-1/System-2 inspired dual-process memory architecture |
 | [MemArchitect: A Policy-Driven Memory Governance Layer](https://arxiv.org/) | Kumar et al. | preprint | Policy-based control over what agents remember and forget |
-| [Memento-Skills: Let Agents Design Agents](https://arxiv.org/) | Zhou et al. | preprint | Skill-based memory enabling agents to compose and reuse learned capabilities |
 
 ### 2025
 
@@ -22,8 +30,14 @@ Research papers, frameworks, and resources for AI agent memory systems.
 | [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413) | mem0 Team | 2504.19413 | Hybrid vector + graph + key-value memory at production scale |
 | [Learning Dynamic Belief Graphs for Theory-of-Mind Reasoning](https://arxiv.org/abs/2603.20170) | Chen et al. | 2603.20170 | Theory-of-mind representation via continuously updated belief graphs |
 | [A-MEM: Agentic Memory System for LLM Agents](https://arxiv.org/abs/2502.12110) | Xu et al. | 2502.12110 | Dynamic memory organization with Zettelkasten-inspired note linking |
+| [Nemori: Self-Organizing Agent Memory Inspired by Cognitive Science](https://arxiv.org/abs/2508.03341) | — | 2508.03341 | Cognitive science-grounded self-organization of agent memories |
+| [From RAG to Memory: Non-Parametric Continual Learning for LLMs](https://arxiv.org/abs/2502.14802) | OSU-NLP Group | 2502.14802 | HippoRAG v2 — continual learning without forgetting |
+| [Agent Workflow Memory](https://arxiv.org/abs/2409.07429) | Zr Wang et al. | 2409.07429 | Stores and retrieves successful task workflows as reusable memory |
+| [MemoRAG: Global Memory-Enhanced Retrieval Augmentation](https://arxiv.org/abs/2409.05591) | — | 2409.05591 | Global memory layer boosts long-context RAG performance |
+| [General Agentic Memory via Deep Research](https://arxiv.org/abs/2511.18423) | VectorSpaceLab | 2511.18423 | Deep research loop generates generalizable agent memory |
+| [MemEvolve: Meta-Evolution of Agent Memory Systems](https://arxiv.org/abs/2512.18746) | — | 2512.18746 | Meta-learning evolves the memory system architecture itself |
+| [MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent](https://arxiv.org/abs/2507.02259) | Bytedance | 2507.02259 | RL-based multi-conversation memory agent for long-context tasks |
 | [Retrieval-Augmented LLM Agents](https://arxiv.org/) | Ferraz et al. | preprint | End-to-end RAG pipeline integrated into the agent action loop |
-| [A Trace-Based Assurance Framework for Agentic AI Orchestration](https://arxiv.org/) | Paduraru, Bouruc | preprint | Explainability and auditability layer for agent memory decisions |
 
 ### 2024
 
@@ -45,6 +59,22 @@ Research papers, frameworks, and resources for AI agent memory systems.
 | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | Park et al. | 2304.03442 | Memory stream + reflection + retrieval loop for believable agent behavior |
 | [Voyager: An Open-Ended Embodied Agent with LLMs](https://arxiv.org/abs/2305.16291) | Wang et al. | 2305.16291 | Skill library as evolving procedural memory; self-improving via practice |
 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | Shinn et al. | 2303.11366 | Self-reflection stored as episodic memory drives future behavior |
+
+## 🌐 Graph Memory Papers
+
+*Papers specifically focused on graph-structured agent memory.*
+
+| Paper | Year | arXiv | Contribution |
+|-------|------|-------|-------------|
+| [MAGMA: Multi-Graph Based Agentic Memory Architecture](https://arxiv.org/abs/2601.03236) | 2026 | 2601.03236 | Multi-graph topology for structured concurrent agent memory |
+| [TraceMem: Weaving Narrative Memory Schemata from Conversational Traces](https://arxiv.org/abs/2602.09712) | 2026 | 2602.09712 | Narrative schemas extracted from conversation history |
+| [Graphiti: A Temporal Knowledge Graph for LLM Agents](https://arxiv.org/abs/2501.13956) | 2025 | 2501.13956 | Bi-temporal fact extraction; powers Zep's memory graph engine |
+| [From RAG to Memory: Non-Parametric Continual Learning for LLMs](https://arxiv.org/abs/2502.14802) | 2025 | 2502.14802 | HippoRAG v2 — knowledge graph memory + continual learning |
+| [MIRIX: Multi-Agent Memory System for LLM-Based Agents](https://arxiv.org/abs/2507.07957) | 2025 | 2507.07957 | Multi-agent graph memory with specialised sub-systems |
+| [HippoRAG: Neurobiologically Inspired Long-Term Memory for LLMs](https://arxiv.org/abs/2405.14831) | 2024 | 2405.14831 | Hippocampus-inspired graph + dense vector retrieval |
+| [AriGraph: Learning Knowledge Graph World Models with Episodic Memory](https://arxiv.org/abs/2407.04363) | 2024 | 2407.04363 | KG world model for LLM agents; episodic + semantic integration |
+
+---
 
 ### Key Concepts
 
