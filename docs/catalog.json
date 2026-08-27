@@ -1,0 +1,4532 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/sir-ad/awesome-memory",
+  "collections": [
+    {
+      "key": "core-map",
+      "label": "Core map",
+      "domain": "Cross-disciplinary",
+      "sourcePath": "README.md",
+      "count": 80
+    },
+    {
+      "key": "open-source-tools",
+      "label": "Tools directory",
+      "domain": "AI engineering",
+      "sourcePath": "apps/open-source/README.md",
+      "count": 84
+    },
+    {
+      "key": "agent-memory-papers",
+      "label": "Agent memory papers",
+      "domain": "AI research",
+      "sourcePath": "papers/agentic-memory/README.md",
+      "count": 33
+    },
+    {
+      "key": "llm-memory-papers",
+      "label": "LLM memory papers",
+      "domain": "AI research",
+      "sourcePath": "papers/llm-memory/README.md",
+      "count": 6
+    },
+    {
+      "key": "brain-memory",
+      "label": "Brain memory",
+      "domain": "Neuroscience",
+      "sourcePath": "papers/brain-memory/README.md",
+      "count": 21
+    },
+    {
+      "key": "cognitive-psychology",
+      "label": "Cognitive psychology",
+      "domain": "Psychology",
+      "sourcePath": "papers/psychology/README.md",
+      "count": 2
+    }
+  ],
+  "entries": [
+    {
+      "name": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+      "url": "https://arxiv.org/abs/2404.13501",
+      "description": "Taxonomy of sensory, short-term, long-term, and procedural memory in agents.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 61,
+          "section": "Surveys and landmark papers › Surveys and taxonomies",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L61"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 41,
+          "section": "Research Papers › 2024",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L41"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 31,
+          "section": "2024 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L31"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 145,
+          "section": "Resources › Surveys & Overviews",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L145"
+        }
+      ],
+      "id": "a-survey-on-the-memory-mechanism-of-large-langua-8257c5dc"
+    },
+    {
+      "name": "A-MEM",
+      "url": "https://arxiv.org/abs/2502.12110",
+      "description": "Applied dynamic note linking and evolution to agent memory.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 82,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L82"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 27,
+          "section": "Research Papers › 2025",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L27"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 22,
+          "section": "2025 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L22"
+        }
+      ],
+      "id": "a-mem-e1a73a08"
+    },
+    {
+      "name": "ACT-R",
+      "url": "https://act-r.psy.cmu.edu/",
+      "description": "Architecture separating declarative and procedural memory systems.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Resource",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 115,
+          "section": "Cognitive architectures and biological memory › Cognitive architectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L115"
+        }
+      ],
+      "id": "act-r-29366506"
+    },
+    {
+      "name": "ADNI",
+      "url": "https://adni.loni.usc.edu/",
+      "description": "Longitudinal brain imaging + biomarkers for Alzheimer's research",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 156,
+          "section": "Open Datasets",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L156"
+        }
+      ],
+      "id": "adni-d28f8cf6"
+    },
+    {
+      "name": "Agent Workflow Memory",
+      "url": "https://arxiv.org/abs/2409.07429",
+      "description": "Stores and retrieves successful task workflows as reusable memory",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 30,
+          "section": "Research Papers › 2025",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L30"
+        }
+      ],
+      "id": "agent-workflow-memory-de7d8649"
+    },
+    {
+      "name": "Agentic Memory: Unified Long-Term and Short-Term Memory Management",
+      "url": "https://arxiv.org/abs/2601.01885",
+      "description": "Unified framework managing both memory horizons simultaneously",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 19,
+          "section": "Research Papers › 2026",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L19"
+        }
+      ],
+      "id": "agentic-memory-unified-long-term-and-short-term--f9055c51"
+    },
+    {
+      "name": "Agno",
+      "url": "https://agno.com/",
+      "description": "Agent framework with built-in agent + team memory",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 32,
+          "section": "AI Memory Apps › Developer Frameworks & Libraries",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L32"
+        }
+      ],
+      "id": "agno-4a649b5a"
+    },
+    {
+      "name": "Agno",
+      "url": "https://github.com/agno-agi/agno",
+      "description": "Built-in agent memory, team memory",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 135,
+          "section": "Agent Frameworks with Memory › Full-Stack Agent Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L135"
+        }
+      ],
+      "id": "agno-a36c4dfc"
+    },
+    {
+      "name": "AI-native Memory: A Pathway from LLMs Towards AGI",
+      "url": "https://arxiv.org/abs/2406.18312",
+      "description": "From retrieval-augmented to reasoning-integrated memory",
+      "collection": "llm-memory-papers",
+      "collectionLabel": "LLM memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 32,
+          "section": "2024 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L32"
+        }
+      ],
+      "id": "ai-native-memory-a-pathway-from-llms-towards-agi-80f2363c"
+    },
+    {
+      "name": "Allen Brain Atlas",
+      "url": "https://portal.brain-map.org/",
+      "description": "Gene expression maps in human and mouse brain",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 157,
+          "section": "Open Datasets",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L157"
+        }
+      ],
+      "id": "allen-brain-atlas-5e765a90"
+    },
+    {
+      "name": "Anki",
+      "url": "https://ankiweb.net/",
+      "description": "Most powerful open-source flashcard app; uses SM-2",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 75,
+          "section": "Spaced Repetition › Flashcard Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L75"
+        }
+      ],
+      "id": "anki-5611a597"
+    },
+    {
+      "name": "Apple Notes",
+      "url": "https://support.apple.com/guide/notes/welcome/mac",
+      "description": "Lightweight built-in notes",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 153,
+          "section": "Mobile Apps › Note-Taking",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L153"
+        }
+      ],
+      "id": "apple-notes-13a9b92d"
+    },
+    {
+      "name": "ArangoDB",
+      "url": "https://arangodb.com/",
+      "description": "Multi-model: document + graph + key-value",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 178,
+          "section": "Data Storage › Graph Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L178"
+        }
+      ],
+      "id": "arangodb-5882d958"
+    },
+    {
+      "name": "AriGraph: Learning Knowledge Graph World Models with Episodic Memory",
+      "url": "https://arxiv.org/abs/2407.04363",
+      "description": "KG world model for LLM agents; episodic + semantic integration",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 67,
+          "section": "Graph Memory Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L67"
+        }
+      ],
+      "id": "arigraph-learning-knowledge-graph-world-models-w-b4997670"
+    },
+    {
+      "name": "Atkinson-Shiffrin Memory Model",
+      "url": "https://en.wikipedia.org/wiki/Atkinson%E2%80%93Shiffrin_memory_model",
+      "description": "Multi-store model of sensory, short-term, and long-term memory.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Resource",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 123,
+          "section": "Cognitive architectures and biological memory › Biological and psychological foundations",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L123"
+        }
+      ],
+      "id": "atkinson-shiffrin-memory-model-713c35a6"
+    },
+    {
+      "name": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "description": "Introduced the Transformer architecture and attention-based context processing.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 70,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L70"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 60,
+          "section": "2017–2020 Papers (Seminal Work)",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L60"
+        }
+      ],
+      "id": "attention-is-all-you-need-a7468c68"
+    },
+    {
+      "name": "AutoGen",
+      "url": "https://microsoft.github.io/autogen",
+      "description": "Microsoft multi-agent framework with teachable memory",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 33,
+          "section": "AI Memory Apps › Developer Frameworks & Libraries",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L33"
+        }
+      ],
+      "id": "autogen-a25f149f"
+    },
+    {
+      "name": "AutoGen",
+      "url": "https://github.com/microsoft/autogen",
+      "description": "Teachable agents, memory plugins",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 133,
+          "section": "Agent Frameworks with Memory › Full-Stack Agent Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L133"
+        }
+      ],
+      "id": "autogen-d807807a"
+    },
+    {
+      "name": "Awesome AI Agents",
+      "url": "https://github.com/e2b-dev/awesome-ai-agents",
+      "description": "Related Awesome Lists",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 288,
+          "section": "Related Awesome Lists",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L288"
+        }
+      ],
+      "id": "awesome-ai-agents-ca2f031e"
+    },
+    {
+      "name": "Awesome Knowledge Graph",
+      "url": "https://github.com/totogo/awesome-knowledge-graph",
+      "description": "Related Awesome Lists",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 291,
+          "section": "Related Awesome Lists",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L291"
+        }
+      ],
+      "id": "awesome-knowledge-graph-d83af4ca"
+    },
+    {
+      "name": "Awesome LLM",
+      "url": "https://github.com/Hannibal046/Awesome-LLM",
+      "description": "Related Awesome Lists",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 289,
+          "section": "Related Awesome Lists",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L289"
+        }
+      ],
+      "id": "awesome-llm-fe2735aa"
+    },
+    {
+      "name": "Awesome Self-Hosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "description": "Related Awesome Lists",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 292,
+          "section": "Related Awesome Lists",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L292"
+        }
+      ],
+      "id": "awesome-self-hosted-afac539b"
+    },
+    {
+      "name": "Awesome Vector Search",
+      "url": "https://github.com/currentslab/awesome-vector-search",
+      "description": "Related Awesome Lists",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 290,
+          "section": "Related Awesome Lists",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L290"
+        }
+      ],
+      "id": "awesome-vector-search-ab740734"
+    },
+    {
+      "name": "Baddeley's Model of Working Memory",
+      "url": "https://en.wikipedia.org/wiki/Baddeley%27s_model_of_working_memory",
+      "description": "Model of working memory with phonological, visuospatial, episodic, and executive components.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Resource",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 124,
+          "section": "Cognitive architectures and biological memory › Biological and psychological foundations",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L124"
+        }
+      ],
+      "id": "baddeley-s-model-of-working-memory-39de0413"
+    },
+    {
+      "name": "BEAM",
+      "url": "https://arxiv.org/abs/2510.27246",
+      "description": "Evaluates memory behavior at million-token scale.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 98,
+          "section": "Evaluation benchmarks › Long-context retrieval and reasoning",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L98"
+        }
+      ],
+      "id": "beam-32585f79"
+    },
+    {
+      "name": "BrainFacts",
+      "url": "https://www.brainfacts.org/",
+      "description": "Public neuroscience material from the Society for Neuroscience.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Learning",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 162,
+          "section": "Courses and reference material › Reference material",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L162"
+        },
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 187,
+          "section": "Resources › Educational",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L187"
+        }
+      ],
+      "id": "brainfacts-231a72d6"
+    },
+    {
+      "name": "BrainFacts — Memory",
+      "url": "https://www.brainfacts.org/thinking-sensing-and-behaving/learning-and-memory",
+      "description": "External Links",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 249,
+          "section": "External Links",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L249"
+        }
+      ],
+      "id": "brainfacts-memory-1a02b874"
+    },
+    {
+      "name": "BrainHQ",
+      "url": "https://brainhq.com/",
+      "description": "Evidence-based brain exercises from Posit Science",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 144,
+          "section": "Mobile Apps › Memory Training",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L144"
+        }
+      ],
+      "id": "brainhq-799a5aeb"
+    },
+    {
+      "name": "Brainscape",
+      "url": "https://brainscape.com/",
+      "description": "Confidence-based repetition (CBR)",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 76,
+          "section": "Spaced Repetition › Flashcard Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L76"
+        }
+      ],
+      "id": "brainscape-8c3e1bcf"
+    },
+    {
+      "name": "Building a Second Brain",
+      "url": "https://www.buildingasecondbrain.com/",
+      "description": "Tiago Forte's system and book",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 64,
+          "section": "Personal Knowledge Management (PKM) › Second Brain Methods",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L64"
+        }
+      ],
+      "id": "building-a-second-brain-63dcb9e2"
+    },
+    {
+      "name": "Building a Second Brain Community",
+      "url": "https://learn.buildingasecondbrain.com/",
+      "description": "Tiago Forte's BASB community",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 277,
+          "section": "Communities & Forums › Knowledge Management",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L277"
+        }
+      ],
+      "id": "building-a-second-brain-community-6a484e62"
+    },
+    {
+      "name": "Building and Evaluating Advanced RAG",
+      "url": "https://learn.deeplearning.ai/courses/building-evaluating-advanced-rag",
+      "description": "Course on retrieval, sentence-window methods, and evaluation.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Learning",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 154,
+          "section": "Courses and reference material › Courses",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L154"
+        }
+      ],
+      "id": "building-and-evaluating-advanced-rag-a2e28577"
+    },
+    {
+      "name": "Building LLM Applications for Production",
+      "url": "https://huyenchip.com/2023/04/11/llm-engineering.html",
+      "description": "Engineering overview covering context and retrieval choices.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Learning",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 160,
+          "section": "Courses and reference material › Reference material",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L160"
+        }
+      ],
+      "id": "building-llm-applications-for-production-122afe24"
+    },
+    {
+      "name": "CAMEL",
+      "url": "https://github.com/camel-ai/camel",
+      "description": "Role-playing with persistent context",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 134,
+          "section": "Agent Frameworks with Memory › Full-Stack Agent Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L134"
+        }
+      ],
+      "id": "camel-2de51b2b"
+    },
+    {
+      "name": "Chroma",
+      "url": "https://github.com/chroma-core/chroma",
+      "description": "Open-source embedding database designed for application development.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 133,
+          "section": "Storage and retrieval infrastructure › Vector retrieval",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L133"
+        }
+      ],
+      "id": "chroma-6f70aa6d"
+    },
+    {
+      "name": "Chroma",
+      "url": "https://trychroma.com/",
+      "description": "Developer-first open-source embedding database",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 166,
+          "section": "Data Storage › Vector Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L166"
+        }
+      ],
+      "id": "chroma-709c53a3"
+    },
+    {
+      "name": "CLARION",
+      "url": "https://homepages.hass.rpi.edu/~rsun/folder-files/sun-COGSYS-2014.pdf",
+      "description": "Dual-process architecture separating implicit and explicit knowledge.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Resource",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 118,
+          "section": "Cognitive architectures and biological memory › Cognitive architectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L118"
+        }
+      ],
+      "id": "clarion-dd227a86"
+    },
+    {
+      "name": "CODE Method",
+      "url": "https://fortelabs.com/blog/basboverview",
+      "description": "Capture, Organize, Distill, Express",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 63,
+          "section": "Personal Knowledge Management (PKM) › Second Brain Methods",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L63"
+        }
+      ],
+      "id": "code-method-18a18825"
+    },
+    {
+      "name": "Cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "description": "Data pipeline that creates semantic memory graphs from unstructured sources.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 41,
+          "section": "Agent memory systems › General-purpose memory layers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L41"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 143,
+          "section": "Agent Frameworks with Memory › Memory-Specific Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L143"
+        }
+      ],
+      "id": "cognee-d399d99e"
+    },
+    {
+      "name": "Cognee",
+      "url": "https://cognee.ai/",
+      "description": "Knowledge engine building semantic memory graphs from unstructured data",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 17,
+          "section": "AI Memory Apps › Production-Ready",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L17"
+        }
+      ],
+      "id": "cognee-507da746"
+    },
+    {
+      "name": "Cognitive Architectures for Language Agents",
+      "url": "https://arxiv.org/abs/2309.02427",
+      "description": "Survey connecting cognitive-architecture research with language-agent design.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 66,
+          "section": "Surveys and landmark papers › Surveys and taxonomies",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L66"
+        }
+      ],
+      "id": "cognitive-architectures-for-language-agents-40e8a180"
+    },
+    {
+      "name": "Cognitive Psychology — ScienceDirect",
+      "url": "https://www.sciencedirect.com/topics/psychology/cognitive-psychology",
+      "description": "External Resources",
+      "collection": "cognitive-psychology",
+      "collectionLabel": "Cognitive psychology",
+      "domain": "Psychology",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/psychology/README.md",
+          "line": 259,
+          "section": "External Resources",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/psychology/README.md#L259"
+        }
+      ],
+      "id": "cognitive-psychology-sciencedirect-0acedd31"
+    },
+    {
+      "name": "Computational Neuroscience",
+      "url": "https://www.coursera.org/learn/computational-neuroscience",
+      "description": "University of Washington course on neural coding and computation.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Learning",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 153,
+          "section": "Courses and reference material › Courses",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L153"
+        }
+      ],
+      "id": "computational-neuroscience-4c00ce9d"
+    },
+    {
+      "name": "Craft",
+      "url": "https://craft.do/",
+      "description": "Beautiful block-based documents",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 47,
+          "section": "Personal Knowledge Management (PKM) › Note-Taking Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L47"
+        }
+      ],
+      "id": "craft-b3e99179"
+    },
+    {
+      "name": "CrewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "description": "Short-term, long-term, entity, contextual",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 132,
+          "section": "Agent Frameworks with Memory › Full-Stack Agent Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L132"
+        }
+      ],
+      "id": "crewai-715b6bc8"
+    },
+    {
+      "name": "CrewAI Memory",
+      "url": "https://docs.crewai.com/",
+      "description": "Short-term, long-term, entity, and contextual memory for multi-agent crews",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 34,
+          "section": "AI Memory Apps › Developer Frameworks & Libraries",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L34"
+        }
+      ],
+      "id": "crewai-memory-959fcba3"
+    },
+    {
+      "name": "Elevate",
+      "url": "https://elevateapp.com/",
+      "description": "Brain training for focus, processing speed, memory",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 145,
+          "section": "Mobile Apps › Memory Training",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L145"
+        }
+      ],
+      "id": "elevate-83e0ba91"
+    },
+    {
+      "name": "eLife Neuroscience",
+      "url": "https://elifesciences.org/subjects/neuroscience",
+      "description": "Open-access high-quality neuroscience",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 181,
+          "section": "Resources › Academic Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L181"
+        }
+      ],
+      "id": "elife-neuroscience-24faf3b1"
+    },
+    {
+      "name": "Empowering Working Memory for Large Language Model Agents",
+      "url": "https://arxiv.org/abs/2312.17259",
+      "description": "Dedicated working memory module for multi-step task solving",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 42,
+          "section": "Research Papers › 2024",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L42"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 39,
+          "section": "2023 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L39"
+        }
+      ],
+      "id": "empowering-working-memory-for-large-language-mod-ca8cb903"
+    },
+    {
+      "name": "Evernote",
+      "url": "https://evernote.com/",
+      "description": "Full-featured notes with web clipper",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 154,
+          "section": "Mobile Apps › Note-Taking",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L154"
+        }
+      ],
+      "id": "evernote-105ba4d7"
+    },
+    {
+      "name": "Externalization in LLM Agents",
+      "url": "https://arxiv.org/abs/2604.08224",
+      "description": "Organizes memory, skills, protocols, and harness engineering as forms of externalized capability.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 64,
+          "section": "Surveys and landmark papers › Surveys and taxonomies",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L64"
+        }
+      ],
+      "id": "externalization-in-llm-agents-09932637"
+    },
+    {
+      "name": "Faiss",
+      "url": "https://github.com/facebookresearch/faiss",
+      "description": "Library for dense-vector similarity search and clustering.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 138,
+          "section": "Storage and retrieval infrastructure › Vector retrieval",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L138"
+        },
+        {
+          "path": "apps/open-source/README.md",
+          "line": 167,
+          "section": "Data Storage › Vector Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L167"
+        }
+      ],
+      "id": "faiss-ac6052de"
+    },
+    {
+      "name": "FalkorDB",
+      "url": "https://github.com/FalkorDB/FalkorDB",
+      "description": "Graph database focused on low-latency knowledge-graph queries.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 145,
+          "section": "Storage and retrieval infrastructure › Graph retrieval",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L145"
+        }
+      ],
+      "id": "falkordb-ef789c16"
+    },
+    {
+      "name": "FalkorDB",
+      "url": "https://falkordb.com/",
+      "description": "Low-latency graph DB optimized for AI knowledge graphs",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 179,
+          "section": "Data Storage › Graph Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L179"
+        }
+      ],
+      "id": "falkordb-eaba2617"
+    },
+    {
+      "name": "Foam",
+      "url": "https://foambubble.github.io/foam",
+      "description": "VS Code-based personal wiki with bidirectional links",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 48,
+          "section": "Personal Knowledge Management (PKM) › Note-Taking Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L48"
+        }
+      ],
+      "id": "foam-2753392d"
+    },
+    {
+      "name": "Forgetting Curve",
+      "url": "https://en.wikipedia.org/wiki/Forgetting_curve",
+      "description": "Ebbinghaus's model of retention loss over time.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Resource",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 127,
+          "section": "Cognitive architectures and biological memory › Biological and psychological foundations",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L127"
+        }
+      ],
+      "id": "forgetting-curve-03503e83"
+    },
+    {
+      "name": "Forte Labs",
+      "url": "https://fortelabs.com/blog",
+      "description": "Writing on personal knowledge management and external memory workflows.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Learning",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 164,
+          "section": "Courses and reference material › Reference material",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L164"
+        }
+      ],
+      "id": "forte-labs-1dbc4bc3"
+    },
+    {
+      "name": "From Human Memory to AI Memory",
+      "url": "https://arxiv.org/abs/2504.15965",
+      "description": "Maps biological and cognitive memory concepts to language-model systems.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 63,
+          "section": "Surveys and landmark papers › Surveys and taxonomies",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L63"
+        }
+      ],
+      "id": "from-human-memory-to-ai-memory-b0d6bec1"
+    },
+    {
+      "name": "From RAG to Long-Term Memory",
+      "url": "https://sites.google.com/view/ltm-tutorial",
+      "description": "ACM SIGIR-AP 2025 tutorial on persistent memory for conversational agents.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Event",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 169,
+          "section": "Workshops",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L169"
+        }
+      ],
+      "id": "from-rag-to-long-term-memory-e0e0857b"
+    },
+    {
+      "name": "From RAG to Memory: Non-Parametric Continual Learning for LLMs",
+      "url": "https://arxiv.org/abs/2502.14802",
+      "description": "HippoRAG v2 — continual learning without forgetting",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 29,
+          "section": "Research Papers › 2025",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L29"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 64,
+          "section": "Graph Memory Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L64"
+        }
+      ],
+      "id": "from-rag-to-memory-non-parametric-continual-lear-4967ef46"
+    },
+    {
+      "name": "General Agentic Memory via Deep Research",
+      "url": "https://arxiv.org/abs/2511.18423",
+      "description": "Deep research loop generates generalizable agent memory",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 32,
+          "section": "Research Papers › 2025",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L32"
+        }
+      ],
+      "id": "general-agentic-memory-via-deep-research-898ac3d1"
+    },
+    {
+      "name": "Generative Agents",
+      "url": "https://arxiv.org/abs/2304.03442",
+      "description": "Combined memory streams, reflection, and planning in simulated agents.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 74,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L74"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 51,
+          "section": "Research Papers › 2023",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L51"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 44,
+          "section": "2023 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L44"
+        }
+      ],
+      "id": "generative-agents-efc9ff30"
+    },
+    {
+      "name": "Google Keep",
+      "url": "https://keep.google.com/",
+      "description": "Quick capture with labels and reminders",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 155,
+          "section": "Mobile Apps › Note-Taking",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L155"
+        }
+      ],
+      "id": "google-keep-77b8dddf"
+    },
+    {
+      "name": "Graphiti",
+      "url": "https://github.com/getzep/graphiti",
+      "description": "Temporal knowledge graph for facts and relationships extracted from changing data.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 40,
+          "section": "Agent memory systems › General-purpose memory layers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L40"
+        }
+      ],
+      "id": "graphiti-ec7c36c5"
+    },
+    {
+      "name": "Graphiti",
+      "url": "https://arxiv.org/abs/2501.13956",
+      "description": "Described a bi-temporal knowledge graph for changing agent memory.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 80,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L80"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 63,
+          "section": "Graph Memory Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L63"
+        }
+      ],
+      "id": "graphiti-e800b65b"
+    },
+    {
+      "name": "GraphRAG",
+      "url": "https://github.com/microsoft/graphrag",
+      "description": "Pipeline for extracting graph structure and using it during retrieval.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 143,
+          "section": "Storage and retrieval infrastructure › Graph retrieval",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L143"
+        }
+      ],
+      "id": "graphrag-11848063"
+    },
+    {
+      "name": "HaluMem",
+      "url": "https://arxiv.org/abs/2511.03506",
+      "description": "Measures hallucination behavior in agent memory systems.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 94,
+          "section": "Evaluation benchmarks › Conversational and agent memory",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L94"
+        }
+      ],
+      "id": "halumem-7b9d0f17"
+    },
+    {
+      "name": "HELMET",
+      "url": "https://arxiv.org/abs/2410.02694",
+      "description": "Evaluates long-context models across retrieval, generation, and reasoning tasks.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 102,
+          "section": "Evaluation benchmarks › Long-context retrieval and reasoning",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L102"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 183,
+          "section": "Benchmarks & Evaluation › Agent Memory Benchmarks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L183"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 96,
+          "section": "Benchmark Datasets",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L96"
+        }
+      ],
+      "id": "helmet-bfc7878b"
+    },
+    {
+      "name": "HHMI — Making Memories: Molecules and Synapses",
+      "url": "https://www.hhmi.org/biointeractive/making-memories-neurons-synapses",
+      "description": "Free video lectures on memory biology",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 147,
+          "section": "Podcasts & Lectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L147"
+        }
+      ],
+      "id": "hhmi-making-memories-molecules-and-synapses-efacec11"
+    },
+    {
+      "name": "Hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Long-term memory service organized around retaining, recalling, and reflecting on information.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 45,
+          "section": "Agent memory systems › General-purpose memory layers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L45"
+        }
+      ],
+      "id": "hindsight-ef1d62b1"
+    },
+    {
+      "name": "Hindsight",
+      "url": "https://hindsight.vectorize.io/",
+      "description": "Auto-learns from past agent interactions to improve future responses",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 22,
+          "section": "AI Memory Apps › Production-Ready",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L22"
+        }
+      ],
+      "id": "hindsight-99bd95e9"
+    },
+    {
+      "name": "Hippocampal Indexing Theory",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20346399",
+      "description": "Review of the hippocampus as an index for distributed cortical memory.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Resource",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 126,
+          "section": "Cognitive architectures and biological memory › Biological and psychological foundations",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L126"
+        }
+      ],
+      "id": "hippocampal-indexing-theory-b03409cf"
+    },
+    {
+      "name": "HippoRAG",
+      "url": "https://arxiv.org/abs/2405.14831",
+      "description": "Combined graph and dense retrieval using a hippocampus-inspired design.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 79,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L79"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 40,
+          "section": "Research Papers › 2024",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L40"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 66,
+          "section": "Graph Memory Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L66"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 30,
+          "section": "2024 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L30"
+        }
+      ],
+      "id": "hipporag-51b1ae02"
+    },
+    {
+      "name": "Honcho",
+      "url": "https://github.com/plastic-labs/honcho",
+      "description": "User-modeling and identity layer for applications that need persistent representations of people.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 50,
+          "section": "Agent memory systems › Identity and personal memory",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L50"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 144,
+          "section": "Agent Frameworks with Memory › Memory-Specific Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L144"
+        }
+      ],
+      "id": "honcho-055d5188"
+    },
+    {
+      "name": "Honcho",
+      "url": "https://honcho.dev/",
+      "description": "User-centric memory and identity layer for AI agents",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 18,
+          "section": "AI Memory Apps › Production-Ready",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L18"
+        }
+      ],
+      "id": "honcho-587266a8"
+    },
+    {
+      "name": "Hopfield Networks",
+      "url": "https://arxiv.org/abs/2008.02217",
+      "description": "Modern Hopfield networks as associative memory",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 112,
+          "section": "Experimental & Research Tools › Memory Research",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L112"
+        }
+      ],
+      "id": "hopfield-networks-1e81e5b9"
+    },
+    {
+      "name": "Howard Hughes Medical Institute (HHMI)",
+      "url": "https://www.hhmi.org/",
+      "description": "Resources › Organizations",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 193,
+          "section": "Resources › Organizations",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L193"
+        }
+      ],
+      "id": "howard-hughes-medical-institute-hhmi-6c66fa6e"
+    },
+    {
+      "name": "Huberman Lab — Science-Based Tools for Increasing Happiness",
+      "url": "https://www.hubermanlab.com/episode/science-based-tools-for-increasing-happiness",
+      "description": "Memory consolidation, stress, and neuroplasticity",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 144,
+          "section": "Podcasts & Lectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L144"
+        }
+      ],
+      "id": "huberman-lab-science-based-tools-for-increasing--bd2f639b"
+    },
+    {
+      "name": "Huberman Lab — Understand & Improve Memory",
+      "url": "https://www.hubermanlab.com/episode/understand-and-improve-memory-using-science-based-tools",
+      "description": "Deep coverage of memory formation, consolidation, and recall",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 143,
+          "section": "Podcasts & Lectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L143"
+        }
+      ],
+      "id": "huberman-lab-understand-improve-memory-236f3909"
+    },
+    {
+      "name": "Human Connectome Project (HCP)",
+      "url": "https://www.humanconnectome.org/",
+      "description": "High-resolution structural and functional MRI from 1,200+ healthy adults",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 158,
+          "section": "Open Datasets",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L158"
+        }
+      ],
+      "id": "human-connectome-project-hcp-0c567338"
+    },
+    {
+      "name": "Hybrid computing using a neural network with dynamic external memory",
+      "url": "https://www.nature.com/articles/nature20101",
+      "description": "Neural Turing Machine with dynamic memory allocation",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 119,
+          "section": "Experimental & Research Tools › Neural Network Memory Architectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L119"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 61,
+          "section": "2017–2020 Papers (Seminal Work)",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L61"
+        }
+      ],
+      "id": "hybrid-computing-using-a-neural-network-with-dyn-d19262bf"
+    },
+    {
+      "name": "InfiniteBench",
+      "url": "https://arxiv.org/abs/2402.13718",
+      "description": "Evaluates language models on contexts beyond 100,000 tokens.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 101,
+          "section": "Evaluation benchmarks › Long-context retrieval and reasoning",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L101"
+        }
+      ],
+      "id": "infinitebench-ef4f16f3"
+    },
+    {
+      "name": "Introduction to LangGraph",
+      "url": "https://academy.langchain.com/courses/intro-to-langgraph",
+      "description": "Course on stateful graph-based applications and agents.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Learning",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 155,
+          "section": "Courses and reference material › Courses",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L155"
+        }
+      ],
+      "id": "introduction-to-langgraph-8c87a35b"
+    },
+    {
+      "name": "Kavli Foundation — Neuroscience",
+      "url": "https://www.kavlifoundation.org/science/neuroscience",
+      "description": "Resources › Organizations",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 194,
+          "section": "Resources › Organizations",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L194"
+        }
+      ],
+      "id": "kavli-foundation-neuroscience-f5c26a12"
+    },
+    {
+      "name": "Khan Academy — Brain Basics",
+      "url": "https://www.khanacademy.org/science/health-and-medicine/nervous-system-and-sensory-infor",
+      "description": "Resources › Educational",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 188,
+          "section": "Resources › Educational",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L188"
+        }
+      ],
+      "id": "khan-academy-brain-basics-b1c3e371"
+    },
+    {
+      "name": "L2M2",
+      "url": "https://sites.google.com/view/memorization-workshop",
+      "description": "ACL 2025 workshop on memorization, privacy, unlearning, and controlled recall in language models.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Event",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 168,
+          "section": "Workshops",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L168"
+        }
+      ],
+      "id": "l2m2-aff4f869"
+    },
+    {
+      "name": "LangChain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "Buffer, Summary, Entity, VectorStore",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 130,
+          "section": "Agent Frameworks with Memory › Full-Stack Agent Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L130"
+        }
+      ],
+      "id": "langchain-c5a32632"
+    },
+    {
+      "name": "LangChain Discord",
+      "url": "https://discord.gg/langchain",
+      "description": "Active community for LangChain, LangGraph, LangMem",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 265,
+          "section": "Communities & Forums › AI / Agents",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L265"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 267,
+          "section": "Resources › Communities",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L267"
+        }
+      ],
+      "id": "langchain-discord-83f3fa9c"
+    },
+    {
+      "name": "LangChain Memory",
+      "url": "https://python.langchain.com/docs/modules/memory",
+      "description": "Standardized memory primitives (Buffer, Summary, Entity, VectorStore)",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 35,
+          "section": "AI Memory Apps › Developer Frameworks & Libraries",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L35"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 260,
+          "section": "Resources › Tutorials & Docs",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L260"
+        }
+      ],
+      "id": "langchain-memory-1c3e3bd2"
+    },
+    {
+      "name": "LangGraph",
+      "url": "https://python.langchain.com/docs/langgraph",
+      "description": "Stateful graph agents with built-in persistence",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 36,
+          "section": "AI Memory Apps › Developer Frameworks & Libraries",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L36"
+        }
+      ],
+      "id": "langgraph-1cc3436e"
+    },
+    {
+      "name": "LangGraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "description": "Stateful graph nodes, persistence",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 131,
+          "section": "Agent Frameworks with Memory › Full-Stack Agent Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L131"
+        }
+      ],
+      "id": "langgraph-642743ad"
+    },
+    {
+      "name": "LangGraph Memory How-To",
+      "url": "https://langchain-ai.github.io/langgraph/how-tos/persistence",
+      "description": "Resources › Tutorials & Docs",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 261,
+          "section": "Resources › Tutorials & Docs",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L261"
+        }
+      ],
+      "id": "langgraph-memory-how-to-588b7c05"
+    },
+    {
+      "name": "LangMem",
+      "url": "https://github.com/langchain-ai/langmem",
+      "description": "Utilities for extracting and managing long-term memory in LangGraph applications.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 43,
+          "section": "Agent memory systems › General-purpose memory layers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L43"
+        },
+        {
+          "path": "apps/open-source/README.md",
+          "line": 37,
+          "section": "AI Memory Apps › Developer Frameworks & Libraries",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L37"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 145,
+          "section": "Agent Frameworks with Memory › Memory-Specific Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L145"
+        }
+      ],
+      "id": "langmem-9a996c68"
+    },
+    {
+      "name": "Learning Dynamic Belief Graphs for Theory-of-Mind Reasoning",
+      "url": "https://arxiv.org/abs/2603.20170",
+      "description": "Theory-of-mind representation via continuously updated belief graphs",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 26,
+          "section": "Research Papers › 2025",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L26"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 21,
+          "section": "2025 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L21"
+        }
+      ],
+      "id": "learning-dynamic-belief-graphs-for-theory-of-min-45799dc8"
+    },
+    {
+      "name": "Letta",
+      "url": "https://github.com/letta-ai/letta",
+      "description": "Framework for stateful agents with in-context, archival, and external memory.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 39,
+          "section": "Agent memory systems › General-purpose memory layers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L39"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 146,
+          "section": "Agent Frameworks with Memory › Memory-Specific Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L146"
+        }
+      ],
+      "id": "letta-7fe84135"
+    },
+    {
+      "name": "Letta",
+      "url": "https://letta.com/",
+      "description": "Stateful agents with tiered virtual memory (MemGPT successor)",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 16,
+          "section": "AI Memory Apps › Production-Ready",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L16"
+        }
+      ],
+      "id": "letta-30540fd1"
+    },
+    {
+      "name": "Letta Discord",
+      "url": "https://discord.gg/letta",
+      "description": "MemGPT / Letta framework discussion",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 266,
+          "section": "Communities & Forums › AI / Agents",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L266"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 268,
+          "section": "Resources › Communities",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L268"
+        }
+      ],
+      "id": "letta-discord-514c5b9f"
+    },
+    {
+      "name": "Letta Docs",
+      "url": "https://docs.letta.com/",
+      "description": "Resources › Tutorials & Docs",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 262,
+          "section": "Resources › Tutorials & Docs",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L262"
+        }
+      ],
+      "id": "letta-docs-9ba28490"
+    },
+    {
+      "name": "LIDA",
+      "url": "https://www.memphis.edu/cs/research/cognitive_computing.php",
+      "description": "Global Workspace Theory-based architecture with multiple learning and memory processes.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Resource",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 117,
+          "section": "Cognitive architectures and biological memory › Cognitive architectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L117"
+        }
+      ],
+      "id": "lida-4143ef00"
+    },
+    {
+      "name": "LlamaIndex",
+      "url": "https://github.com/run-llama/llama_index",
+      "description": "Framework for ingestion, indexing, retrieval, and agent access to external data.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 55,
+          "section": "Agent memory systems › Retrieval frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L55"
+        }
+      ],
+      "id": "llamaindex-e7f1aab3"
+    },
+    {
+      "name": "LLM-powered Autonomous Agents",
+      "url": "https://lilianweng.github.io/posts/2023-06-23-agent",
+      "description": "Survey-style explanation of planning, memory, and tool use in agents.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Learning",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 159,
+          "section": "Courses and reference material › Reference material",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L159"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 146,
+          "section": "Resources › Surveys & Overviews",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L146"
+        }
+      ],
+      "id": "llm-powered-autonomous-agents-d6015945"
+    },
+    {
+      "name": "LMArena",
+      "url": "https://lmarena.ai/",
+      "description": "Comparative model evaluation through anonymous human-preference battles",
+      "collection": "llm-memory-papers",
+      "collectionLabel": "LLM memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 151,
+          "section": "Resources › Leaderboards",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L151"
+        }
+      ],
+      "id": "lmarena-bc3221ca"
+    },
+    {
+      "name": "LoCoMo",
+      "url": "https://arxiv.org/abs/2402.17753",
+      "description": "Evaluates very long conversational histories and temporal reasoning.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 90,
+          "section": "Evaluation benchmarks › Conversational and agent memory",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L90"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 184,
+          "section": "Benchmarks & Evaluation › Agent Memory Benchmarks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L184"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 97,
+          "section": "Benchmark Datasets",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L97"
+        }
+      ],
+      "id": "locomo-7ac07eea"
+    },
+    {
+      "name": "Logseq",
+      "url": "https://logseq.com/",
+      "description": "Outliner with bidirectional linking, local-first",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 49,
+          "section": "Personal Knowledge Management (PKM) › Note-Taking Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L49"
+        }
+      ],
+      "id": "logseq-90562e3e"
+    },
+    {
+      "name": "Logseq Discord",
+      "url": "https://discord.gg/logseq",
+      "description": "Logseq user community",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 276,
+          "section": "Communities & Forums › Knowledge Management",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L276"
+        }
+      ],
+      "id": "logseq-discord-34f95e24"
+    },
+    {
+      "name": "Long Short-Term Memory",
+      "url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+      "description": "Long Short-Term Memory; gated recurrent memory",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 120,
+          "section": "Experimental & Research Tools › Neural Network Memory Architectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L120"
+        }
+      ],
+      "id": "long-short-term-memory-48958bb2"
+    },
+    {
+      "name": "Long-term Potentiation — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Long-term_potentiation",
+      "description": "External Links",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 251,
+          "section": "External Links",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L251"
+        }
+      ],
+      "id": "long-term-potentiation-wikipedia-8d46d695"
+    },
+    {
+      "name": "LongBench Leaderboard",
+      "url": "https://github.com/THUDM/LongBench",
+      "description": "Long-context understanding benchmarks",
+      "collection": "llm-memory-papers",
+      "collectionLabel": "LLM memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 150,
+          "section": "Resources › Leaderboards",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L150"
+        }
+      ],
+      "id": "longbench-leaderboard-0e05f5f9"
+    },
+    {
+      "name": "LongBench v2",
+      "url": "https://arxiv.org/abs/2412.15204",
+      "description": "Tests reasoning over realistic long-context tasks.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 100,
+          "section": "Evaluation benchmarks › Long-context retrieval and reasoning",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L100"
+        }
+      ],
+      "id": "longbench-v2-b48ba26d"
+    },
+    {
+      "name": "LONGMEM: Enabling LLMs to Use 10,000+ Long-Context by Distilling Memory",
+      "url": "https://arxiv.org/abs/2306.07174",
+      "description": "Distillation-based approach to give LLMs very long effective context",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 43,
+          "section": "Research Papers › 2024",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L43"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 40,
+          "section": "2023 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L40"
+        }
+      ],
+      "id": "longmem-enabling-llms-to-use-10-000-long-context-cf51363c"
+    },
+    {
+      "name": "LongMemEval",
+      "url": "https://arxiv.org/abs/2410.10813",
+      "description": "Tests long-term interactive memory in chat assistants.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 89,
+          "section": "Evaluation benchmarks › Conversational and agent memory",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L89"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 185,
+          "section": "Benchmarks & Evaluation › Agent Memory Benchmarks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L185"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 33,
+          "section": "2024 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L33"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 98,
+          "section": "Benchmark Datasets",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L98"
+        }
+      ],
+      "id": "longmemeval-7d8bb2e9"
+    },
+    {
+      "name": "Lost in the Middle: How LLMs Use Long Contexts",
+      "url": "https://arxiv.org/abs/2307.03172",
+      "description": "Demonstrates primacy/recency bias; critical for memory system design",
+      "collection": "llm-memory-papers",
+      "collectionLabel": "LLM memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 41,
+          "section": "2023 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L41"
+        }
+      ],
+      "id": "lost-in-the-middle-how-llms-use-long-contexts-6ee83218"
+    },
+    {
+      "name": "Lumosity",
+      "url": "https://lumosity.com/",
+      "description": "Cognitive training games",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 146,
+          "section": "Mobile Apps › Memory Training",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L146"
+        }
+      ],
+      "id": "lumosity-7d1104c5"
+    },
+    {
+      "name": "LVBench",
+      "url": "https://arxiv.org/abs/2406.08035",
+      "description": "Tests understanding of long-form video.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 107,
+          "section": "Evaluation benchmarks › Multimodal memory",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L107"
+        }
+      ],
+      "id": "lvbench-cf0adfcf"
+    },
+    {
+      "name": "MAGMA",
+      "url": "https://arxiv.org/abs/2601.03236",
+      "description": "Proposed multiple graph views for structured agent memory.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 83,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L83"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 11,
+          "section": "Research Papers › 2026",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L11"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 61,
+          "section": "Graph Memory Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L61"
+        }
+      ],
+      "id": "magma-bae4cacc"
+    },
+    {
+      "name": "Mem",
+      "url": "https://mem.ai/",
+      "description": "AI-powered notes with semantic search",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 50,
+          "section": "Personal Knowledge Management (PKM) › Note-Taking Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L50"
+        }
+      ],
+      "id": "mem-c37a0812"
+    },
+    {
+      "name": "Mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "description": "Memory layer combining vector, graph, and key-value representations for applications and agents.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 38,
+          "section": "Agent memory systems › General-purpose memory layers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L38"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 147,
+          "section": "Agent Frameworks with Memory › Memory-Specific Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L147"
+        }
+      ],
+      "id": "mem0-cddc9a2d"
+    },
+    {
+      "name": "Mem0",
+      "url": "https://arxiv.org/abs/2504.19413",
+      "description": "Evaluated a hybrid long-term memory architecture for conversational agents.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 81,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L81"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 25,
+          "section": "Research Papers › 2025",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L25"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 20,
+          "section": "2025 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L20"
+        }
+      ],
+      "id": "mem0-3c1c06b0"
+    },
+    {
+      "name": "Mem0",
+      "url": "https://mem0.ai/",
+      "description": "Hybrid vector + graph + KV memory layer; most widely adopted",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 15,
+          "section": "AI Memory Apps › Production-Ready",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L15"
+        }
+      ],
+      "id": "mem0-eabe6647"
+    },
+    {
+      "name": "mem0 Discord",
+      "url": "https://discord.gg/mem0",
+      "description": "Production memory systems for agents",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 267,
+          "section": "Communities & Forums › AI / Agents",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L267"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 269,
+          "section": "Resources › Communities",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L269"
+        }
+      ],
+      "id": "mem0-discord-27b12990"
+    },
+    {
+      "name": "mem0 Documentation",
+      "url": "https://docs.mem0.ai/",
+      "description": "Resources › Tutorials & Docs",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 263,
+          "section": "Resources › Tutorials & Docs",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L263"
+        }
+      ],
+      "id": "mem0-documentation-08140135"
+    },
+    {
+      "name": "MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent",
+      "url": "https://arxiv.org/abs/2507.02259",
+      "description": "RL-based multi-conversation memory agent for long-context tasks",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 34,
+          "section": "Research Papers › 2025",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L34"
+        }
+      ],
+      "id": "memagent-reshaping-long-context-llm-with-multi-c-a3184b5b"
+    },
+    {
+      "name": "Memento-Skills: Let Agents Design Agents",
+      "url": "https://arxiv.org/abs/2603.18743",
+      "description": "Skill-based memory enabling agents to compose and reuse capabilities",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 18,
+          "section": "Research Papers › 2026",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L18"
+        }
+      ],
+      "id": "memento-skills-let-agents-design-agents-22c3c65c"
+    },
+    {
+      "name": "MemEvolve: Meta-Evolution of Agent Memory Systems",
+      "url": "https://arxiv.org/abs/2512.18746",
+      "description": "Meta-learning evolves the memory system architecture itself",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 33,
+          "section": "Research Papers › 2025",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L33"
+        }
+      ],
+      "id": "memevolve-meta-evolution-of-agent-memory-systems-6ba6435f"
+    },
+    {
+      "name": "Memex",
+      "url": "https://memex.garden/",
+      "description": "Chrome, Firefox",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 130,
+          "section": "Browser Extensions",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L130"
+        }
+      ],
+      "id": "memex-5bd0911f"
+    },
+    {
+      "name": "MemGPT",
+      "url": "https://arxiv.org/abs/2310.08560",
+      "description": "Applied virtual-memory concepts to tiered language-model context.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 78,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L78"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 49,
+          "section": "Research Papers › 2023",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L49"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 42,
+          "section": "2023 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L42"
+        }
+      ],
+      "id": "memgpt-26e7ae52"
+    },
+    {
+      "name": "Memgraph",
+      "url": "https://github.com/memgraph/memgraph",
+      "description": "In-memory graph database for streaming and transactional workloads.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 144,
+          "section": "Storage and retrieval infrastructure › Graph retrieval",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L144"
+        }
+      ],
+      "id": "memgraph-779c3c2d"
+    },
+    {
+      "name": "Memgraph",
+      "url": "https://memgraph.com/",
+      "description": "In-memory streaming graph DB",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 180,
+          "section": "Data Storage › Graph Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L180"
+        }
+      ],
+      "id": "memgraph-ffdca72e"
+    },
+    {
+      "name": "Memobase",
+      "url": "https://github.com/memodb-io/memobase",
+      "description": "Profile-based memory store for personalized interactions.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 44,
+          "section": "Agent memory systems › General-purpose memory layers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L44"
+        },
+        {
+          "path": "apps/open-source/README.md",
+          "line": 21,
+          "section": "AI Memory Apps › Production-Ready",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L21"
+        }
+      ],
+      "id": "memobase-0d9c4f43"
+    },
+    {
+      "name": "MemoRAG: Global Memory-Enhanced Retrieval Augmentation",
+      "url": "https://arxiv.org/abs/2409.05591",
+      "description": "Global memory layer boosts long-context RAG performance",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 31,
+          "section": "Research Papers › 2025",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L31"
+        }
+      ],
+      "id": "memorag-global-memory-enhanced-retrieval-augment-5979559a"
+    },
+    {
+      "name": "Memorizing Transformers",
+      "url": "https://arxiv.org/abs/2203.08913",
+      "description": "Approximate kNN over past token representations",
+      "collection": "llm-memory-papers",
+      "collectionLabel": "LLM memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 52,
+          "section": "2021–2022 Papers (Foundations)",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L52"
+        }
+      ],
+      "id": "memorizing-transformers-184c70e0"
+    },
+    {
+      "name": "Memory — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Memory",
+      "description": "External Links",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 252,
+          "section": "External Links",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L252"
+        },
+        {
+          "path": "papers/psychology/README.md",
+          "line": 260,
+          "section": "External Resources",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/psychology/README.md#L260"
+        }
+      ],
+      "id": "memory-wikipedia-a633ceee"
+    },
+    {
+      "name": "Memory Networks",
+      "url": "https://arxiv.org/abs/1410.3916",
+      "description": "Introduced an addressable external memory component for question answering.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 71,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L71"
+        },
+        {
+          "path": "apps/open-source/README.md",
+          "line": 121,
+          "section": "Experimental & Research Tools › Neural Network Memory Architectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L121"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 62,
+          "section": "2017–2020 Papers (Seminal Work)",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L62"
+        }
+      ],
+      "id": "memory-networks-a9c2dee0"
+    },
+    {
+      "name": "MemoryAgentBench",
+      "url": "https://arxiv.org/abs/2507.05257",
+      "description": "Evaluates memory through incremental multi-turn interaction.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 91,
+          "section": "Evaluation benchmarks › Conversational and agent memory",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L91"
+        }
+      ],
+      "id": "memoryagentbench-e029c748"
+    },
+    {
+      "name": "MemoryBank",
+      "url": "https://arxiv.org/abs/2305.10250",
+      "description": "Applied long-term storage and forgetting-inspired updates to conversational memory.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 76,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L76"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 50,
+          "section": "Research Papers › 2023",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L50"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 43,
+          "section": "2023 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L43"
+        }
+      ],
+      "id": "memorybank-2961c6db"
+    },
+    {
+      "name": "MemoryBench",
+      "url": "https://arxiv.org/abs/2510.17281",
+      "description": "Combines memory evaluation with continual-learning tasks.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 93,
+          "section": "Evaluation benchmarks › Conversational and agent memory",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L93"
+        }
+      ],
+      "id": "memorybench-9ac9517b"
+    },
+    {
+      "name": "MemoryBench",
+      "url": "https://git.new/membench",
+      "description": "Open evaluation platform for agent memory",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 186,
+          "section": "Benchmarks & Evaluation › Agent Memory Benchmarks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L186"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 99,
+          "section": "Benchmark Datasets",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L99"
+        }
+      ],
+      "id": "memorybench-2de94909"
+    },
+    {
+      "name": "MemOS",
+      "url": "https://github.com/MemTensor/MemOS",
+      "description": "Memory operating-system project for organizing and serving multiple memory types.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 42,
+          "section": "Agent memory systems › General-purpose memory layers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L42"
+        }
+      ],
+      "id": "memos-f6f3765d"
+    },
+    {
+      "name": "MemOS",
+      "url": "https://memos.openmem.net/",
+      "description": "Memory operating system for AI; persistent unified memory for agents",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 20,
+          "section": "AI Memory Apps › Production-Ready",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L20"
+        }
+      ],
+      "id": "memos-f09a88cf"
+    },
+    {
+      "name": "MemRL: Self-Evolving Agents via Runtime RL on Episodic Memory",
+      "url": "https://arxiv.org/abs/2601.03192",
+      "description": "RL-driven episodic memory that improves with each agent interaction",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 12,
+          "section": "Research Papers › 2026",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L12"
+        }
+      ],
+      "id": "memrl-self-evolving-agents-via-runtime-rl-on-epi-e9f1d546"
+    },
+    {
+      "name": "MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents",
+      "url": "https://arxiv.org/abs/2602.02474",
+      "description": "Skill-based memory that agents learn and refine over time",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 16,
+          "section": "Research Papers › 2026",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L16"
+        }
+      ],
+      "id": "memskill-learning-and-evolving-memory-skills-for-f5544082"
+    },
+    {
+      "name": "Microsoft OneNote",
+      "url": "https://onenote.com/",
+      "description": "Hierarchical notebook organization",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 156,
+          "section": "Mobile Apps › Note-Taking",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L156"
+        }
+      ],
+      "id": "microsoft-onenote-ddee7a31"
+    },
+    {
+      "name": "Milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Distributed vector database for similarity search at scale.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 136,
+          "section": "Storage and retrieval infrastructure › Vector retrieval",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L136"
+        },
+        {
+          "path": "apps/open-source/README.md",
+          "line": 168,
+          "section": "Data Storage › Vector Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L168"
+        }
+      ],
+      "id": "milvus-6df9999e"
+    },
+    {
+      "name": "MIRIX: Multi-Agent Memory System for LLM-Based Agents",
+      "url": "https://arxiv.org/abs/2507.07957",
+      "description": "Multi-agent graph memory with specialised sub-systems",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 65,
+          "section": "Graph Memory Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L65"
+        }
+      ],
+      "id": "mirix-multi-agent-memory-system-for-llm-based-ag-fbd96972"
+    },
+    {
+      "name": "MIT 9.01: Introduction to Neuroscience",
+      "url": "https://ocw.mit.edu/courses/9-01-introduction-to-neuroscience-fall-2007",
+      "description": "Foundational neuroscience course covering learning and memory.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Learning",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 152,
+          "section": "Courses and reference material › Courses",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L152"
+        },
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 189,
+          "section": "Resources › Educational",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L189"
+        }
+      ],
+      "id": "mit-9-01-introduction-to-neuroscience-5ff2f074"
+    },
+    {
+      "name": "MIT 9.13: The Human Brain",
+      "url": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019",
+      "description": "OpenCourseWare on functional organization of the human brain.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Learning",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 151,
+          "section": "Courses and reference material › Courses",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L151"
+        },
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 145,
+          "section": "Podcasts & Lectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L145"
+        }
+      ],
+      "id": "mit-9-13-the-human-brain-5e57fa7c"
+    },
+    {
+      "name": "MIT McGovern Institute for Brain Research",
+      "url": "https://mcgovern.mit.edu/",
+      "description": "Resources › Organizations",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 195,
+          "section": "Resources › Organizations",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L195"
+        }
+      ],
+      "id": "mit-mcgovern-institute-for-brain-research-a7d7f73e"
+    },
+    {
+      "name": "Mochi",
+      "url": "https://mochi.cards/",
+      "description": "Cards that make spaced repetition feel natural",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 77,
+          "section": "Spaced Repetition › Flashcard Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L77"
+        }
+      ],
+      "id": "mochi-0d71592f"
+    },
+    {
+      "name": "Nemori: Self-Organizing Agent Memory Inspired by Cognitive Science",
+      "url": "https://arxiv.org/abs/2508.03341",
+      "description": "Cognitive science-grounded self-organization of agent memories",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 28,
+          "section": "Research Papers › 2025",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L28"
+        }
+      ],
+      "id": "nemori-self-organizing-agent-memory-inspired-by--2b238826"
+    },
+    {
+      "name": "Neo4j",
+      "url": "https://github.com/neo4j/neo4j",
+      "description": "Graph database with the Cypher query language.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 142,
+          "section": "Storage and retrieval infrastructure › Graph retrieval",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L142"
+        }
+      ],
+      "id": "neo4j-571ef2d9"
+    },
+    {
+      "name": "Neo4j",
+      "url": "https://neo4j.com/",
+      "description": "Market-leading graph DB with Cypher",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 181,
+          "section": "Data Storage › Graph Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L181"
+        }
+      ],
+      "id": "neo4j-fb57843f"
+    },
+    {
+      "name": "Neural Turing Machines",
+      "url": "https://arxiv.org/abs/1410.5401",
+      "description": "Differentiable read/write external memory",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 122,
+          "section": "Experimental & Research Tools › Neural Network Memory Architectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L122"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 63,
+          "section": "2017–2020 Papers (Seminal Work)",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L63"
+        }
+      ],
+      "id": "neural-turing-machines-dcaecde4"
+    },
+    {
+      "name": "Neuroscience on Nature",
+      "url": "https://www.nature.com/subjects/neuroscience",
+      "description": "High-impact neuroscience papers",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 182,
+          "section": "Resources › Academic Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L182"
+        }
+      ],
+      "id": "neuroscience-on-nature-5166a050"
+    },
+    {
+      "name": "Nobel Prize Lectures — O'Keefe, Mosers (2014)",
+      "url": "https://www.nobelprize.org/prizes/medicine/2014/summary",
+      "description": "Place and grid cell Nobel lectures",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 148,
+          "section": "Podcasts & Lectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L148"
+        }
+      ],
+      "id": "nobel-prize-lectures-o-keefe-mosers-2014-f5eb2f91"
+    },
+    {
+      "name": "NoLiMa",
+      "url": "https://arxiv.org/abs/2502.05167",
+      "description": "Tests long-context retrieval beyond literal matching.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 99,
+          "section": "Evaluation benchmarks › Long-context retrieval and reasoning",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L99"
+        }
+      ],
+      "id": "nolima-64f44c0c"
+    },
+    {
+      "name": "Notion",
+      "url": "https://notion.so/",
+      "description": "Flexible all-in-one workspace",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 51,
+          "section": "Personal Knowledge Management (PKM) › Note-Taking Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L51"
+        }
+      ],
+      "id": "notion-20782d80"
+    },
+    {
+      "name": "Numenta",
+      "url": "https://numenta.com/",
+      "description": "Hierarchical Temporal Memory (HTM) based on neocortical theory",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 113,
+          "section": "Experimental & Research Tools › Memory Research",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L113"
+        }
+      ],
+      "id": "numenta-84c236af"
+    },
+    {
+      "name": "nvALT",
+      "url": "https://brettterpstra.com/projects/nvalt",
+      "description": "Simple fast-search plaintext notes",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 102,
+          "section": "Knowledge Management › Zettelkasten Tools",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L102"
+        }
+      ],
+      "id": "nvalt-d067c2a1"
+    },
+    {
+      "name": "Obsidian",
+      "url": "https://obsidian.md/",
+      "description": "Markdown-based local-first PKM with graph view",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 52,
+          "section": "Personal Knowledge Management (PKM) › Note-Taking Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L52"
+        },
+        {
+          "path": "apps/open-source/README.md",
+          "line": 99,
+          "section": "Knowledge Management › Zettelkasten Tools",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L99"
+        }
+      ],
+      "id": "obsidian-f18916e4"
+    },
+    {
+      "name": "Obsidian Forum",
+      "url": "https://forum.obsidian.md/",
+      "description": "Obsidian plugins, workflows, and community",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 275,
+          "section": "Communities & Forums › Knowledge Management",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L275"
+        }
+      ],
+      "id": "obsidian-forum-78dfe3d0"
+    },
+    {
+      "name": "Obsidian Shell Commands",
+      "url": "https://github.com/Taitava/obsidian-shellcommands",
+      "description": "Run shell commands from inside Obsidian",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 190,
+          "section": "CLI Tools",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L190"
+        }
+      ],
+      "id": "obsidian-shell-commands-0c6e8e5a"
+    },
+    {
+      "name": "OMEGA",
+      "url": "https://github.com/omega-memory/omega-memory",
+      "description": "MCP-compatible server exposing persistent memory operations to clients.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 46,
+          "section": "Agent memory systems › General-purpose memory layers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L46"
+        }
+      ],
+      "id": "omega-6352dbf8"
+    },
+    {
+      "name": "OMEGA",
+      "url": "https://github.com/omega-memory/core",
+      "description": "MCP-compatible server with tools for persistent agent memory",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 25,
+          "section": "AI Memory Apps › Production-Ready",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L25"
+        }
+      ],
+      "id": "omega-98e48118"
+    },
+    {
+      "name": "Omnivore",
+      "url": "https://omnivore.app/",
+      "description": "Chrome, Firefox",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 131,
+          "section": "Browser Extensions",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L131"
+        }
+      ],
+      "id": "omnivore-0f4cea7e"
+    },
+    {
+      "name": "open-spaced-repetition",
+      "url": "https://github.com/open-spaced-repetition",
+      "description": "Free Spaced Repetition Scheduler — next-gen, outperforms SM-2",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 87,
+          "section": "Spaced Repetition › Algorithms",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L87"
+        }
+      ],
+      "id": "open-spaced-repetition-fc495a39"
+    },
+    {
+      "name": "OpenCog",
+      "url": "https://opencog.org/",
+      "description": "Cognitive architecture and knowledge-representation framework built around a hypergraph.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Resource",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 116,
+          "section": "Cognitive architectures and biological memory › Cognitive architectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L116"
+        }
+      ],
+      "id": "opencog-f8b1e5e5"
+    },
+    {
+      "name": "OpenNeuro",
+      "url": "https://openneuro.org/",
+      "description": "Open repository for neuroimaging data (fMRI, EEG, MEG)",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 159,
+          "section": "Open Datasets",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L159"
+        }
+      ],
+      "id": "openneuro-8c295e35"
+    },
+    {
+      "name": "PARA Method",
+      "url": "https://fortelabs.com/blog/para",
+      "description": "Projects, Areas, Resources, Archives organization system",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 62,
+          "section": "Personal Knowledge Management (PKM) › Second Brain Methods",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L62"
+        }
+      ],
+      "id": "para-method-ad1affff"
+    },
+    {
+      "name": "Peak",
+      "url": "https://peak.net/",
+      "description": "Brain training with progress tracking",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 147,
+          "section": "Mobile Apps › Memory Training",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L147"
+        }
+      ],
+      "id": "peak-2bc518c1"
+    },
+    {
+      "name": "PersonaMem",
+      "url": "https://arxiv.org/abs/2504.14225",
+      "description": "Measures dynamic user profiling and personalized responses.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 92,
+          "section": "Evaluation benchmarks › Conversational and agent memory",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L92"
+        }
+      ],
+      "id": "personamem-7832c269"
+    },
+    {
+      "name": "pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "description": "Vector similarity-search extension for PostgreSQL.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 137,
+          "section": "Storage and retrieval infrastructure › Vector retrieval",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L137"
+        },
+        {
+          "path": "apps/open-source/README.md",
+          "line": 169,
+          "section": "Data Storage › Vector Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L169"
+        }
+      ],
+      "id": "pgvector-c5f2c6c3"
+    },
+    {
+      "name": "Pinecone",
+      "url": "https://pinecone.io/",
+      "description": "Fully managed serverless vector DB",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 170,
+          "section": "Data Storage › Vector Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L170"
+        }
+      ],
+      "id": "pinecone-6d272554"
+    },
+    {
+      "name": "PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents",
+      "url": "https://arxiv.org/abs/2603.03296",
+      "description": "Plug-and-play memory module that works across task domains",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 15,
+          "section": "Research Papers › 2026",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L15"
+        }
+      ],
+      "id": "plugmem-a-task-agnostic-plugin-memory-module-for-0d9812d7"
+    },
+    {
+      "name": "ProcMEM: Reusable Procedural Memory via Non-Parametric PPO",
+      "url": "https://arxiv.org/abs/2602.01869",
+      "description": "Learns reusable procedural memory from experience via RL",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 17,
+          "section": "Research Papers › 2026",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L17"
+        }
+      ],
+      "id": "procmem-reusable-procedural-memory-via-non-param-48170535"
+    },
+    {
+      "name": "Psychology Today — Memory",
+      "url": "https://www.psychologytoday.com/us/basics/memory",
+      "description": "External Links",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 253,
+          "section": "External Links",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L253"
+        },
+        {
+          "path": "papers/psychology/README.md",
+          "line": 261,
+          "section": "External Resources",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/psychology/README.md#L261"
+        }
+      ],
+      "id": "psychology-today-memory-edd0e237"
+    },
+    {
+      "name": "PubMed — Memory Research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=memory+neuroscience",
+      "description": "Peer-reviewed literature",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 183,
+          "section": "Resources › Academic Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L183"
+        }
+      ],
+      "id": "pubmed-memory-research-2dfc03bc"
+    },
+    {
+      "name": "PydanticAI",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "description": "Type-safe agent deps and result storage",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 136,
+          "section": "Agent Frameworks with Memory › Full-Stack Agent Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L136"
+        }
+      ],
+      "id": "pydanticai-e916d975"
+    },
+    {
+      "name": "Qdrant",
+      "url": "https://github.com/qdrant/qdrant",
+      "description": "Vector search engine with payload filtering, written in Rust.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 134,
+          "section": "Storage and retrieval infrastructure › Vector retrieval",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L134"
+        }
+      ],
+      "id": "qdrant-97340b55"
+    },
+    {
+      "name": "Qdrant",
+      "url": "https://qdrant.tech/",
+      "description": "Rust-based with advanced payload filtering",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 171,
+          "section": "Data Storage › Vector Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L171"
+        }
+      ],
+      "id": "qdrant-ef37780f"
+    },
+    {
+      "name": "Quizlet",
+      "url": "https://quizlet.com/",
+      "description": "Flashcards with collaborative sets",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 78,
+          "section": "Spaced Repetition › Flashcard Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L78"
+        }
+      ],
+      "id": "quizlet-1b55ec15"
+    },
+    {
+      "name": "r/LocalLLaMA",
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "description": "Local models, agents, and memory",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 268,
+          "section": "Communities & Forums › AI / Agents",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L268"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 270,
+          "section": "Resources › Communities",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L270"
+        }
+      ],
+      "id": "r-localllama-4e7f29ca"
+    },
+    {
+      "name": "r/MachineLearning",
+      "url": "https://reddit.com/r/MachineLearning",
+      "description": "Research-focused ML community",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 269,
+          "section": "Communities & Forums › AI / Agents",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L269"
+        }
+      ],
+      "id": "r-machinelearning-00cd6e5f"
+    },
+    {
+      "name": "r/Neuroscience",
+      "url": "https://reddit.com/r/neuroscience",
+      "description": "Academic neuroscience discussion",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 281,
+          "section": "Communities & Forums › Neuroscience",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L281"
+        }
+      ],
+      "id": "r-neuroscience-e6b7cf46"
+    },
+    {
+      "name": "r/PKMS",
+      "url": "https://reddit.com/r/PKMS",
+      "description": "Personal Knowledge Management Systems",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 274,
+          "section": "Communities & Forums › Knowledge Management",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L274"
+        }
+      ],
+      "id": "r-pkms-2e742132"
+    },
+    {
+      "name": "r/Zettelkasten",
+      "url": "https://reddit.com/r/Zettelkasten",
+      "description": "Zettelkasten method discussion",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 273,
+          "section": "Communities & Forums › Knowledge Management",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L273"
+        }
+      ],
+      "id": "r-zettelkasten-8ff77cda"
+    },
+    {
+      "name": "Raindrop.io",
+      "url": "https://raindrop.io/",
+      "description": "Chrome, Firefox, Safari",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 132,
+          "section": "Browser Extensions",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L132"
+        }
+      ],
+      "id": "raindrop-io-1331655a"
+    },
+    {
+      "name": "Recall",
+      "url": "https://www.getrecall.ai/",
+      "description": "Chrome",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 133,
+          "section": "Browser Extensions",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L133"
+        }
+      ],
+      "id": "recall-c01f4631"
+    },
+    {
+      "name": "Reflexion",
+      "url": "https://arxiv.org/abs/2303.11366",
+      "description": "Stored verbal feedback as episodic experience for later decisions.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 75,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L75"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 53,
+          "section": "Research Papers › 2023",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L53"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 45,
+          "section": "2023 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L45"
+        }
+      ],
+      "id": "reflexion-1df60a1d"
+    },
+    {
+      "name": "RemNote",
+      "url": "https://remnote.com/",
+      "description": "Notes integrated with spaced repetition flashcards",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 53,
+          "section": "Personal Knowledge Management (PKM) › Note-Taking Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L53"
+        },
+        {
+          "path": "apps/open-source/README.md",
+          "line": 79,
+          "section": "Spaced Repetition › Flashcard Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L79"
+        }
+      ],
+      "id": "remnote-5709939a"
+    },
+    {
+      "name": "Rethinking Memory in AI",
+      "url": "https://arxiv.org/abs/2505.00675",
+      "description": "Survey of memory taxonomy, operations, research topics, and open directions.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 62,
+          "section": "Surveys and landmark papers › Surveys and taxonomies",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L62"
+        }
+      ],
+      "id": "rethinking-memory-in-ai-7cfa7e3a"
+    },
+    {
+      "name": "Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "description": "Combined parametric generation with retrieved non-parametric memory.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 72,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L72"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 64,
+          "section": "2017–2020 Papers (Seminal Work)",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L64"
+        }
+      ],
+      "id": "retrieval-augmented-generation-02ad74cd"
+    },
+    {
+      "name": "RETRO",
+      "url": "https://arxiv.org/abs/2112.04426",
+      "description": "Augmented language modeling with retrieval from a large external corpus.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 73,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L73"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 53,
+          "section": "2021–2022 Papers (Foundations)",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L53"
+        }
+      ],
+      "id": "retro-c117a2f5"
+    },
+    {
+      "name": "Roam Research",
+      "url": "https://roamresearch.com/",
+      "description": "Networked thought with bidirectional links",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 54,
+          "section": "Personal Knowledge Management (PKM) › Note-Taking Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L54"
+        }
+      ],
+      "id": "roam-research-dd5744e8"
+    },
+    {
+      "name": "Second Me",
+      "url": "https://github.com/mindverse/Second-Me",
+      "description": "Personal AI project built around a persistent model of a user's information and preferences.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 51,
+          "section": "Agent memory systems › Identity and personal memory",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L51"
+        }
+      ],
+      "id": "second-me-cc5ae4dc"
+    },
+    {
+      "name": "Second Me",
+      "url": "https://home.second.me/",
+      "description": "Personal AI with long-term memory of your life, preferences, and goals",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 19,
+          "section": "AI Memory Apps › Production-Ready",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L19"
+        }
+      ],
+      "id": "second-me-5d8f66c8"
+    },
+    {
+      "name": "Sigma",
+      "url": "https://cogarch.ict.usc.edu/",
+      "description": "Cognitive architecture based on graphical models.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Resource",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 119,
+          "section": "Cognitive architectures and biological memory › Cognitive architectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L119"
+        }
+      ],
+      "id": "sigma-dd0c4ba9"
+    },
+    {
+      "name": "SimpleMem: Efficient Lifelong Memory for LLM Agents",
+      "url": "https://arxiv.org/abs/2601.02553",
+      "description": "Lightweight approach to lifelong agent memory without retraining",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 13,
+          "section": "Research Papers › 2026",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L13"
+        }
+      ],
+      "id": "simplemem-efficient-lifelong-memory-for-llm-agen-180d8ef4"
+    },
+    {
+      "name": "Soar",
+      "url": "https://soar.eecs.umich.edu/",
+      "description": "Cognitive architecture using procedural learning and chunking.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Resource",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 114,
+          "section": "Cognitive architectures and biological memory › Cognitive architectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L114"
+        }
+      ],
+      "id": "soar-e32d613e"
+    },
+    {
+      "name": "Society for Neuroscience Forums",
+      "url": "https://www.sfn.org/",
+      "description": "Professional neuroscience network",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 282,
+          "section": "Communities & Forums › Neuroscience",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L282"
+        },
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 196,
+          "section": "Resources › Organizations",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L196"
+        }
+      ],
+      "id": "society-for-neuroscience-forums-0b65b5fd"
+    },
+    {
+      "name": "Stanford Encyclopedia of Philosophy — Memory",
+      "url": "https://plato.stanford.edu/entries/memory",
+      "description": "External Resources",
+      "collection": "cognitive-psychology",
+      "collectionLabel": "Cognitive psychology",
+      "domain": "Psychology",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/psychology/README.md",
+          "line": 262,
+          "section": "External Resources",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/psychology/README.md#L262"
+        }
+      ],
+      "id": "stanford-encyclopedia-of-philosophy-memory-48440a25"
+    },
+    {
+      "name": "SuperMemo",
+      "url": "https://supermemo.com/",
+      "description": "The original spaced repetition system (SM-2 inventor)",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 80,
+          "section": "Spaced Repetition › Flashcard Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L80"
+        }
+      ],
+      "id": "supermemo-2a69c107"
+    },
+    {
+      "name": "Supermemory",
+      "url": "https://supermemory.ai/",
+      "description": "Context infrastructure for personal memory across apps",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 24,
+          "section": "AI Memory Apps › Production-Ready",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L24"
+        },
+        {
+          "path": "apps/open-source/README.md",
+          "line": 134,
+          "section": "Browser Extensions",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L134"
+        }
+      ],
+      "id": "supermemory-dcbb12b6"
+    },
+    {
+      "name": "Swarms",
+      "url": "https://github.com/kyegomez/swarms",
+      "description": "Multi-agent shared memory",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 137,
+          "section": "Agent Frameworks with Memory › Full-Stack Agent Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L137"
+        }
+      ],
+      "id": "swarms-5487cb42"
+    },
+    {
+      "name": "TeleEgo",
+      "url": "https://arxiv.org/abs/2510.23981",
+      "description": "Evaluates egocentric assistants operating over extended experience.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 106,
+          "section": "Evaluation benchmarks › Multimodal memory",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L106"
+        }
+      ],
+      "id": "teleego-ba318c3e"
+    },
+    {
+      "name": "The AI Hippocampus",
+      "url": "https://arxiv.org/abs/2601.09113",
+      "description": "Examines the gap between artificial memory systems and human memory.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 65,
+          "section": "Surveys and landmark papers › Surveys and taxonomies",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L65"
+        }
+      ],
+      "id": "the-ai-hippocampus-a3d29fcc"
+    },
+    {
+      "name": "The Archive",
+      "url": "https://zettelkasten.de/the-archive",
+      "description": "Minimal Zettelkasten-focused plaintext notes",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 55,
+          "section": "Personal Knowledge Management (PKM) › Note-Taking Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L55"
+        },
+        {
+          "path": "apps/open-source/README.md",
+          "line": 100,
+          "section": "Knowledge Management › Zettelkasten Tools",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L100"
+        }
+      ],
+      "id": "the-archive-86124a99"
+    },
+    {
+      "name": "The Brain Science Podcast",
+      "url": "https://brainsciencepodcast.com/",
+      "description": "Ginger Campbell interviews leading neuroscientists; excellent memory episodes",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 146,
+          "section": "Podcasts & Lectures",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L146"
+        }
+      ],
+      "id": "the-brain-science-podcast-eef2dd11"
+    },
+    {
+      "name": "The Transmitter",
+      "url": "https://www.thetransmitter.org/",
+      "description": "Neuroscience news, perspectives, and research resources.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Learning",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 161,
+          "section": "Courses and reference material › Reference material",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L161"
+        }
+      ],
+      "id": "the-transmitter-5b18404b"
+    },
+    {
+      "name": "TiddlyWiki",
+      "url": "https://tiddlywiki.com/",
+      "description": "Non-linear personal notebook, runs in browser",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 56,
+          "section": "Personal Knowledge Management (PKM) › Note-Taking Apps",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L56"
+        }
+      ],
+      "id": "tiddlywiki-ba11e55a"
+    },
+    {
+      "name": "TigerGraph",
+      "url": "https://tigergraph.com/",
+      "description": "Parallel graph analytics at scale",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 182,
+          "section": "Data Storage › Graph Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L182"
+        }
+      ],
+      "id": "tigergraph-39daf80f"
+    },
+    {
+      "name": "tldr",
+      "url": "https://tldr.sh/",
+      "description": "Community-maintained simplified man pages",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 191,
+          "section": "CLI Tools",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L191"
+        }
+      ],
+      "id": "tldr-1a0915bc"
+    },
+    {
+      "name": "TraceMem: Weaving Narrative Memory Schemata from Conversational Traces",
+      "url": "https://arxiv.org/abs/2602.09712",
+      "description": "Builds narrative schemas from conversation history",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 14,
+          "section": "Research Papers › 2026",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L14"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 62,
+          "section": "Graph Memory Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L62"
+        }
+      ],
+      "id": "tracemem-weaving-narrative-memory-schemata-from--e556cc3b"
+    },
+    {
+      "name": "UK Biobank",
+      "url": "https://www.ukbiobank.ac.uk/",
+      "description": "100k+ brain imaging + cognitive + genetic data",
+      "collection": "brain-memory",
+      "collectionLabel": "Brain memory",
+      "domain": "Neuroscience",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/brain-memory/README.md",
+          "line": 160,
+          "section": "Open Datasets",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md#L160"
+        }
+      ],
+      "id": "uk-biobank-016da0de"
+    },
+    {
+      "name": "Unlimiformer: Long-Range Transformers with Unlimited Length Input",
+      "url": "https://arxiv.org/abs/2305.01625",
+      "description": "Cross-attention over all encoder hidden states",
+      "collection": "llm-memory-papers",
+      "collectionLabel": "LLM memory papers",
+      "domain": "AI research",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 54,
+          "section": "2021–2022 Papers (Foundations)",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L54"
+        }
+      ],
+      "id": "unlimiformer-long-range-transformers-with-unlimi-13c59223"
+    },
+    {
+      "name": "Video-MME",
+      "url": "https://arxiv.org/abs/2405.21075",
+      "description": "Evaluates multimodal models across varied video durations and domains.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Benchmark",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 108,
+          "section": "Evaluation benchmarks › Multimodal memory",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L108"
+        }
+      ],
+      "id": "video-mme-d2c8a638"
+    },
+    {
+      "name": "Voyager",
+      "url": "https://arxiv.org/abs/2305.16291",
+      "description": "Used an evolving skill library as procedural memory for an embodied agent.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Paper",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 77,
+          "section": "Surveys and landmark papers › Landmark papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L77"
+        },
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 52,
+          "section": "Research Papers › 2023",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L52"
+        },
+        {
+          "path": "papers/llm-memory/README.md",
+          "line": 46,
+          "section": "2023 Papers",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md#L46"
+        }
+      ],
+      "id": "voyager-8136d37a"
+    },
+    {
+      "name": "Weaviate",
+      "url": "https://github.com/weaviate/weaviate",
+      "description": "Vector database supporting vector, keyword, and hybrid search.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 135,
+          "section": "Storage and retrieval infrastructure › Vector retrieval",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L135"
+        }
+      ],
+      "id": "weaviate-f6fd34c5"
+    },
+    {
+      "name": "Weaviate",
+      "url": "https://weaviate.io/",
+      "description": "AI-native with built-in hybrid search modules",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Infrastructure",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 172,
+          "section": "Data Storage › Vector Databases",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L172"
+        }
+      ],
+      "id": "weaviate-721b74d0"
+    },
+    {
+      "name": "Where Are Memories Stored?",
+      "url": "https://qbi.uq.edu.au/memory/where-are-memories-stored",
+      "description": "Overview of synaptic plasticity, consolidation, and distributed storage from the Queensland Brain Institute.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Resource",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 125,
+          "section": "Cognitive architectures and biological memory › Biological and psychological foundations",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L125"
+        }
+      ],
+      "id": "where-are-memories-stored-817b26b1"
+    },
+    {
+      "name": "widemem-ai",
+      "url": "https://widemem.ai/",
+      "description": "Lightweight memory with importance scoring, temporal decay, 3-tier hierarchy",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 26,
+          "section": "AI Memory Apps › Production-Ready",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L26"
+        }
+      ],
+      "id": "widemem-ai-bfcccc26"
+    },
+    {
+      "name": "Wozniak (1987)",
+      "url": "https://www.supermemo.com/en/archives1990-2015/english/ol/sm2",
+      "description": "SuperMemo 2 — most widely used algorithm",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 86,
+          "section": "Spaced Repetition › Algorithms",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L86"
+        }
+      ],
+      "id": "wozniak-1987-0fe08585"
+    },
+    {
+      "name": "Zep",
+      "url": "https://github.com/getzep/zep",
+      "description": "Long-term memory with fact extraction",
+      "collection": "agent-memory-papers",
+      "collectionLabel": "Agent memory papers",
+      "domain": "AI research",
+      "kind": "Project",
+      "locations": [
+        {
+          "path": "papers/agentic-memory/README.md",
+          "line": 148,
+          "section": "Agent Frameworks with Memory › Memory-Specific Frameworks",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md#L148"
+        }
+      ],
+      "id": "zep-7aa8183a"
+    },
+    {
+      "name": "Zep / Graphiti",
+      "url": "https://getzep.com/",
+      "description": "Temporal knowledge graph engine; bi-temporal fact and entity extraction",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 23,
+          "section": "AI Memory Apps › Production-Ready",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L23"
+        }
+      ],
+      "id": "zep-graphiti-4e4e43c7"
+    },
+    {
+      "name": "Zettelkasten",
+      "url": "https://zettelkasten.de/introduction",
+      "description": "Niklas Luhmann's slip-box method for knowledge networking",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 65,
+          "section": "Personal Knowledge Management (PKM) › Second Brain Methods",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L65"
+        }
+      ],
+      "id": "zettelkasten-a1afe9a8"
+    },
+    {
+      "name": "Zettelkasten Overview",
+      "url": "https://zettelkasten.de/overview",
+      "description": "Guide to long-term linked-note practices.",
+      "collection": "core-map",
+      "collectionLabel": "Core map",
+      "domain": "Cross-disciplinary",
+      "kind": "Learning",
+      "locations": [
+        {
+          "path": "README.md",
+          "line": 163,
+          "section": "Courses and reference material › Reference material",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/README.md#L163"
+        }
+      ],
+      "id": "zettelkasten-overview-555c1e3d"
+    },
+    {
+      "name": "Zettlr",
+      "url": "https://zettlr.com/",
+      "description": "Open-source Markdown editor with Zettelkasten features",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 101,
+          "section": "Knowledge Management › Zettelkasten Tools",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L101"
+        }
+      ],
+      "id": "zettlr-11c5390b"
+    }
+  ]
+}

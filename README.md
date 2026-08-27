@@ -6,6 +6,8 @@ A curated map of memory across AI agents, language models, cognitive architectur
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Last Commit](https://img.shields.io/github/last-commit/sir-ad/awesome-memory)](https://github.com/sir-ad/awesome-memory/commits/main)
 
+**[Search the catalog](https://sir-ad.github.io/awesome-memory/)** - Filter resources across every collection and share the result.
+
 Deep collections: [agentic memory papers](https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md), [LLM memory papers](https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md), [brain memory research](https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md), [cognitive psychology](https://github.com/sir-ad/awesome-memory/blob/main/papers/psychology/README.md), and the [open-source tools directory](https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md).
 
 ## Contents
@@ -110,7 +112,7 @@ Evaluate a system against all three dimensions. A large context window is not, b
 ### Cognitive architectures
 
 - [Soar](https://soar.eecs.umich.edu/) - Cognitive architecture using procedural learning and chunking.
-- [ACT-R](http://act-r.psy.cmu.edu/) - Architecture separating declarative and procedural memory systems.
+- [ACT-R](https://act-r.psy.cmu.edu/) - Architecture separating declarative and procedural memory systems.
 - [OpenCog](https://opencog.org/) - Cognitive architecture and knowledge-representation framework built around a hypergraph.
 - [LIDA](https://www.memphis.edu/cs/research/cognitive_computing.php) - Global Workspace Theory-based architecture with multiple learning and memory processes.
 - [CLARION](https://homepages.hass.rpi.edu/~rsun/folder-files/sun-COGSYS-2014.pdf) - Dual-process architecture separating implicit and explicit knowledge.

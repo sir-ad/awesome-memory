@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f5f0">
+    <meta
+      name="description"
+      content="Search a curated map of AI agent memory, LLM memory, cognitive architectures, neuroscience, benchmarks, and tools."
+    >
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' https://raw.githubusercontent.com; script-src 'self'; style-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'"
+    >
+    <meta property="og:title" content="Awesome Memory — Search the field">
+    <meta
+      property="og:description"
+      content="A searchable map of machine and human memory research, systems, benchmarks, and tools."
+    >
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/sir-ad/awesome-memory/main/assets/social-preview.png"
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sir-ad.github.io/awesome-memory/">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://sir-ad.github.io/awesome-memory/">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <title>Awesome Memory — Search the field</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#catalog">Skip to the catalog</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="Awesome Memory home">Awesome Memory</a>
+      <nav aria-label="Primary navigation">
+        <a href="https://github.com/sir-ad/awesome-memory">Repository</a>
+        <a
+          class="nav-action"
+          href="https://github.com/sir-ad/awesome-memory/issues/new?template=add-resource.yml"
+        >Suggest a resource</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">A living map of machine and human memory</p>
+        <h1 id="page-title">Find the memory system you need.</h1>
+        <p class="lede">
+          Search primary research, agent infrastructure, evaluation benchmarks, and cognitive
+          foundations—without guessing which collection holds the answer.
+        </p>
+
+        <h2 class="visually-hidden" id="memory-dimensions">Memory design dimensions</h2>
+        <dl class="taxonomy">
+          <div>
+            <dt>Form</dt>
+            <dd>Token · Parametric · Latent</dd>
+          </div>
+          <div>
+            <dt>Function</dt>
+            <dd>Factual · Experiential · Working</dd>
+          </div>
+          <div>
+            <dt>Lifecycle</dt>
+            <dd>Formation · Evolution · Retrieval</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="catalog" id="catalog" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Cross-collection recall</p>
+            <h2 id="catalog-title">Search the field</h2>
+          </div>
+          <p class="catalog-summary" id="catalog-summary" aria-live="polite">Loading catalog…</p>
+        </div>
+
+        <div class="search-controls" role="search" aria-describedby="search-help">
+          <div class="search-field">
+            <label for="search">Search names, descriptions, and topics</label>
+            <div class="search-input-wrap">
+              <input
+                id="search"
+                name="q"
+                type="search"
+                autocomplete="off"
+                placeholder="Try episodic memory, LongMemEval, hippocampus…"
+              >
+              <button id="clear-search" class="clear-button" type="button" hidden>Clear</button>
+            </div>
+            <p id="search-help" class="field-help">Press <kbd>/</kbd> to focus. Filters stay in the URL for sharing.</p>
+          </div>
+
+          <div class="filter-field">
+            <label for="collection">Collection</label>
+            <select id="collection" name="collection">
+              <option value="">All collections</option>
+            </select>
+          </div>
+
+          <div class="filter-field">
+            <label for="kind">Resource type</label>
+            <select id="kind" name="kind">
+              <option value="">All types</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="catalog-status" class="status-panel" role="status">
+          <p>Loading the catalog from the repository…</p>
+        </div>
+
+        <ol id="results" class="results" aria-label="Catalog results"></ol>
+
+        <div class="more-row">
+          <button id="show-more" class="secondary-button" type="button" hidden>
+            Show more resources
+          </button>
+        </div>
+
+        <noscript>
+          <div class="status-panel">
+            <p>
+              Search needs JavaScript. The complete curated list remains available in the
+              <a href="https://github.com/sir-ad/awesome-memory#readme">repository README</a>.
+            </p>
+          </div>
+        </noscript>
+      </section>
+    </main>
+
+    <footer>
+      <p>Curated in public. Released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.</p>
+      <p><a href="https://github.com/sir-ad/awesome-memory/blob/main/CONTRIBUTING.md">Read the contribution guide</a></p>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

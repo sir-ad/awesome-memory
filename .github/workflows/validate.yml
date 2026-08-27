@@ -28,6 +28,12 @@ jobs:
       - name: Validate repository invariants
         run: node .github/scripts/validate-curation.mjs
 
+      - name: Verify searchable catalog
+        run: node scripts/build-catalog.mjs --check
+
+      - name: Test catalog generation and search
+        run: node --test tests/*.test.mjs
+
       - name: Test semantic audit rules
         run: node .github/scripts/validate-curation.mjs --self-test
 
@@ -49,7 +55,7 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
         with:
-          args: --config .lychee.toml --no-progress './**/*.md'
+          args: --config .lychee.toml --no-progress './**/*.md' './**/*.html'
           fail: true
           failIfEmpty: true
           jobSummary: true
