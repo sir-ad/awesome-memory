@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f5f0">
+    <meta
+      name="description"
+      content="Choose an agent-memory architecture by memory job, failure mode, safety controls, and evaluation evidence."
+    >
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' https://raw.githubusercontent.com; script-src 'none'; style-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'"
+    >
+    <meta property="og:title" content="Choose an agent-memory architecture">
+    <meta
+      property="og:description"
+      content="A practical guide to memory jobs, architecture patterns, failure modes, and evaluation gates."
+    >
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/sir-ad/awesome-memory/main/assets/social-preview.png"
+    >
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="640">
+    <meta
+      property="og:image:alt"
+      content="Awesome Memory: AI agents, LLMs, cognition, and neuroscience"
+    >
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sir-ad.github.io/awesome-memory/guide.html">
+    <meta property="og:site_name" content="Awesome Memory">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Choose an agent-memory architecture">
+    <meta
+      name="twitter:description"
+      content="A practical guide to memory jobs, architecture patterns, failure modes, and evaluation gates."
+    >
+    <meta
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/sir-ad/awesome-memory/main/assets/social-preview.png"
+    >
+    <meta
+      name="twitter:image:alt"
+      content="Awesome Memory: AI agents, LLMs, cognition, and neuroscience"
+    >
+    <link rel="canonical" href="https://sir-ad.github.io/awesome-memory/guide.html">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <title>Choose an agent-memory architecture · Awesome Memory</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#guide">Skip to the guide</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="Awesome Memory home">Awesome Memory</a>
+      <nav aria-label="Primary navigation">
+        <a href="./#catalog">Search catalog</a>
+        <a href="https://github.com/sir-ad/awesome-memory">Repository</a>
+        <a
+          class="nav-action"
+          href="https://github.com/sir-ad/awesome-memory/issues/new?template=add-resource.yml"
+        >Suggest a resource</a>
+      </nav>
+    </header>
+
+    <main id="guide" tabindex="-1">
+      <section class="hero guide-hero" aria-labelledby="page-title">
+        <p class="eyebrow">Agent memory decision guide</p>
+        <h1 id="page-title">Choose the smallest memory that works.</h1>
+        <p class="lede">
+          Memory is a write–manage–read system, not a vector-store checkbox. Start with what
+          the agent must remember, choose the least complex matching pattern, then prove recall
+          improves the task.
+        </p>
+
+        <ol class="guide-spine" aria-label="Guide steps">
+          <li><a href="#job"><span aria-hidden="true">01</span> Name the memory job</a></li>
+          <li><a href="#pattern"><span aria-hidden="true">02</span> Choose a pattern</a></li>
+          <li><a href="#proof"><span aria-hidden="true">03</span> Prove it helps</a></li>
+        </ol>
+
+        <aside class="decision-rule" aria-label="Default architecture rule">
+          <strong>Default to less state.</strong>
+          <p>
+            If a stateless or bounded-context baseline meets the task and cost target, stop.
+            Persistent memory adds write policy, privacy, deletion, conflict, and evaluation work.
+          </p>
+        </aside>
+      </section>
+
+      <section class="guide-section" id="job" aria-labelledby="job-title">
+        <div class="guide-heading">
+          <p class="step-number" aria-hidden="true">01</p>
+          <div>
+            <p class="eyebrow">Purpose before storage</p>
+            <h2 id="job-title">Name the memory job</h2>
+          </div>
+        </div>
+
+        <p class="section-intro">
+          Do not choose a database yet. Write one sentence describing the information that must
+          survive and the decision it should improve.
+        </p>
+
+        <div class="job-grid">
+          <article class="job-card">
+            <p class="job-label">Working</p>
+            <h3>Finish the current task</h3>
+            <p>Keep plans, tool results, unresolved decisions, and resume state needed now.</p>
+            <dl>
+              <div><dt>Start with</dt><dd>Bounded context and typed checkpoints.</dd></div>
+              <div><dt>Do not persist</dt><dd>Every intermediate thought or raw tool response.</dd></div>
+            </dl>
+            <a href="./?q=working+memory">Search working-memory resources</a>
+          </article>
+
+          <article class="job-card">
+            <p class="job-label">Factual</p>
+            <h3>Recall what is true</h3>
+            <p>Preserve user preferences, entity facts, decisions, and changing world state.</p>
+            <dl>
+              <div><dt>Start with</dt><dd>Scoped records with source, time, and version.</dd></div>
+              <div><dt>Do not persist</dt><dd>Unverified inference as durable fact.</dd></div>
+            </dl>
+            <a href="./?q=semantic+memory">Search factual-memory resources</a>
+          </article>
+
+          <article class="job-card">
+            <p class="job-label">Episodic</p>
+            <h3>Recall what happened</h3>
+            <p>Preserve events, actions, outcomes, feedback, and the order in which they occurred.</p>
+            <dl>
+              <div><dt>Start with</dt><dd>Immutable event IDs and timestamps.</dd></div>
+              <div><dt>Do not persist</dt><dd>A summary without its supporting episode.</dd></div>
+            </dl>
+            <a href="./?q=episodic+memory">Search episodic-memory resources</a>
+          </article>
+
+          <article class="job-card">
+            <p class="job-label">Procedural</p>
+            <h3>Reuse what worked</h3>
+            <p>Preserve tested workflows, skills, tool sequences, and recovery procedures.</p>
+            <dl>
+              <div><dt>Start with</dt><dd>Versioned artifacts with scope and tests.</dd></div>
+              <div><dt>Do not persist</dt><dd>A one-off success as a general rule.</dd></div>
+            </dl>
+            <a href="./?q=procedural+memory">Search procedural-memory resources</a>
+          </article>
+        </div>
+
+        <aside class="source-note" aria-label="Memory function note">
+          <strong>Function is not storage.</strong>
+          <p>
+            The same job may use external records, changed model parameters, or latent state.
+            The <a href="https://arxiv.org/abs/2404.13501">2024 agent-memory survey</a>
+            is a useful taxonomy; architecture still depends on the workload.
+          </p>
+        </aside>
+      </section>
+
+      <section class="guide-section" id="pattern" aria-labelledby="pattern-title">
+        <div class="guide-heading">
+          <p class="step-number" aria-hidden="true">02</p>
+          <div>
+            <p class="eyebrow">Complexity must earn its place</p>
+            <h2 id="pattern-title">Choose the smallest matching pattern</h2>
+          </div>
+        </div>
+
+        <p class="section-intro">
+          Start at the top. Move down only when the workload requires the additional structure.
+          Patterns can compose, but each one needs its own write and failure policy.
+        </p>
+
+        <section class="pattern-table-wrap" tabindex="0" aria-label="Memory architecture comparison">
+          <table class="pattern-table">
+            <caption>
+              Five architecture patterns compared by fit, bad fit, controls, and evidence.
+              On small screens, scroll the table horizontally.
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Pattern</th>
+                <th scope="col">Choose when</th>
+                <th scope="col">Bad fit</th>
+                <th scope="col">Minimum controls</th>
+                <th scope="col">Evidence and catalog</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Bounded context + checkpoints</th>
+                <td>A task needs current state, compaction, or deterministic resume.</td>
+                <td>Facts must survive many sessions or be shared across users.</td>
+                <td>Token budget, typed checkpoint, expiry, and resume test.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2310.08560">MemGPT</a><br>
+                  <a href="./?q=working+memory">Browse working memory</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Retrieval store</th>
+                <td>Many independent text or fact records must be recalled by meaning or exact term.</td>
+                <td>Relationships, contradictions, or changing truth dominate the workload.</td>
+                <td>Write filter, tenant key, provenance, hybrid retrieval, and abstention.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2410.10813">LongMemEval</a><br>
+                  <a href="./?q=memory+retrieval">Browse retrieval</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Temporal fact graph</th>
+                <td>Facts change, entities relate, or answers require multi-hop and time-aware reasoning.</td>
+                <td>Recall is small, flat, and rarely updated.</td>
+                <td>Event and validity time, conflict rules, source links, and deletion traversal.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2501.13956">Zep / Graphiti paper</a><br>
+                  <a href="./?q=temporal+knowledge+graph">Browse temporal graphs</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Episodic → semantic layers</th>
+                <td>Repeated interactions must become stable facts without losing event history.</td>
+                <td>The system cannot explain or reverse consolidation.</td>
+                <td>Immutable episodes, promotion rule, source links, correction, and rollback.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2304.03442">Generative Agents</a><br>
+                  <a href="./?q=episodic+semantic">Browse layered memory</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Procedural library</th>
+                <td>Successful actions or workflows repeat across comparable tasks.</td>
+                <td>Tools change quickly or success came from one unreviewed run.</td>
+                <td>Version, applicability scope, executable test, approval, and rollback.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2409.07429">Agent Workflow Memory</a><br>
+                  <a href="./?q=procedural+memory">Browse procedural memory</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="route-map" aria-labelledby="route-title">
+          <h3 id="route-title">A fast routing test</h3>
+          <ol>
+            <li><strong>No cross-session need?</strong> Use bounded context and checkpoints.</li>
+            <li><strong>Independent records?</strong> Start with a retrieval store.</li>
+            <li><strong>Changing or related facts?</strong> Add temporal graph structure.</li>
+            <li><strong>Events must become durable knowledge?</strong> Separate episodes from promoted facts.</li>
+            <li><strong>Actions repeat?</strong> Store tested procedures separately from facts.</li>
+          </ol>
+        </section>
+      </section>
+
+      <section class="guide-section" id="proof" aria-labelledby="proof-title">
+        <div class="guide-heading">
+          <p class="step-number" aria-hidden="true">03</p>
+          <div>
+            <p class="eyebrow">Architecture is a hypothesis</p>
+            <h2 id="proof-title">Prove memory helps</h2>
+          </div>
+        </div>
+
+        <p class="section-intro">
+          A relevant retrieval is not a successful agent outcome. Evaluate the full path from write
+          to answer or action, including queries that should not use memory.
+        </p>
+
+        <div class="proof-grid">
+          <article>
+            <p class="proof-label">Baselines</p>
+            <h3>Compare against less memory</h3>
+            <ul>
+              <li>No persistent memory.</li>
+              <li>Full context, when feasible.</li>
+              <li>The simplest retrieval-only design.</li>
+            </ul>
+          </article>
+
+          <article>
+            <p class="proof-label">Task abilities</p>
+            <h3>Test the failures users notice</h3>
+            <ul>
+              <li>Information extraction and multi-session reasoning.</li>
+              <li>Temporal reasoning and knowledge updates.</li>
+              <li>Abstention when evidence is missing.</li>
+            </ul>
+          </article>
+
+          <article>
+            <p class="proof-label">System cost</p>
+            <h3>Measure the whole receipt</h3>
+            <ul>
+              <li>Recall latency at p50 and p95.</li>
+              <li>Input and output tokens per task.</li>
+              <li>Storage footprint and cold-start time.</li>
+            </ul>
+          </article>
+
+          <article>
+            <p class="proof-label">No-harm checks</p>
+            <h3>Try to make memory fail</h3>
+            <ul>
+              <li>Stale, contradicted, poisoned, and deleted records.</li>
+              <li>Cross-user and cross-tenant isolation.</li>
+              <li>Tasks where memory should remain unused.</li>
+            </ul>
+          </article>
+        </div>
+
+        <aside class="ship-gate" aria-label="Ship gate">
+          <p class="eyebrow">Ship gate</p>
+          <p>
+            Do not ship the memory layer if it fails to improve the target task over the no-memory
+            baseline, or if gains depend on more false recall, privacy leakage, or unbounded cost.
+          </p>
+        </aside>
+
+        <p class="evidence-line">
+          Start with the five abilities defined by
+          <a href="https://arxiv.org/abs/2410.10813">LongMemEval</a>, then add workload-specific
+          tasks. Use <a href="https://arxiv.org/abs/2402.17753">LoCoMo</a> for long-conversation
+          reasoning coverage. Neither benchmark replaces production traces or deletion tests.
+        </p>
+      </section>
+
+      <section class="guide-section contribution-section" aria-labelledby="contribute-title">
+        <div>
+          <p class="eyebrow">Keep the guide falsifiable</p>
+          <h2 id="contribute-title">Found a missing pattern or weak claim?</h2>
+          <p>
+            Submit a primary source, name the workload it changes, and state the failure mode.
+            A new pattern belongs here only if it changes a concrete architecture decision.
+          </p>
+        </div>
+        <div class="contribution-links">
+          <a class="primary-link" href="https://github.com/sir-ad/awesome-memory/issues/new?template=add-resource.yml">Suggest evidence</a>
+          <a href="https://github.com/sir-ad/awesome-memory/discussions/3">Discuss the taxonomy</a>
+        </div>
+      </section>
+
+      <section class="references" aria-labelledby="references-title">
+        <h2 id="references-title">Primary references</h2>
+        <ol>
+          <li><a href="https://arxiv.org/abs/2404.13501">A Survey on the Memory Mechanism of Large Language Model based Agents</a></li>
+          <li><a href="https://arxiv.org/abs/2310.08560">MemGPT: Towards LLMs as Operating Systems</a></li>
+          <li><a href="https://arxiv.org/abs/2501.13956">Zep: A Temporal Knowledge Graph Architecture for Agent Memory</a></li>
+          <li><a href="https://arxiv.org/abs/2304.03442">Generative Agents: Interactive Simulacra of Human Behavior</a></li>
+          <li><a href="https://arxiv.org/abs/2410.10813">LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory</a></li>
+          <li><a href="https://arxiv.org/abs/2402.17753">Evaluating Very Long-Term Conversational Memory of LLM Agents (LoCoMo)</a></li>
+          <li><a href="https://arxiv.org/abs/2409.07429">Agent Workflow Memory</a></li>
+        </ol>
+        <p>
+          These papers motivate the patterns and evaluation questions. They do not endorse this
+          guide or prove that one implementation is best.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Curated in public. Released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.</p>
+      <p><a href="https://github.com/sir-ad/awesome-memory/blob/main/CONTRIBUTING.md">Read the contribution guide</a></p>
+    </footer>
+  </body>
+</html>
