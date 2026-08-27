@@ -58,7 +58,12 @@ test('binds every benchmark question to its primary paper', () => {
 test('routes every benchmark to a populated catalog query', () => {
   for (const [benchmark] of benchmarkSources) {
     const href = `./?q=${benchmark}`;
-    assert.ok(evaluateHtml.includes(href), `evaluation guide must link catalog query ${benchmark}`);
+    const rowStart = evaluateHtml.indexOf(`<th scope="row">${benchmark}</th>`);
+    const rowEnd = evaluateHtml.indexOf('</tr>', rowStart);
+    assert.ok(
+      evaluateHtml.slice(rowStart, rowEnd).includes(href),
+      `${benchmark} row must link its own catalog query`,
+    );
 
     const results = filterEntries(catalog.entries, {
       query: benchmark,
@@ -67,6 +72,16 @@ test('routes every benchmark to a populated catalog query', () => {
     });
     assert.ok(results.length > 0, `${benchmark} must return at least one catalog result`);
   }
+});
+
+test('preserves the static guide and its negative trust boundaries', () => {
+  assert.ok(
+    evaluateHtml.includes('This is a model-context control, not an agent-memory benchmark.'),
+  );
+  assert.ok(evaluateHtml.includes('No model or vendor scores are'));
+  assert.ok(evaluateHtml.includes('reproduced or ranked here.'));
+  assert.ok(evaluateHtml.includes("script-src 'none'"));
+  assert.ok(!evaluateHtml.includes('<script'));
 });
 
 test('requires honest baselines and a system-level reporting contract', () => {
