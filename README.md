@@ -6,7 +6,7 @@ A curated map of memory across AI agents, language models, cognitive architectur
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Last Commit](https://img.shields.io/github/last-commit/sir-ad/awesome-memory)](https://github.com/sir-ad/awesome-memory/commits/main)
 
-**Start here:** [Search the catalog](https://sir-ad.github.io/awesome-memory/) across every collection, or [choose an agent-memory architecture](https://sir-ad.github.io/awesome-memory/guide.html) by workload, failure mode, and evaluation gate.
+**Start here:** [Search the catalog](https://sir-ad.github.io/awesome-memory/) across every collection, [choose an agent-memory architecture](https://sir-ad.github.io/awesome-memory/guide.html) by workload and failure mode, or [choose an evaluation](https://sir-ad.github.io/awesome-memory/evaluate.html) by benchmark question and reporting contract.
 
 Deep collections: [agentic memory papers](https://github.com/sir-ad/awesome-memory/blob/main/papers/agentic-memory/README.md), [LLM memory papers](https://github.com/sir-ad/awesome-memory/blob/main/papers/llm-memory/README.md), [brain memory research](https://github.com/sir-ad/awesome-memory/blob/main/papers/brain-memory/README.md), [cognitive psychology](https://github.com/sir-ad/awesome-memory/blob/main/papers/psychology/README.md), and the [open-source tools directory](https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md).
 
