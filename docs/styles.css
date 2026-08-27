@@ -678,7 +678,7 @@ footer p {
 
 .pattern-table thead th {
   border-block-start: var(--space-0);
-  color: var(--fg-muted);
+  color: var(--fg-secondary);
   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: var(--type-xs);
   letter-spacing: 0.04em;
@@ -802,7 +802,7 @@ footer p {
 }
 
 .references p {
-  color: var(--fg-muted);
+  color: var(--fg-secondary);
   font-size: var(--type-sm);
 }
 
