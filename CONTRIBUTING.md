@@ -109,9 +109,12 @@ Every pull request checks repository invariants and external links. The local, d
 
 ```bash
 node .github/scripts/validate-curation.mjs
+npx --yes awesome-lint@2.3.0 README.md
 ```
 
 The link workflow also runs weekly so redirects and abandoned resources are caught after merge. Some publishers block automated requests; domain-specific exclusions are documented in `.lychee.toml` and should not be expanded to hide genuine failures.
+
+Scheduled maintenance also compares arXiv link labels with official title and abstract metadata. This catches valid URLs that point to the wrong paper. Maintainers can run the same networked audit with `node .github/scripts/validate-curation.mjs --arxiv`.
 
 ---
 

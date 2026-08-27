@@ -38,7 +38,7 @@ Research papers, frameworks, and resources for AI agent memory systems.
 | Paper | Authors | arXiv | Key Contribution |
 |-------|---------|-------|-----------------|
 | [HippoRAG: Neurologically Inspired Long-Term Memory for LLMs](https://arxiv.org/abs/2405.14831) | Gutierrez et al. | 2405.14831 | Hippocampus-inspired retrieval combining knowledge graphs + dense vectors |
-| [Memory in the Age of AI Agents: A Survey](https://arxiv.org/abs/2404.13501) | Zhang et al. | 2404.13501 | Comprehensive taxonomy: sensory, short-term, long-term, and procedural agent memory |
+| [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) | Zhang et al. | 2404.13501 | Comprehensive taxonomy: sensory, short-term, long-term, and procedural agent memory |
 | [Empowering Working Memory for Large Language Model Agents](https://arxiv.org/abs/2312.17259) | Wang et al. | 2312.17259 | Dedicated working memory module for multi-step task solving |
 | [LONGMEM: Enabling LLMs to Use 10,000+ Long-Context by Distilling Memory](https://arxiv.org/abs/2306.07174) | Wang et al. | 2306.07174 | Distillation-based approach to give LLMs very long effective context |
 
@@ -181,7 +181,7 @@ Research papers, frameworks, and resources for AI agent memory systems.
 | Benchmark | Description | Link |
 |-----------|-------------|------|
 | [HELMET](https://arxiv.org/abs/2410.02694) | How Models Handle Extended Long-form Text | arxiv 2410.02694 |
-| [LoCoMo](https://arxiv.org/abs/2402.11649) | Long conversation memory benchmark | arxiv 2402.11649 |
+| [LoCoMo](https://arxiv.org/abs/2402.17753) | Long conversation memory benchmark | arxiv 2402.17753 |
 | [LongMemEval](https://arxiv.org/abs/2410.10813) | Long-term memory evaluation for chat assistants | arxiv 2410.10813 |
 | [MemoryBench](https://git.new/membench) | Open evaluation platform for agent memory | GitHub |
 

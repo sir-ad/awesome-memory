@@ -20,6 +20,7 @@ jobs:
   curation:
     name: Curation contract
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Check out repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -27,9 +28,20 @@ jobs:
       - name: Validate repository invariants
         run: node .github/scripts/validate-curation.mjs
 
+      - name: Test semantic audit rules
+        run: node .github/scripts/validate-curation.mjs --self-test
+
+      - name: Validate Awesome list format
+        run: npx --yes awesome-lint@2.3.0 README.md
+
+      - name: Audit arXiv metadata
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: node .github/scripts/validate-curation.mjs --arxiv
+
   links:
     name: Links
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Check out repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1

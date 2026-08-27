@@ -116,10 +116,10 @@ A comprehensive list of memory-related applications and tools — from productio
 
 | Architecture | Description | Paper |
 |--------------|-------------|-------|
-| Differentiable Neural Computers (DNC) | Neural Turing Machine with dynamic memory allocation | [Graves et al., 2016](https://arxiv.org/abs/1606.04138) |
-| LSTM | Long Short-Term Memory; gated recurrent memory | [Hochreiter & Schmidhuber, 1997](https://arxiv.org/abs/1503.04069) |
-| Memory Networks | External addressable memory for QA | [Weston et al., 2014](https://arxiv.org/abs/1410.3916) |
-| Neural Turing Machines | Differentiable read/write external memory | [Graves et al., 2014](https://arxiv.org/abs/1410.5401) |
+| Differentiable Neural Computers (DNC) | Neural Turing Machine with dynamic memory allocation | [Hybrid computing using a neural network with dynamic external memory](https://www.nature.com/articles/nature20101) |
+| LSTM | Long Short-Term Memory; gated recurrent memory | [Long Short-Term Memory](https://doi.org/10.1162/neco.1997.9.8.1735) |
+| Memory Networks | External addressable memory for QA | [Memory Networks](https://arxiv.org/abs/1410.3916) |
+| Neural Turing Machines | Differentiable read/write external memory | [Neural Turing Machines](https://arxiv.org/abs/1410.5401) |
 
 ---
 
