@@ -19,7 +19,16 @@ One resource per issue or pull request keeps review fast and gives each inclusio
 1. **Fork** the repository and create a branch: `git checkout -b add/your-resource-name`
 2. **Find the right section** in `README.md` or the relevant sub-directory under `papers/` or `apps/`.
 3. **Add your entry** following the format below.
-4. Run `node .github/scripts/validate-curation.mjs`.
+4. Refresh and verify the catalog, then validate the curation contract:
+
+   ```bash
+   node scripts/build-catalog.mjs
+   node scripts/build-catalog.mjs --check
+   node --test tests/*.test.mjs
+   node .github/scripts/validate-curation.mjs
+   npx --yes awesome-lint@2.3.0 README.md
+   ```
+
 5. **Open a pull request** with the primary source, inclusion evidence, and any affiliation disclosed.
 
 ---
@@ -76,7 +85,7 @@ Every entry must pass all of these:
 
 - Alphabetical order within bullet lists.
 - One entry per line.
-- Use `—` (em dash) to separate the link from the description, not `-` (hyphen).
+- Use ` - ` (space, ASCII hyphen, space) to separate the link from the description, matching the Awesome list convention.
 
 ---
 
@@ -109,6 +118,8 @@ Every pull request checks repository invariants and external links. The local, d
 
 ```bash
 node .github/scripts/validate-curation.mjs
+node scripts/build-catalog.mjs --check
+node --test tests/*.test.mjs
 npx --yes awesome-lint@2.3.0 README.md
 ```
 
