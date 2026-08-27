@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/sir-ad/awesome-memory/blob/main/CONTRIBUTING.md
+    about: Read the quality bar and pull-request format before editing the list.
+  - name: Questions and curation discussions
+    url: https://github.com/sir-ad/awesome-memory/discussions
+    about: Discuss taxonomy, inclusion policy, and larger proposals.

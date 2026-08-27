@@ -258,7 +258,7 @@ For someone new to memory science wanting to understand both the psychology and 
 
 - [Cognitive Psychology — ScienceDirect](https://www.sciencedirect.com/topics/psychology/cognitive-psychology)
 - [Memory — Wikipedia](https://en.wikipedia.org/wiki/Memory)
-- [Psychology Today — Memory](https://www.psychologytoday.com/topics/memory)
+- [Psychology Today — Memory](https://www.psychologytoday.com/us/basics/memory)
 - [Stanford Encyclopedia of Philosophy — Memory](https://plato.stanford.edu/entries/memory/)
 
 ---

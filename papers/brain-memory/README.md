@@ -140,7 +140,7 @@
 
 ## 🎧 Podcasts & Lectures
 
-- [Huberman Lab — Using Science to Optimize Sleep, Learning & Metabolism](https://www.hubermanlab.com/episode/using-science-to-optimize-sleep-learning-metabolism) — Deep coverage of sleep-memory consolidation
+- [Huberman Lab — Understand & Improve Memory](https://www.hubermanlab.com/episode/understand-and-improve-memory-using-science-based-tools) — Deep coverage of memory formation, consolidation, and recall
 - [Huberman Lab — Science-Based Tools for Increasing Happiness](https://www.hubermanlab.com/episode/science-based-tools-for-increasing-happiness) — Memory consolidation, stress, and neuroplasticity
 - [MIT 9.13 — The Human Brain (Full Lecture Series)](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/) — Nancy Kanwisher's comprehensive course on brain regions and memory
 - [The Brain Science Podcast](https://brainsciencepodcast.com/) — Ginger Campbell interviews leading neuroscientists; excellent memory episodes
@@ -250,7 +250,7 @@ Years       → Remote memory (cortex-dependent, hippocampus-independent)
 - [Engram — Wikipedia](https://en.wikipedia.org/wiki/Engram_(neuropsychology))
 - [Long-term Potentiation — Wikipedia](https://en.wikipedia.org/wiki/Long-term_potentiation)
 - [Memory — Wikipedia](https://en.wikipedia.org/wiki/Memory)
-- [Psychology Today — Memory](https://www.psychologytoday.com/topics/memory)
+- [Psychology Today — Memory](https://www.psychologytoday.com/us/basics/memory)
 
 ---
 

@@ -31,7 +31,6 @@ A comprehensive collection of academic papers on LLM and AI memory systems.
 | [Memory in the Age of AI Agents: A Survey](https://arxiv.org/abs/2404.13501) | Zhang et al. | 2404.13501 | Comprehensive taxonomy of agent memory types |
 | [AI-native Memory: A Pathway from LLMs Towards AGI](https://arxiv.org/abs/2402.11666) | — | 2402.11666 | From retrieval-augmented to reasoning-integrated memory |
 | [LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://arxiv.org/abs/2410.10813) | — | 2410.10813 | Evaluation framework for conversational memory |
-| [Graph-Based Memory for LLM Agents](https://arxiv.org/) | — | preprint | Structured relational memory via knowledge graphs |
 
 ## 2023 Papers
 
@@ -149,7 +148,7 @@ A comprehensive collection of academic papers on LLM and AI memory systems.
 ### Leaderboards
 
 - [LongBench Leaderboard](https://github.com/THUDM/LongBench) — Long-context understanding benchmarks
-- [LMSYS Chatbot Arena](https://chat.lmsys.org/) — Comparative model evaluation including long-context tasks
+- [LMArena](https://lmarena.ai/) — Comparative model evaluation through anonymous human-preference battles
 
 ---
 

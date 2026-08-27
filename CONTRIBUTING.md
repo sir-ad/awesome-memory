@@ -4,12 +4,23 @@ Thank you for taking the time to contribute! This guide explains how to add, upd
 
 ---
 
+## Fastest Ways to Help
+
+- **No Git workflow required:** [suggest one resource](https://github.com/sir-ad/awesome-memory/issues/new?template=add-resource.yml) or [report a broken entry](https://github.com/sir-ad/awesome-memory/issues/new?template=report-broken-link.yml).
+- **Small correction:** use GitHub's edit button on the relevant Markdown file and open a pull request.
+- **Larger curation change:** open a discussion first so taxonomy changes do not arrive as a surprise rewrite.
+
+One resource per issue or pull request keeps review fast and gives each inclusion decision a clear record.
+
+---
+
 ## How to Add an Entry
 
 1. **Fork** the repository and create a branch: `git checkout -b add/your-resource-name`
 2. **Find the right section** in `README.md` or the relevant sub-directory under `papers/` or `apps/`.
 3. **Add your entry** following the format below.
-4. **Open a pull request** with a short description of what you're adding and why it belongs here.
+4. Run `node .github/scripts/validate-curation.mjs`.
+5. **Open a pull request** with the primary source, inclusion evidence, and any affiliation disclosed.
 
 ---
 
@@ -41,6 +52,8 @@ Every entry must pass all of these:
 | **Description** | Must be factual and specific — not marketing copy or vague superlatives. |
 | **Relevance** | Must be directly about memory (biological, psychological, or computational). |
 | **Not a duplicate** | Search the file before adding; use `Ctrl+F` on the section name. |
+| **Evidence** | Claims about adoption, benchmarks, or maturity must link to supporting evidence. |
+| **Affiliation** | Disclose if you created, maintain, fund, or work for the resource. |
 
 ---
 
@@ -54,7 +67,8 @@ Every entry must pass all of these:
 
 ### apps/open-source/
 
-- Tools must be genuinely open-source (have a public GitHub/GitLab repo) **or** be a well-established commercial tool that practitioners widely reference.
+- Tools described as open source must have a public source repository and an identifiable license.
+- Closed-source products belong only in clearly labeled application categories, not open-source project tables.
 - Entries in each table are sorted alphabetically by name.
 - GitHub stars columns are omitted intentionally — they change; the description should carry the weight.
 
@@ -71,7 +85,7 @@ Every entry must pass all of these:
 - Personal blog posts without substantial original content
 - Tools in early alpha/concept stage with no public usage
 - Duplicate entries (same tool listed under multiple sections without good reason)
-- Self-promotional entries without independent validation
+- Undisclosed self-promotional entries or submissions without evidence
 - Entries without a description
 
 ---
@@ -88,6 +102,16 @@ If a link is broken, a project has been renamed, or a description is outdated:
 ## Code of Conduct
 
 Be respectful. This is a community resource. Disagreements about inclusion should be argued on merit, not personality.
+
+## Automated Checks
+
+Every pull request checks repository invariants and external links. The local, dependency-free validation command is:
+
+```bash
+node .github/scripts/validate-curation.mjs
+```
+
+The link workflow also runs weekly so redirects and abandoned resources are caught after merge. Some publishers block automated requests; domain-specific exclusions are documented in `.lychee.toml` and should not be expanded to hide genuine failures.
 
 ---
 

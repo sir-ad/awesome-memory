@@ -17,11 +17,6 @@ Research papers, frameworks, and resources for AI agent memory systems.
 | [ProcMEM: Reusable Procedural Memory via Non-Parametric PPO](https://arxiv.org/abs/2602.01869) | — | 2602.01869 | Learns reusable procedural memory from experience via RL |
 | [Memento-Skills: Let Agents Design Agents](https://arxiv.org/abs/2603.18743) | Zhou et al. | 2603.18743 | Skill-based memory enabling agents to compose and reuse capabilities |
 | [Agentic Memory: Unified Long-Term and Short-Term Memory Management](https://arxiv.org/abs/2601.01885) | — | 2601.01885 | Unified framework managing both memory horizons simultaneously |
-| [Memori: Persistent Memory Layer for Efficient, Context-Aware LLM Agents](https://arxiv.org/) | Borro et al. | preprint | Persistent memory layer separating hot/cold context for efficient retrieval |
-| [All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution](https://arxiv.org/) | Lv et al. | preprint | Lifelong memory via topology-aware graph evolution |
-| [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning](https://arxiv.org/) | Lin et al. | preprint | Coordinated memory write/read/forget cycle across multi-agent systems |
-| [D-Mem: A Dual-Process Memory System for LLM Agents](https://arxiv.org/) | — | preprint | System-1/System-2 inspired dual-process memory architecture |
-| [MemArchitect: A Policy-Driven Memory Governance Layer](https://arxiv.org/) | Kumar et al. | preprint | Policy-based control over what agents remember and forget |
 
 ### 2025
 
@@ -37,7 +32,6 @@ Research papers, frameworks, and resources for AI agent memory systems.
 | [General Agentic Memory via Deep Research](https://arxiv.org/abs/2511.18423) | VectorSpaceLab | 2511.18423 | Deep research loop generates generalizable agent memory |
 | [MemEvolve: Meta-Evolution of Agent Memory Systems](https://arxiv.org/abs/2512.18746) | — | 2512.18746 | Meta-learning evolves the memory system architecture itself |
 | [MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent](https://arxiv.org/abs/2507.02259) | Bytedance | 2507.02259 | RL-based multi-conversation memory agent for long-context tasks |
-| [Retrieval-Augmented LLM Agents](https://arxiv.org/) | Ferraz et al. | preprint | End-to-end RAG pipeline integrated into the agent action loop |
 
 ### 2024
 
@@ -47,8 +41,6 @@ Research papers, frameworks, and resources for AI agent memory systems.
 | [Memory in the Age of AI Agents: A Survey](https://arxiv.org/abs/2404.13501) | Zhang et al. | 2404.13501 | Comprehensive taxonomy: sensory, short-term, long-term, and procedural agent memory |
 | [Empowering Working Memory for Large Language Model Agents](https://arxiv.org/abs/2312.17259) | Wang et al. | 2312.17259 | Dedicated working memory module for multi-step task solving |
 | [LONGMEM: Enabling LLMs to Use 10,000+ Long-Context by Distilling Memory](https://arxiv.org/abs/2306.07174) | Wang et al. | 2306.07174 | Distillation-based approach to give LLMs very long effective context |
-| [Lifelong Learning in LLM Agents via Memory Consolidation](https://arxiv.org/) | — | preprint | Continual learning without catastrophic forgetting in deployed agents |
-| [Memory-Augmented Reinforcement Learning](https://arxiv.org/) | — | preprint | External episodic memory for RL agents across long-horizon tasks |
 
 ### 2023
 
