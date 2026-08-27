@@ -15,9 +15,18 @@ const primarySources = [
   'https://arxiv.org/abs/2404.13501',
   'https://arxiv.org/abs/2310.08560',
   'https://arxiv.org/abs/2501.13956',
+  'https://arxiv.org/abs/2304.03442',
   'https://arxiv.org/abs/2410.10813',
   'https://arxiv.org/abs/2402.17753',
   'https://arxiv.org/abs/2409.07429',
+];
+
+const patternSources = [
+  ['Bounded context + checkpoints', 'https://arxiv.org/abs/2310.08560'],
+  ['Retrieval store', 'https://arxiv.org/abs/2410.10813'],
+  ['Temporal fact graph', 'https://arxiv.org/abs/2501.13956'],
+  ['Episodic → semantic layers', 'https://arxiv.org/abs/2304.03442'],
+  ['Procedural library', 'https://arxiv.org/abs/2409.07429'],
 ];
 
 const catalogQueries = [
@@ -53,8 +62,12 @@ test('keeps every architecture pattern grounded in a primary source', () => {
     assert.ok(guideHtml.includes(source), `guide must link ${source}`);
   }
 
-  const patternRows = guideHtml.match(/<th scope="row">/g) ?? [];
-  assert.equal(patternRows.length, 5);
+  for (const [pattern, source] of patternSources) {
+    const rowStart = guideHtml.indexOf(`<th scope="row">${pattern}</th>`);
+    const rowEnd = guideHtml.indexOf('</tr>', rowStart);
+    assert.ok(rowStart > -1, `guide must include the ${pattern} pattern`);
+    assert.ok(guideHtml.slice(rowStart, rowEnd).includes(source), `${pattern} must link ${source}`);
+  }
 });
 
 test('routes every guide query to at least one catalog result', () => {
