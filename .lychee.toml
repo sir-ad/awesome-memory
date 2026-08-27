@@ -1,0 +1,22 @@
+verbose = "error"
+no_progress = true
+max_retries = 2
+max_concurrency = 24
+timeout = 20
+retry_wait_time = 2
+accept = ["200..=204", "429"]
+method = "get"
+include_fragments = "none"
+exclude_all_private = true
+exclude = [
+  '^https://img\.shields\.io/',
+  '^https://api\.star-history\.com/',
+  '^https://www\.cell\.com/',
+  '^https://dl\.acm\.org/',
+  '^https://www\.sciencedirect\.com/',
+  '^https://www\.preprints\.org/',
+  '^https://www\.hhmi\.org/',
+  '^https://quizlet\.com/',
+  '^https://learn\.buildingasecondbrain\.com/',
+  '^https://www\.ukbiobank\.ac\.uk/'
+]

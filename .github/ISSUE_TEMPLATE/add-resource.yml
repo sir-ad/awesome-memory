@@ -1,0 +1,70 @@
+name: Suggest a resource
+description: Propose one paper, benchmark, project, course, or other memory resource.
+title: "[Resource]: "
+labels: [candidate]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One resource per issue. Primary sources and specific URLs make review faster.
+
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: LongMemEval
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Primary URL
+      description: Use the official repository, paper, dataset, or project page.
+      placeholder: https://arxiv.org/abs/2410.10813
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Agent memory system or framework
+        - Benchmark or dataset
+        - LLM or agent memory research
+        - Neuroscience or cognitive psychology research
+        - Cognitive architecture
+        - Course, tutorial, or workshop
+        - Application or tool
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: case
+    attributes:
+      label: Why it belongs
+      description: State what is distinctive and provide evidence. Avoid promotional copy.
+    validations:
+      required: true
+
+  - type: textarea
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: Disclose whether you created, maintain, fund, or work for this resource. Write "None" if unaffiliated.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched the repository and did not find this resource.
+          required: true
+        - label: The URL is specific, public, and currently works.
+          required: true
+        - label: The description and evidence are factual.
+          required: true

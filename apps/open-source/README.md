@@ -18,11 +18,11 @@ A comprehensive list of memory-related applications and tools — from productio
 | [Honcho](https://honcho.dev) | User-centric memory and identity layer for AI agents | ![](https://img.shields.io/github/stars/plastic-labs/honcho.svg?style=social) | [plastic-labs/honcho](https://github.com/plastic-labs/honcho) |
 | [Second Me](https://home.second.me) [[paper]](https://arxiv.org/abs/2503.08102) | Personal AI with long-term memory of your life, preferences, and goals | ![](https://img.shields.io/github/stars/mindverse/Second-Me.svg?style=social) | [mindverse/Second-Me](https://github.com/mindverse/Second-Me) |
 | [MemOS](https://memos.openmem.net) [[paper]](https://arxiv.org/abs/2507.03724) | Memory operating system for AI; persistent unified memory for agents | ![](https://img.shields.io/github/stars/MemTensor/MemOS.svg?style=social) | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) |
-| [Memobase](https://memobase.io) | User-profile-centric memory store for personalized AI interactions | ![](https://img.shields.io/github/stars/memodb-io/memobase.svg?style=social) | [memodb-io/memobase](https://github.com/memodb-io/memobase) |
+| [Memobase](https://github.com/memodb-io/memobase) | User-profile-centric memory store for personalized AI interactions | ![](https://img.shields.io/github/stars/memodb-io/memobase.svg?style=social) | [memodb-io/memobase](https://github.com/memodb-io/memobase) |
 | [Hindsight](https://hindsight.vectorize.io) [[paper]](https://arxiv.org/abs/2512.12818) | Auto-learns from past agent interactions to improve future responses | ![](https://img.shields.io/github/stars/vectorize-io/hindsight.svg?style=social) | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) |
 | [Zep / Graphiti](https://getzep.com) [[paper]](https://arxiv.org/abs/2501.13956) | Temporal knowledge graph engine; bi-temporal fact and entity extraction | ![](https://img.shields.io/github/stars/getzep/graphiti.svg?style=social) | [getzep/graphiti](https://github.com/getzep/graphiti) |
 | [Supermemory](https://supermemory.ai) | Context infrastructure for personal memory across apps | ![](https://img.shields.io/github/stars/supermemoryai/supermemory.svg?style=social) | [supermemoryai](https://github.com/supermemoryai) |
-| [OMEGA](https://omegamax.co) | MCP server with 25 memory tools; #1 on LongMemEval (95.4%) | ![](https://img.shields.io/github/stars/omega-memory/core.svg?style=social) | [omega-memory/core](https://github.com/omega-memory/core) |
+| [OMEGA](https://github.com/omega-memory/core) | MCP-compatible server with tools for persistent agent memory | ![](https://img.shields.io/github/stars/omega-memory/core.svg?style=social) | [omega-memory/core](https://github.com/omega-memory/core) |
 | [widemem-ai](https://widemem.ai) | Lightweight memory with importance scoring, temporal decay, 3-tier hierarchy | ![](https://img.shields.io/github/stars/remete618/widemem-ai.svg?style=social) | [remete618/widemem-ai](https://github.com/remete618/widemem-ai) |
 
 ### Developer Frameworks & Libraries
@@ -60,7 +60,7 @@ A comprehensive list of memory-related applications and tools — from productio
 | Method | Description | Resource |
 |--------|-------------|----------|
 | [PARA Method](https://fortelabs.com/blog/para/) | Projects, Areas, Resources, Archives organization system | Forte Labs |
-| [CODE Method](https://fortelabs.com/blog/the-code-method/) | Capture, Organize, Distill, Express | Forte Labs |
+| [CODE Method](https://fortelabs.com/blog/basboverview/) | Capture, Organize, Distill, Express | Forte Labs |
 | [Building a Second Brain](https://www.buildingasecondbrain.com/) | Tiago Forte's system and book | buildingasecondbrain.com |
 | [Zettelkasten](https://zettelkasten.de/introduction/) | Niklas Luhmann's slip-box method for knowledge networking | zettelkasten.de |
 
@@ -109,7 +109,7 @@ A comprehensive list of memory-related applications and tools — from productio
 
 | Tool | Description | Repo |
 |------|-------------|------|
-| [Hopfield Networks](https://www.nature.com/articles/s42256-020-0208-3) | Modern Hopfield networks as associative memory | — |
+| [Hopfield Networks](https://arxiv.org/abs/2008.02217) | Modern Hopfield networks as associative memory | — |
 | [Numenta](https://numenta.com) | Hierarchical Temporal Memory (HTM) based on neocortical theory | [numenta/nupic](https://github.com/numenta/nupic) |
 
 ### Neural Network Memory Architectures
@@ -150,7 +150,7 @@ A comprehensive list of memory-related applications and tools — from productio
 
 | App | Description | Platform |
 |-----|-------------|----------|
-| [Apple Notes](https://apple.com/notes) | Lightweight built-in notes | iOS, Mac |
+| [Apple Notes](https://support.apple.com/guide/notes/welcome/mac) | Lightweight built-in notes | iOS, Mac |
 | [Evernote](https://evernote.com) | Full-featured notes with web clipper | iOS, Android |
 | [Google Keep](https://keep.google.com) | Quick capture with labels and reminders | iOS, Android |
 | [Microsoft OneNote](https://onenote.com) | Hierarchical notebook organization | iOS, Android |
@@ -165,7 +165,7 @@ A comprehensive list of memory-related applications and tools — from productio
 |----------|-------------|------|
 | [Chroma](https://trychroma.com) | Developer-first open-source embedding database | [chroma-core/chroma](https://github.com/chroma-core/chroma) |
 | [Faiss](https://github.com/facebookresearch/faiss) | Facebook AI Similarity Search; high-performance ANN | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) |
-| [Milvus](https://milvus.io) | Cloud-native, highly scalable vector database | [milvus-io/milvus](https://github.com/milvus-io/milvus) |
+| [Milvus](https://github.com/milvus-io/milvus) | Cloud-native, highly scalable vector database | [milvus-io/milvus](https://github.com/milvus-io/milvus) |
 | [pgvector](https://github.com/pgvector/pgvector) | Vector extension for PostgreSQL | [pgvector/pgvector](https://github.com/pgvector/pgvector) |
 | [Pinecone](https://pinecone.io) | Fully managed serverless vector DB | — |
 | [Qdrant](https://qdrant.tech) | Rust-based with advanced payload filtering | [qdrant/qdrant](https://github.com/qdrant/qdrant) |
@@ -189,7 +189,6 @@ A comprehensive list of memory-related applications and tools — from productio
 |------|-------------|------|
 | [Obsidian Shell Commands](https://github.com/Taitava/obsidian-shellcommands) | Run shell commands from inside Obsidian | [Taitava](https://github.com/Taitava/obsidian-shellcommands) |
 | [tldr](https://tldr.sh) | Community-maintained simplified man pages | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) |
-| [Zettel](https://github.com/nschloe/zettel) | Minimal CLI for Zettelkasten notes | [nschloe/zettel](https://github.com/nschloe/zettel) |
 
 ---
 
@@ -275,7 +274,7 @@ pip install chromadb
 - [r/PKMS](https://reddit.com/r/PKMS) — Personal Knowledge Management Systems
 - [Obsidian Forum](https://forum.obsidian.md) — Obsidian plugins, workflows, and community
 - [Logseq Discord](https://discord.gg/logseq) — Logseq user community
-- [Building a Second Brain Community](https://www.buildingasecondbrain.com/community) — Tiago Forte's BASB community
+- [Building a Second Brain Community](https://learn.buildingasecondbrain.com/) — Tiago Forte's BASB community
 
 ### Neuroscience
 
@@ -288,8 +287,8 @@ pip install chromadb
 
 - [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents)
 - [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM)
-- [Awesome Vector Search](https://github.com/currents-api/awesome-vector-search)
-- [Awesome Knowledge Graphs](https://github.com/nicholsn/awesome-knowledge-graphs)
+- [Awesome Vector Search](https://github.com/currentslab/awesome-vector-search)
+- [Awesome Knowledge Graph](https://github.com/totogo/awesome-knowledge-graph)
 - [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 ---

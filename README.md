@@ -1,36 +1,30 @@
-<div align="center">
+# Awesome Memory
 
-<h1>🧠 Awesome Memory</h1>
-
-<p>
-A curated, high-signal list of everything <strong>Memory</strong> — spanning human neuroscience, cognitive psychology, AGI architectures, AI agent memory frameworks, landmark research papers, surveys, benchmarks, and production-ready tools.
-</p>
+A curated map of memory across AI agents, language models, cognitive architectures, neuroscience, and psychology. Use it to compare systems, find primary research, and choose benchmarks—not to browse an unfiltered link dump.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/sir-ad/awesome-memory.svg?style=social&label=Star)](https://github.com/sir-ad/awesome-memory)
-[![GitHub watchers](https://img.shields.io/github/watchers/sir-ad/awesome-memory.svg?style=social&label=Watch)](https://github.com/sir-ad/awesome-memory)
-[![GitHub forks](https://img.shields.io/github/forks/sir-ad/awesome-memory.svg?style=social&label=Fork)](https://github.com/sir-ad/awesome-memory)
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 [![Last Commit](https://img.shields.io/github/last-commit/sir-ad/awesome-memory)](https://github.com/sir-ad/awesome-memory/commits/main)
 
-<br/>
-
-**If you find this list helpful, please give it a ⭐ — it helps others discover it.**
-
-_Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) to add papers, tools, or fix links._
-
-</div>
+Contributions are welcome. [Suggest one resource](https://github.com/sir-ad/awesome-memory/issues/new?template=add-resource.yml) or read [CONTRIBUTING.md](CONTRIBUTING.md) to edit the collection.
 
 ---
 
-## Why This List?
+## Why this list
 
 Memory is the **connective tissue** of intelligence. Whether you're a neuroscientist studying hippocampal replay, an ML engineer building a long-running AI agent, or a knowledge worker designing a second brain — all roads lead back to the same fundamental question: *how do we remember what matters?*
 
 This list cuts across disciplines so you don't have to. Each link earns its place — from biological memory mechanisms and cognitive science to production-ready AI memory frameworks, survey papers, and evaluation benchmarks.
+
+## How to use it
+
+- **Building an agent:** start with [Agentic Memory Frameworks](#-agentic-memory-frameworks), then choose an evaluation target from [Benchmarks](#-benchmarks).
+- **Researching model memory:** use [Surveys](#-surveys), [Landmark Research Papers](#-landmark-research-papers), and the focused [LLM memory](./papers/llm-memory/README.md) collection.
+- **Studying human memory:** begin with [Brain Memory Research & Psychology](#-brain-memory-research--psychology), then follow the neuroscience and psychology collections.
+- **Comparing tools:** use the [open-source apps index](./apps/open-source/README.md) and verify each project's current documentation before adoption.
+
+Every entry must have a specific, working primary source and a factual description. Automated checks reject missing local targets and generic paper links; the full policy lives in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
@@ -76,12 +70,12 @@ graph TD
 
 ## 🆕 What's New
 
-*Recent high-signal additions — updated regularly.*
+*Recent additions linked to primary sources.*
 
 | Date | Item |
 |------|------|
 | Apr 2026 | [MemOS](https://arxiv.org/abs/2507.03724) — memory OS for AI agents; persistent unified memory layer |
-| Apr 2026 | [OMEGA](https://github.com/omega-memory/core) — ranks #1 on LongMemEval (95.4%); 25-tool MCP server |
+| Apr 2026 | [OMEGA](https://github.com/omega-memory/core) — MCP-compatible memory server with tools for persistent agent memory |
 | Apr 2026 | [Second Me](https://arxiv.org/abs/2503.08102) — personal AI with long-term memory of your life |
 | Apr 2026 | [Graphiti](https://arxiv.org/abs/2501.13956) — temporal knowledge graph engine powering Zep |
 | Apr 2026 | [MAGMA](https://arxiv.org/abs/2601.03236) — multi-graph agentic memory architecture |
@@ -99,7 +93,7 @@ graph TD
 - [Neuroscience of Storage](https://qbi.uq.edu.au/brain-basics/memory/where-are-memories-stored) — How synaptic plasticity, LTP, and engrams form biology's hard drive.
 - [Hippocampal Indexing Theory](https://pubmed.ncbi.nlm.nih.gov/20346399/) — How the hippocampus acts as an index for cortical memories.
 - [The Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve) — Ebbinghaus's hypothesis on the decline of memory retention over time.
-- [Human Memory Models](https://en.wikipedia.org/wiki/Memory_model_(psychology)) — Overview of competing theories of working memory and consolidation.
+- [Human Memory Models](https://en.wikipedia.org/wiki/Memory) — Overview of encoding, storage, retrieval, and major forms of human memory.
 - [Towards Large Language Models with Human-Like Episodic Memory](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(25)00179-2) — *Trends in Cognitive Sciences* 2025; mapping biological episodic memory onto LLM agent architectures.
 - [Brain Memory Research Papers →](./papers/brain-memory/README.md) — Synaptic plasticity, engrams, consolidation, neuroimaging, datasets, and key experiments.
 - [Cognitive Psychology Papers →](./papers/psychology/README.md) — Classic experiments, forgetting mechanisms, and applied models bridging to AI.
@@ -113,9 +107,9 @@ graph TD
 - [SOAR Architecture](https://soar.eecs.umich.edu/) — General cognitive architecture emphasizing chunking and procedural learning.
 - [ACT-R](http://act-r.psy.cmu.edu/) — Adaptive Control of Thought-Rational; models human performance with declarative and procedural memory subsystems.
 - [OpenCog](https://opencog.org/) — Open-source AGI framework with hypergraph-based knowledge representation.
-- [LIDA (Learning Intelligent Distribution Agent)](https://ccrg.cs.memphis.edu/tutorial/index.html) — Grounded in Global Workspace Theory; full perception-action loop with multiple memory types.
-- [CLARION](http://www.cogsci.rpi.edu/~rsun/clarion.html) — Dual-process model distinguishing implicit vs. explicit cognitive processes.
-- [Sigma](https://ict.usc.edu/research/projects/sigma/) — Unified cognitive architecture integrating perception, cognition, and action under a single graphical model.
+- [LIDA (Learning Intelligent Distribution Agent)](https://www.memphis.edu/cs/research/cognitive_computing.php) — Grounded in Global Workspace Theory; full perception-action loop with multiple memory types.
+- [CLARION](https://homepages.hass.rpi.edu/~rsun/folder-files/sun-COGSYS-2014.pdf) — Dual-process model distinguishing implicit from explicit cognitive processes.
+- [Sigma](https://cogarch.ict.usc.edu/) — Unified cognitive architecture integrating perception, cognition, and action under a graphical model.
 - [Cognitive Architectures for Prototyping AGI (Survey)](https://arxiv.org/abs/2312.11520) — Comprehensive survey bridging cognitive science foundations and modern AGI research.
 
 ---
@@ -124,7 +118,7 @@ graph TD
 
 *Production-ready tools and frameworks for building AI agents with persistent, structured memory.*
 
-> Open-source projects ordered by maturity/adoption. Star counts are live via GitHub shields.
+> Representative open-source projects. Star counts are live via GitHub shields.
 
 | Tool | Description | Stars |
 |------|-------------|-------|
@@ -136,9 +130,9 @@ graph TD
 | [Second Me](https://home.second.me) [[repo]](https://github.com/mindverse/Second-Me) [[paper]](https://arxiv.org/abs/2503.08102) | Personal AI that builds long-term memory of your life and preferences | ![](https://img.shields.io/github/stars/mindverse/Second-Me.svg?style=social) |
 | [MemOS](https://memos.openmem.net) [[repo]](https://github.com/MemTensor/MemOS) [[paper]](https://arxiv.org/abs/2507.03724) | Memory operating system for AI; combats "digital amnesia" with persistent unified memory | ![](https://img.shields.io/github/stars/MemTensor/MemOS.svg?style=social) |
 | [LangMem](https://langchain-ai.github.io/langmem) [[repo]](https://github.com/langchain-ai/langmem) | Long-term memory management built for LangGraph agents | ![](https://img.shields.io/github/stars/langchain-ai/langmem.svg?style=social) |
-| [Memobase](https://memobase.io) [[repo]](https://github.com/memodb-io/memobase) | User-profile-centric memory store for personalized AI interactions | ![](https://img.shields.io/github/stars/memodb-io/memobase.svg?style=social) |
+| [Memobase](https://github.com/memodb-io/memobase) | User-profile-centric memory store for personalized AI interactions | ![](https://img.shields.io/github/stars/memodb-io/memobase.svg?style=social) |
 | [Hindsight](https://hindsight.vectorize.io) [[repo]](https://github.com/vectorize-io/hindsight) [[paper]](https://arxiv.org/abs/2512.12818) | Auto-learns from past interactions to improve future responses | ![](https://img.shields.io/github/stars/vectorize-io/hindsight.svg?style=social) |
-| [OMEGA](https://omegamax.co) [[repo]](https://github.com/omega-memory/core) | MCP server with 25 memory tools; ranks #1 on LongMemEval (95.4%) | ![](https://img.shields.io/github/stars/omega-memory/core.svg?style=social) |
+| [OMEGA](https://github.com/omega-memory/core) | MCP-compatible server with tools for persistent agent memory | ![](https://img.shields.io/github/stars/omega-memory/core.svg?style=social) |
 | [LlamaIndex](https://www.llamaindex.ai) | Data framework connecting custom data to LLMs via structured graphs and vector indices | ![](https://img.shields.io/github/stars/run-llama/llama_index.svg?style=social) |
 | [LangChain Memory](https://python.langchain.com/docs/modules/memory/) | Standardized memory primitives: Buffer, Summary, Entity, VectorStore retriever | ![](https://img.shields.io/github/stars/langchain-ai/langchain.svg?style=social) |
 
@@ -157,7 +151,7 @@ graph TD
 | [Chroma](https://www.trychroma.com) [[repo]](https://github.com/chroma-core/chroma) | Developer-first open-source embedding DB; runs locally or in cloud | ![](https://img.shields.io/github/stars/chroma-core/chroma.svg?style=social) |
 | [Qdrant](https://qdrant.tech) [[repo]](https://github.com/qdrant/qdrant) | High-performance Rust-based vector DB with advanced payload filtering | ![](https://img.shields.io/github/stars/qdrant/qdrant.svg?style=social) |
 | [Weaviate](https://weaviate.io) [[repo]](https://github.com/weaviate/weaviate) | AI-native DB with built-in hybrid search and generative modules | ![](https://img.shields.io/github/stars/weaviate/weaviate.svg?style=social) |
-| [Milvus](https://milvus.io) [[repo]](https://github.com/milvus-io/milvus) | Cloud-native, highly scalable open-source vector DB | ![](https://img.shields.io/github/stars/milvus-io/milvus.svg?style=social) |
+| [Milvus](https://github.com/milvus-io/milvus) | Cloud-native, highly scalable open-source vector DB | ![](https://img.shields.io/github/stars/milvus-io/milvus.svg?style=social) |
 | [pgvector](https://github.com/pgvector/pgvector) | Vector extension for PostgreSQL; zero new infra if you're already on Postgres | ![](https://img.shields.io/github/stars/pgvector/pgvector.svg?style=social) |
 | [Faiss](https://github.com/facebookresearch/faiss) | Facebook AI Similarity Search library for dense vector clustering at scale | ![](https://img.shields.io/github/stars/facebookresearch/faiss.svg?style=social) |
 | [Pinecone](https://www.pinecone.io) | Fully managed serverless vector DB for high-throughput production retrieval | — |
@@ -303,8 +297,8 @@ See also: [LLM Memory Research →](./papers/llm-memory/README.md) · [Agentic M
 
 ### Neuroscience & Cognition
 
-- [Transmitter (Nature Neuroscience)](https://www.nature.com/collections/transmitter) — Short-form neuroscience writing from Nature editors.
-- [Psychology Today — Memory](https://www.psychologytoday.com/intl/basics/memory) — Accessible coverage of cognitive psychology research.
+- [The Transmitter](https://www.thetransmitter.org/) — Neuroscience news, perspectives, and resources supported by the Simons Foundation.
+- [Psychology Today — Memory](https://www.psychologytoday.com/us/basics/memory) — Accessible coverage of cognitive psychology research.
 - [BrainFacts.org](https://www.brainfacts.org/) — Public neuroscience resource from the Kavli Foundation.
 
 ### Knowledge Management

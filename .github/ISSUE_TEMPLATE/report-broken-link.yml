@@ -1,0 +1,36 @@
+name: Report a broken or outdated entry
+description: Help repair a dead link, renamed project, or stale description.
+title: "[Fix]: "
+labels: [bug]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: Name the resource and file where it appears.
+      placeholder: Memobase in apps/open-source/README.md
+    validations:
+      required: true
+
+  - type: input
+    id: current-url
+    attributes:
+      label: Current URL
+      placeholder: https://old.example.com/resource
+    validations:
+      required: true
+
+  - type: input
+    id: replacement-url
+    attributes:
+      label: Verified replacement
+      description: Prefer an official repository, paper, or project page.
+      placeholder: https://example.com/resource
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What changed
+      description: Include redirects, rename details, archival evidence, or the observed error.
+    validations:
+      required: true
