@@ -222,7 +222,7 @@ For someone new to memory science wanting to understand both the psychology and 
 3. **Foundational theory:** Baddeley & Hitch (1974) Working Memory paper
 4. **Neuroscience bridge:** *The Synaptic Self* — LeDoux (2002)
 5. **AI connection:** Lilian Weng's blog post "LLM-powered Autonomous Agents" (2023)
-6. **Current research:** "Memory in the Age of AI Agents" survey — arxiv 2404.13501
+6. **Current research:** "A Survey on the Memory Mechanism of Large Language Model based Agents" — arxiv 2404.13501
 7. **Practical implementation:** mem0 quickstart and LangGraph memory how-to
 
 ---

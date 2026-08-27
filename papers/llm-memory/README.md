@@ -28,8 +28,8 @@ A comprehensive collection of academic papers on LLM and AI memory systems.
 | Paper | Authors | arXiv | Key Contribution |
 |-------|---------|-------|-----------------|
 | [HippoRAG: Neurologically Inspired Long-Term Memory for LLMs](https://arxiv.org/abs/2405.14831) | Gutierrez et al. | 2405.14831 | Hippocampus-inspired graph + vector retrieval |
-| [Memory in the Age of AI Agents: A Survey](https://arxiv.org/abs/2404.13501) | Zhang et al. | 2404.13501 | Comprehensive taxonomy of agent memory types |
-| [AI-native Memory: A Pathway from LLMs Towards AGI](https://arxiv.org/abs/2402.11666) | — | 2402.11666 | From retrieval-augmented to reasoning-integrated memory |
+| [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) | Zhang et al. | 2404.13501 | Comprehensive taxonomy of agent memory types |
+| [AI-native Memory: A Pathway from LLMs Towards AGI](https://arxiv.org/abs/2406.18312) | Shang et al. | 2406.18312 | From retrieval-augmented to reasoning-integrated memory |
 | [LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://arxiv.org/abs/2410.10813) | — | 2410.10813 | Evaluation framework for conversational memory |
 
 ## 2023 Papers
@@ -58,7 +58,7 @@ A comprehensive collection of academic papers on LLM and AI memory systems.
 | Paper | Authors | arXiv | Key Contribution |
 |-------|---------|-------|-----------------|
 | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | Vaswani et al. | 1706.03762 | Transformer; context window as working memory |
-| [Differentiable Neural Computers](https://arxiv.org/abs/1606.04138) | Graves et al. | 1606.04138 | Extended NTM with dynamic memory allocation |
+| [Hybrid computing using a neural network with dynamic external memory](https://www.nature.com/articles/nature20101) | Graves et al. | Nature 538 | Introduced the Differentiable Neural Computer with dynamic memory allocation |
 | [Memory Networks](https://arxiv.org/abs/1410.3916) | Weston et al. | 1410.3916 | External addressable memory for QA tasks |
 | [Neural Turing Machines](https://arxiv.org/abs/1410.5401) | Graves et al. | 1410.5401 | Differentiable read/write over external memory |
 | [RAG: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | Lewis et al. | 2005.11401 | Original RAG paper; retrieval as soft external memory |
@@ -94,7 +94,7 @@ A comprehensive collection of academic papers on LLM and AI memory systems.
 | Benchmark | Description | arXiv / Link |
 |-----------|-------------|-------------|
 | [HELMET](https://arxiv.org/abs/2410.02694) | How Models Handle Extended Long-form Text | 2410.02694 |
-| [LoCoMo](https://arxiv.org/abs/2402.11649) | Long conversation memory benchmark | 2402.11649 |
+| [LoCoMo](https://arxiv.org/abs/2402.17753) | Long conversation memory benchmark | 2402.17753 |
 | [LongMemEval](https://arxiv.org/abs/2410.10813) | Long-term memory in chat assistants | 2410.10813 |
 | [MemoryBench](https://git.new/membench) | Open evaluation platform | GitHub |
 
@@ -142,7 +142,7 @@ A comprehensive collection of academic papers on LLM and AI memory systems.
 
 ### Surveys & Overviews
 
-- [Memory in the Age of AI Agents](https://arxiv.org/abs/2404.13501) — Agent-specific taxonomy (2024)
+- [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) — Agent-specific taxonomy (2024)
 - [Lilian Weng — LLM-powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/) — Accessible breakdown of memory types in agents
 
 ### Leaderboards
