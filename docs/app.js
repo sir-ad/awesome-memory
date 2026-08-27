@@ -219,7 +219,11 @@ async function initialize() {
 
 bindSearchShortcut();
 
-if ('IntersectionObserver' in window) {
+const hasSharedCatalogState = window.location.search.length > 1 || window.location.hash === '#catalog';
+
+if (hasSharedCatalogState) {
+  void initialize();
+} else if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver(
     (entries) => {
       if (!entries.some(({ isIntersecting }) => isIntersecting)) return;

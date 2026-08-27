@@ -63,3 +63,14 @@ test('ranks exact and prefix name matches before description-only matches', () =
   });
   assert.deepEqual(matches.slice(0, 2).map(({ name }) => name), ['Mem0', 'LongMemEval']);
 });
+
+test('returns the same filtered result for a decoded shared URL state', () => {
+  const params = new URLSearchParams('q=hippocampal+memory&collection=brain-memory&kind=Paper');
+  const matches = filterEntries(entries, {
+    query: params.get('q'),
+    collection: params.get('collection'),
+    kind: params.get('kind'),
+  });
+
+  assert.deepEqual(matches.map(({ name }) => name), ['Hippocampal replay']);
+});
