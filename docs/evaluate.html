@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f5f0">
+    <meta
+      name="description"
+      content="Choose an agent-memory benchmark by failure mode, compare honest baselines, and report quality, latency, storage, cost, and no-harm results."
+    >
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' https://raw.githubusercontent.com; script-src 'none'; style-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'"
+    >
+    <meta property="og:title" content="Evaluate agent memory">
+    <meta
+      property="og:description"
+      content="Choose a benchmark by failure mode, compare honest baselines, and report the whole memory system."
+    >
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/sir-ad/awesome-memory/main/assets/social-preview.png"
+    >
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="640">
+    <meta
+      property="og:image:alt"
+      content="Awesome Memory: AI agents, LLMs, cognition, and neuroscience"
+    >
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sir-ad.github.io/awesome-memory/evaluate.html">
+    <meta property="og:site_name" content="Awesome Memory">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Evaluate agent memory">
+    <meta
+      name="twitter:description"
+      content="Choose a benchmark by failure mode, compare honest baselines, and report the whole memory system."
+    >
+    <meta
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/sir-ad/awesome-memory/main/assets/social-preview.png"
+    >
+    <meta
+      name="twitter:image:alt"
+      content="Awesome Memory: AI agents, LLMs, cognition, and neuroscience"
+    >
+    <link rel="canonical" href="https://sir-ad.github.io/awesome-memory/evaluate.html">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <title>Evaluate agent memory · Awesome Memory</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#evaluation">Skip to the evaluation guide</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="Awesome Memory home">Awesome Memory</a>
+      <nav aria-label="Primary navigation">
+        <a href="./#catalog">Search catalog</a>
+        <a href="guide.html">Decision guide</a>
+        <a href="https://github.com/sir-ad/awesome-memory">Repository</a>
+        <a
+          class="nav-action"
+          href="https://github.com/sir-ad/awesome-memory/issues/new?template=add-resource.yml"
+        >Suggest a resource</a>
+      </nav>
+    </header>
+
+    <main id="evaluation" tabindex="-1">
+      <section class="hero guide-hero" aria-labelledby="page-title">
+        <p class="eyebrow">Agent memory evaluation guide</p>
+        <h1 id="page-title">Evaluate memory, not demos.</h1>
+        <p class="lede">
+          Start with the failure that could hurt the task, choose a suite that exposes it, then
+          compare quality and system cost under the same run contract. A benchmark score without
+          its baseline and operating envelope is not an architecture decision.
+        </p>
+
+        <ol class="guide-spine" aria-label="Evaluation guide steps">
+          <li><a href="#question"><span aria-hidden="true">01</span> Choose the failure to expose</a></li>
+          <li><a href="#baseline"><span aria-hidden="true">02</span> Compare honest baselines</a></li>
+          <li><a href="#report"><span aria-hidden="true">03</span> Report the whole system</a></li>
+        </ol>
+
+        <aside class="decision-rule" aria-label="Default evaluation rule">
+          <strong>Do not start with a leaderboard.</strong>
+          <p>
+            First name the behavior and the ship decision it informs. Scores from different
+            models, corpora, prompts, hardware, or budgets are not direct comparisons.
+          </p>
+        </aside>
+      </section>
+
+      <section class="guide-section" id="question" aria-labelledby="question-title">
+        <div class="guide-heading">
+          <p class="step-number" aria-hidden="true">01</p>
+          <div>
+            <p class="eyebrow">Failure before suite</p>
+            <h2 id="question-title">Choose the failure to expose</h2>
+          </div>
+        </div>
+
+        <p class="section-intro">
+          Pick the narrowest suite that can falsify your memory claim. Compose suites only when
+          the product actually spans multiple memory jobs.
+        </p>
+
+        <section
+          class="pattern-table-wrap"
+          tabindex="0"
+          aria-label="Agent-memory benchmark comparison"
+        >
+          <table class="pattern-table">
+            <caption>
+              Eight evaluation questions mapped to primary benchmark papers. On small screens,
+              scroll the table horizontally.
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Benchmark</th>
+                <th scope="col">Ask it when</th>
+                <th scope="col">What it isolates</th>
+                <th scope="col">Boundary</th>
+                <th scope="col">Evidence</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">LongMemEval</th>
+                <td>Can a chat assistant retain, revise, and use information across sessions?</td>
+                <td>
+                  Information extraction, multi-session reasoning, temporal reasoning, knowledge
+                  updates, and abstention.
+                </td>
+                <td>Pair with system-cost and no-harm measures; the suite does not supply them.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2410.10813">Primary paper</a><br>
+                  <a href="./?q=LongMemEval">Catalog results</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">LoCoMo</th>
+                <td>Can the system reason over very long, temporal, and causal dialogue?</td>
+                <td>
+                  Question answering, event summarization, and multimodal dialogue generation on
+                  human-verified conversations.
+                </td>
+                <td>Does not by itself test online forgetting or operation-level write errors.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2402.17753">Primary paper</a><br>
+                  <a href="./?q=LoCoMo">Catalog results</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">MemoryAgentBench</th>
+                <td>Can an interactive agent manage memory as information arrives incrementally?</td>
+                <td>
+                  Accurate retrieval, test-time learning, long-range understanding, and selective
+                  forgetting.
+                </td>
+                <td>Use a separate failure-localization suite when you need to find the bad stage.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2507.05257">Primary paper</a><br>
+                  <a href="./?q=MemoryAgentBench">Catalog results</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">PersonaMem</th>
+                <td>Can the assistant track changing traits and preferences?</td>
+                <td>
+                  Dynamic profile inference, preference evolution, and personalized response
+                  selection across interaction histories.
+                </td>
+                <td>Measures personalization, not broad factual or procedural memory quality.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2504.14225">Primary paper</a><br>
+                  <a href="./?q=PersonaMem">Catalog results</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">MemoryBench</th>
+                <td>Can the system learn continuously from accumulated user feedback?</td>
+                <td>
+                  Service-time continual learning across multiple domains, languages, and task
+                  types.
+                </td>
+                <td>Report retrieval and update cost separately from task quality.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2510.17281">Primary paper</a><br>
+                  <a href="./?q=MemoryBench">Catalog results</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">HaluMem</th>
+                <td>Where do fabricated, conflicting, missing, or wrong memories enter the system?</td>
+                <td>Operation-level errors in memory extraction, updating, and question answering.</td>
+                <td>Localizes hallucination behavior; it is not a complete personalization test.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2511.03506">Primary paper</a><br>
+                  <a href="./?q=HaluMem">Catalog results</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">BEAM</th>
+                <td>Does memory behavior survive coherent histories beyond ordinary context sizes?</td>
+                <td>
+                  Long, topically diverse conversations with questions spanning multiple memory
+                  abilities and contexts up to ten million tokens.
+                </td>
+                <td>Hold context budget and compute fixed; scale can otherwise hide the trade-off.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2510.27246">Primary paper</a><br>
+                  <a href="./?q=BEAM">Catalog results</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">HELMET</th>
+                <td>Is the bottleneck the memory system or the long-context backbone?</td>
+                <td>
+                  A long-context control covering seven application-centric categories at
+                  controllable lengths.
+                </td>
+                <td>This is a model-context control, not an agent-memory benchmark.</td>
+                <td>
+                  <a href="https://arxiv.org/abs/2410.02694">Primary paper</a><br>
+                  <a href="./?q=HELMET">Catalog results</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <aside class="source-note" aria-label="Benchmark selection boundary">
+          <strong>Use the benchmark's own harness and scorer.</strong>
+          <p>
+            This table is a selection aid, not a substitute for the paper, code, data license,
+            task construction, or versioned scoring instructions. No model or vendor scores are
+            reproduced or ranked here.
+          </p>
+        </aside>
+      </section>
+
+      <section class="guide-section" id="baseline" aria-labelledby="baseline-title">
+        <div class="guide-heading">
+          <p class="step-number" aria-hidden="true">02</p>
+          <div>
+            <p class="eyebrow">Ablate before claiming</p>
+            <h2 id="baseline-title">Compare honest baselines</h2>
+          </div>
+        </div>
+
+        <p class="section-intro">
+          A memory layer earns its complexity only when it beats simpler ways to expose the same
+          information. Run all feasible baselines under one locked comparison contract.
+        </p>
+
+        <div class="proof-grid">
+          <article>
+            <p class="proof-label">00 · Control</p>
+            <h3>No memory</h3>
+            <p>Use the same model and task prompt with no retained history or retrieved state.</p>
+          </article>
+          <article>
+            <p class="proof-label">01 · Context baseline</p>
+            <h3>Full context</h3>
+            <p>Provide all allowed history when it fits. Record truncation when it does not.</p>
+          </article>
+          <article>
+            <p class="proof-label">02 · Simple comparator</p>
+            <h3>Simple retrieval</h3>
+            <p>Use fixed chunking, embedding model, search policy, and top-k without consolidation.</p>
+          </article>
+          <article>
+            <p class="proof-label">03 · Treatment</p>
+            <h3>Candidate system</h3>
+            <p>Run the proposed write, evolution, retrieval, and reading policies unchanged.</p>
+          </article>
+        </div>
+
+        <aside class="decision-rule" aria-label="Comparison lock">
+          <strong>Lock the comparison.</strong>
+          <p>
+            Hold model and version, system prompt, decoding, corpus, sample, hardware or provider
+            region, concurrency, retry policy, and run count constant. If a baseline is infeasible,
+            state why instead of silently omitting it.
+          </p>
+        </aside>
+      </section>
+
+      <section class="guide-section" id="report" aria-labelledby="report-title">
+        <div class="guide-heading">
+          <p class="step-number" aria-hidden="true">03</p>
+          <div>
+            <p class="eyebrow">Quality, cost, and harm</p>
+            <h2 id="report-title">Report the whole system</h2>
+          </div>
+        </div>
+
+        <p class="section-intro">
+          Publish the benchmark's task metric, then the operating cost and failure surface that a
+          user will experience. Report distributions and failure counts, not only averages.
+        </p>
+
+        <div class="proof-grid">
+          <article>
+            <p class="proof-label">Outcome and safety</p>
+            <h3>Did memory improve the task?</h3>
+            <ul>
+              <li><strong>Task-grounded outcome:</strong> suite metric, scorer, and version.</li>
+              <li><strong>Failures and retries:</strong> attempted, completed, failed, retried.</li>
+              <li><strong>No-harm cases:</strong> irrelevant, conflicting, poisoned, private, and deleted memories.</li>
+              <li><strong>Evidence:</strong> answer-to-memory provenance when the task supports it.</li>
+            </ul>
+          </article>
+          <article>
+            <p class="proof-label">Performance and footprint</p>
+            <h3>What did memory cost?</h3>
+            <ul>
+              <li><strong>Write or indexing latency</strong> (p50 / p95).</li>
+              <li><strong>Recall latency</strong> (p50 / p95).</li>
+              <li><strong>End-to-end latency</strong> (p50 / p95).</li>
+              <li><strong>Storage footprint</strong> at a fixed history size.</li>
+              <li><strong>Cold-start time</strong> before the first valid result.</li>
+              <li><strong>Token or compute cost:</strong> total tokens = input tokens + output tokens.</li>
+            </ul>
+          </article>
+        </div>
+
+        <h3 class="failure-title">Localize the failure before changing the architecture</h3>
+        <div class="failure-map">
+          <article>
+            <p class="failure-label">Formation</p>
+            <p>Missing, fabricated, overbroad, or privacy-unsafe writes.</p>
+          </article>
+          <article>
+            <p class="failure-label">Evolution</p>
+            <p>Stale facts, unresolved conflicts, lost corrections, or failed deletion.</p>
+          </article>
+          <article>
+            <p class="failure-label">Retrieval</p>
+            <p>Misses, irrelevant hits, poisoned evidence, or provenance mismatch.</p>
+          </article>
+          <article>
+            <p class="failure-label">Reading / action</p>
+            <p>Correct memory is ignored, misread, or applied to the wrong decision.</p>
+          </article>
+          <article>
+            <p class="failure-label">System</p>
+            <p>Timeouts, rate limits, retries, storage errors, or cost-budget breaches.</p>
+          </article>
+        </div>
+
+        <section class="receipt-block" aria-labelledby="receipt-title">
+          <p class="eyebrow">Minimum evaluation receipt</p>
+          <h3 id="receipt-title">Make every result inspectable</h3>
+          <pre class="evidence-receipt"><code>run:
+  harness_commit: &lt;sha&gt;
+  dataset_and_scorer: &lt;name / version&gt;
+  model_and_prompt: &lt;provider / model / version / prompt hash&gt;
+  hardware_or_region: &lt;description&gt;
+  attempts_completed_failed: &lt;counts&gt;
+result:
+  task_metric: &lt;metric / value / uncertainty&gt;
+  write_recall_e2e_latency: &lt;p50 / p95&gt;
+  storage_and_cold_start: &lt;bytes / time&gt;
+  input_output_total_tokens: &lt;counts&gt;
+  no_harm_failures: &lt;cases / count&gt;</code></pre>
+        </section>
+
+        <div class="ship-gate">
+          <p class="eyebrow">Ship gate</p>
+          <p>
+            Ship memory only when it improves the task over the simplest viable baseline without
+            breaking the latency, cost, privacy, deletion, or no-harm budget.
+          </p>
+        </div>
+      </section>
+
+      <section class="contribution-section" aria-labelledby="contribution-title">
+        <div>
+          <p class="eyebrow">Keep the guide falsifiable</p>
+          <h2 id="contribution-title">Found a missing evaluation question?</h2>
+          <p>
+            Propose the memory behavior, a primary benchmark source, the decision it changes, and
+            the limitation that prevents misuse. Aggregate scores without a reproducible harness
+            do not belong here.
+          </p>
+        </div>
+        <div class="contribution-links">
+          <a
+            class="primary-link"
+            href="https://github.com/sir-ad/awesome-memory/issues/new?template=add-resource.yml"
+          >Suggest a benchmark</a>
+          <a href="https://github.com/sir-ad/awesome-memory/blob/main/CONTRIBUTING.md">Read the evidence rules</a>
+        </div>
+      </section>
+
+      <section class="references" aria-labelledby="references-title">
+        <h2 id="references-title">Primary benchmark papers</h2>
+        <ol>
+          <li><a href="https://arxiv.org/abs/2410.10813">LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory</a></li>
+          <li><a href="https://arxiv.org/abs/2402.17753">Evaluating Very Long-Term Conversational Memory of LLM Agents (LoCoMo)</a></li>
+          <li><a href="https://arxiv.org/abs/2507.05257">Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions (MemoryAgentBench)</a></li>
+          <li><a href="https://arxiv.org/abs/2504.14225">Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale (PersonaMem)</a></li>
+          <li><a href="https://arxiv.org/abs/2510.17281">MemoryBench: A Benchmark for Memory and Continual Learning in LLM Systems</a></li>
+          <li><a href="https://arxiv.org/abs/2511.03506">HaluMem: Evaluating Hallucinations in Memory Systems of Agents</a></li>
+          <li><a href="https://arxiv.org/abs/2510.27246">Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs (BEAM)</a></li>
+          <li><a href="https://arxiv.org/abs/2410.02694">HELMET: How to Evaluate Long-Context Language Models Effectively and Thoroughly</a></li>
+        </ol>
+        <p>
+          These papers define the benchmark tasks and claims summarized above. They do not
+          endorse this guide or make results from different run contracts comparable.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Curated in public. Released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.</p>
+      <p><a href="https://github.com/sir-ad/awesome-memory">View source and revision history</a></p>
+    </footer>
+  </body>
+</html>
