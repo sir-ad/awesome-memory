@@ -41,11 +41,12 @@ const catalogQueries = [
 
 test('publishes a canonical guide with complete social metadata', () => {
   const required = [
-    'https://sir-ad.github.io/awesome-memory/guide.html',
+    '<link rel="canonical" href="https://sir-ad.github.io/awesome-memory/guide.html">',
     'property="og:title"',
     'property="og:description"',
     'property="og:image"',
     'property="og:image:alt"',
+    'name="twitter:card" content="summary_large_image"',
     'name="twitter:title"',
     'name="twitter:description"',
     'name="twitter:image"',
