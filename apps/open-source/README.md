@@ -187,6 +187,7 @@ A comprehensive list of memory-related applications and tools — from productio
 
 | Tool | Description | Repo |
 |------|-------------|------|
+| [agent-qa](https://vostride.com) | QA CLI with persistent memidex app memory for verified facts, cautions and procedures, plus evidence-gated self-improvement (FSL-1.1-ALv2). | [vostride/agent-qa](https://github.com/vostride/agent-qa) |
 | [Obsidian Shell Commands](https://github.com/Taitava/obsidian-shellcommands) | Run shell commands from inside Obsidian | [Taitava](https://github.com/Taitava/obsidian-shellcommands) |
 | [tldr](https://tldr.sh) | Community-maintained simplified man pages | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) |
 

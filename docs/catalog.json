@@ -14,7 +14,7 @@
       "label": "Tools directory",
       "domain": "AI engineering",
       "sourcePath": "apps/open-source/README.md",
-      "count": 84
+      "count": 85
     },
     {
       "key": "agent-memory-papers",
@@ -165,6 +165,24 @@
         }
       ],
       "id": "agent-workflow-memory-de7d8649"
+    },
+    {
+      "name": "agent-qa",
+      "url": "https://vostride.com/",
+      "description": "QA CLI with persistent memidex app memory for verified facts, cautions and procedures, plus evidence-gated self-improvement (FSL-1.1-ALv2).",
+      "collection": "open-source-tools",
+      "collectionLabel": "Tools directory",
+      "domain": "AI engineering",
+      "kind": "Tool",
+      "locations": [
+        {
+          "path": "apps/open-source/README.md",
+          "line": 190,
+          "section": "CLI Tools",
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L190"
+        }
+      ],
+      "id": "agent-qa-3397cb0c"
     },
     {
       "name": "Agentic Memory: Unified Long-Term and Short-Term Memory Management",
@@ -417,9 +435,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 288,
+          "line": 289,
           "section": "Related Awesome Lists",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L288"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L289"
         }
       ],
       "id": "awesome-ai-agents-ca2f031e"
@@ -435,9 +453,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 291,
+          "line": 292,
           "section": "Related Awesome Lists",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L291"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L292"
         }
       ],
       "id": "awesome-knowledge-graph-d83af4ca"
@@ -453,9 +471,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 289,
+          "line": 290,
           "section": "Related Awesome Lists",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L289"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L290"
         }
       ],
       "id": "awesome-llm-fe2735aa"
@@ -471,9 +489,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 292,
+          "line": 293,
           "section": "Related Awesome Lists",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L292"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L293"
         }
       ],
       "id": "awesome-self-hosted-afac539b"
@@ -489,9 +507,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 290,
+          "line": 291,
           "section": "Related Awesome Lists",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L290"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L291"
         }
       ],
       "id": "awesome-vector-search-ab740734"
@@ -639,9 +657,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 277,
+          "line": 278,
           "section": "Communities & Forums › Knowledge Management",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L277"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L278"
         }
       ],
       "id": "building-a-second-brain-community-6a484e62"
@@ -1749,9 +1767,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 265,
+          "line": 266,
           "section": "Communities & Forums › AI / Agents",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L265"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L266"
         },
         {
           "path": "papers/agentic-memory/README.md",
@@ -1947,9 +1965,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 266,
+          "line": 267,
           "section": "Communities & Forums › AI / Agents",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L266"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L267"
         },
         {
           "path": "papers/agentic-memory/README.md",
@@ -2115,9 +2133,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 276,
+          "line": 277,
           "section": "Communities & Forums › Knowledge Management",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L276"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L277"
         }
       ],
       "id": "logseq-discord-34f95e24"
@@ -2439,9 +2457,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 267,
+          "line": 268,
           "section": "Communities & Forums › AI / Agents",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L267"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L268"
         },
         {
           "path": "papers/agentic-memory/README.md",
@@ -3249,9 +3267,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 275,
+          "line": 276,
           "section": "Communities & Forums › Knowledge Management",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L275"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L276"
         }
       ],
       "id": "obsidian-forum-78dfe3d0"
@@ -3267,9 +3285,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 190,
+          "line": 191,
           "section": "CLI Tools",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L190"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L191"
         }
       ],
       "id": "obsidian-shell-commands-0c6e8e5a"
@@ -3639,9 +3657,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 268,
+          "line": 269,
           "section": "Communities & Forums › AI / Agents",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L268"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L269"
         },
         {
           "path": "papers/agentic-memory/README.md",
@@ -3663,9 +3681,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 269,
+          "line": 270,
           "section": "Communities & Forums › AI / Agents",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L269"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L270"
         }
       ],
       "id": "r-machinelearning-00cd6e5f"
@@ -3681,9 +3699,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 281,
+          "line": 282,
           "section": "Communities & Forums › Neuroscience",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L281"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L282"
         }
       ],
       "id": "r-neuroscience-e6b7cf46"
@@ -3699,9 +3717,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 274,
+          "line": 275,
           "section": "Communities & Forums › Knowledge Management",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L274"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L275"
         }
       ],
       "id": "r-pkms-2e742132"
@@ -3717,9 +3735,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 273,
+          "line": 274,
           "section": "Communities & Forums › Knowledge Management",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L273"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L274"
         }
       ],
       "id": "r-zettelkasten-8ff77cda"
@@ -3999,9 +4017,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 282,
+          "line": 283,
           "section": "Communities & Forums › Neuroscience",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L282"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L283"
         },
         {
           "path": "papers/brain-memory/README.md",
@@ -4233,9 +4251,9 @@
       "locations": [
         {
           "path": "apps/open-source/README.md",
-          "line": 191,
+          "line": 192,
           "section": "CLI Tools",
-          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L191"
+          "url": "https://github.com/sir-ad/awesome-memory/blob/main/apps/open-source/README.md#L192"
         }
       ],
       "id": "tldr-1a0915bc"
